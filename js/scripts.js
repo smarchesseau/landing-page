@@ -31,4 +31,12 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
+    // Close responsive navbar when language is selected
+    const languageSelect = document.getElementById('language-select');
+    languageSelect.addEventListener('change', () => {
+        if (window.getComputedStyle(navbarToggler).display !== 'none') {
+            navbarToggler.click();
+        }
+    });
+
 });
