@@ -4,5 +4,5 @@ function setLanguage(lang) {
     });
 }
 
-// Set default language to English
-setLanguage('en');
+// Set default language to French
+setLanguage('fr');
