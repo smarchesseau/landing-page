@@ -16,7 +16,26 @@
         <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
-
+        <style>
+            .feature-number {
+                width: 40px;
+                height: 40px;
+                background-color: #4CAF50;
+                color: white;
+                border-radius: 50%;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 1.5rem;
+                font-weight: bold;
+                margin: 0 auto;
+            }
+            .section-title {
+                font-size: 2.5rem;
+                font-weight: bold;
+                margin-bottom: 1.5rem;
+            }
+        </style>
 
         <!-- Google Tag Manager -->
         <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -45,10 +64,10 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
-                        <li class="nav-item"><a class="nav-link me-lg-3" href="#features" data-en="Features" data-fr="Caractéristiques" data-es="Características">Features</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#farmers" data-en="For Farmers" data-fr="Pour les Agriculteurs" data-es="Para Agricultores">For Farmers</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#organizations" data-en="For Organizations" data-fr="Pour les Organisations" data-es="Para Organizaciones">For Organizations</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#innovators" data-en="For Innovators" data-fr="Pour les Innovateurs" data-es="Para Innovadores">For Innovators</a></li>
                         <li class="nav-item"><a class="nav-link me-lg-3" href="mailto:contact@vitto-tech.com?subject=Contact%20Us"  data-en="Contact us" data-fr="Contactez-nous" data-es="Contáctenos">Contact Us</a></li>
-                        <li class="nav-item"><a class="nav-link me-lg-3" href="#about"  data-en="About us" data-fr="Qui sommes-nous" data-es="Quien somos">About Us</a></li>
-                        <li class="nav-item"><a class="nav-link me-lg-3" href="#problem-statement" data-en="Our mission" data-fr="Notre mission" data-es="Nuestra misión">Our Mission</a></li>
                         <li class ="nav-item">
                             <div class="language-switcher">
                                 <select id="language-select" class="form-select" onchange="setLanguage(this.value)">
@@ -74,6 +93,15 @@
                             <p class="lead fw-normal text-muted mb-5" data-en="Vitto Agtech: Transform your farm or cooperative with sustainable and efficient innovations!" data-fr="Vitto Agtech: Transformez votre exploitation ou coopérative avec des innovations durables et efficaces" data-es="Vitto Agtech: Transforma tu explotación o cooperativa con innovaciones sostenibles y eficientes">Vitto Agtech: Transform your farm or cooperative with sustainable and efficient innovations!</p>
                             <div class="d-flex flex-column flex-lg-row align-items-center">
                                 <a class="me-lg-3 mb-4 mb-lg-0 btn btn-primary" href="mailto:contact@vitto-tech.com?subject=Start%20Here%20Inquiry" data-en="Contact us" data-fr="Contactez-nous" data-es="Contáctenos">Start here</a>
+                                <a class="btn btn-outline-primary" href="assets/brochures/brochure_fr.pdf" id="download-brochure-btn"
+                                   data-en-href="assets/brochures/brochure_en.pdf"
+                                   data-fr-href="assets/brochures/brochure_fr.pdf"
+                                   data-es-href="assets/brochures/brochure_es.pdf"
+                                   data-en="Download Brochure"
+                                   data-fr="Télécharger la Brochure"
+                                   data-es="Descargar Folleto">
+                                    Télécharger la Brochure
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -116,62 +144,171 @@
         </section>
 
         <!-- App features section-->
-        <section id="features">
+        <section id="features" class="py-5">
             <div class="container px-5">
-                <div class="row gx-5 justify-content-center">
-                    <div class="col-lg-8 order-lg-1 mb-5 mb-lg-0">
-                        <div class="container-fluid px-5">
-                            <div class="row gx-5 justify-content-center">
-                                <div class="col-md-6 col-lg-6 mb-5">
-                                    <!-- Feature item-->
-                                    <div class="text-center">
-                                        <i class="bi bi-database icon-feature text-gradient d-block mb-3" style="color: #4CAF50;"></i>
-                                        <h3 class="font-alt" data-en="Scouting best methods" data-fr="Nous recherchons les meilleures technologies pour vous" data-es="Encontramos las mejores innovaciones">Scouting best innovations</h3>
-                                        <p class="text-muted mb-0" data-en="Our extensive database lists all available innovative methods including novel technologies, diversification techniques, biocontrol alternatives or novel varieties that could apply to your farms." data-fr="Notre base de données exhaustive répertorie toutes les méthodes innovantes disponibles, y compris les nouvelles technologies, les techniques de diversification, les alternatives de biocontrole ou les nouvelles variétés qui pourraient s'appliquer à vos exploitations agricoles." data-es="Nuestra base de datos extensa enumera todos los métodos innovadores disponibles, incluidas las nuevas tecnologías, las técnicas de diversificación o las nuevas variedades que podrían aplicarse a sus explotaciones.">Our extensive database lists all available innovative methods including novel technologies, diversification techniques, or novel varieties that could apply to your farms.</p>                                    
+                
+                <!-- Agricultural Organizations Section -->
+                <div id="organizations" class="row mb-5">
+                    <div class="col-12 text-center mb-5">
+                        <h3 class="mb-4 section-title" data-en="Are you an Agricultural Organization?" data-fr="Vous êtes une Organisation Agricole ?" data-es="¿Eres una Organización Agrícola?">Vous êtes une Organisation Agricole ?</h3>
+                        <p class="text-muted mb-5" 
+                           data-en="We help agricultural organizations and their members accelerate innovation adoption, reduce risks, and increase profitability. By integrating AI-based recommendations, global innovation watch, and community validation, we enable agricultural organizations to become the go-to source for next-generation farming solutions."
+                           data-fr="Nous aidons les organisations agricoles et leurs membres à accélérer l'adoption de l'innovation, à réduire les risques et à accroître leur rentabilité. En intégrant des recommandations basées sur l'IA, une veille sur l'innovation mondiale et la validation par la communauté, nous permettons aux organisations agricoles de devenir la source de référence pour les solutions agricoles de nouvelle génération."
+                           data-es="Ayudamos a las organizaciones agrícolas y sus miembros a acelerar la adopción de innovaciones, reducir riesgos y aumentar la rentabilidad. Al integrar recomendaciones basadas en IA, vigilancia de innovación global y validación comunitaria, permitimos que las organizaciones agrícolas se conviertan en la fuente de referencia para soluciones agrícolas de próxima generación.">
+                            Nous aidons les organisations agricoles et leurs membres à accélérer l'adoption de l'innovation, à réduire les risques et à accroître leur rentabilité. En intégrant des recommandations basées sur l'IA, une veille sur l'innovation mondiale et la validation par la communauté, nous permettons aux organisations agricoles de devenir la source de référence pour les solutions agricoles de nouvelle génération.
+                        </p>
+                    </div>
+                    <div class="col-12">
+                        <div class="row g-4">
+                            <div class="col-md-4">
+                                <div class="feature-card h-100 p-4 bg-light rounded shadow-sm">
+                                    <div class="text-center mb-4">
+                                        <div class="feature-number mb-3">1</div>
                                     </div>
+                                    <h4 class="font-alt text-center" data-en="Innovation Watch" data-fr="Veille sur l'Innovation" data-es="Vigilancia de Innovación">Veille sur l'Innovation</h4>
+                                    <p class="text-muted mb-0" data-en="Discover all innovative methods, technologies, diversification, biocontrol, and new varieties."
+                                       data-fr="Découvrez toutes les méthodes innovantes, technologies, diversification, biocontrôle et nouvelles variétés."
+                                       data-es="Descubra todos los métodos innovadores, tecnologías, diversificación, biocontrol y nuevas variedades.">
+                                        Découvrez toutes les méthodes innovantes, technologies, diversification, biocontrôle et nouvelles variétés.
+                                    </p>
                                 </div>
-                                <div class="col-md-6 col-lg-6 mb-5">
-                                    <!-- Feature item-->
-                                    <div class="text-center">
-                                        <i class="bi bi-robot icon-feature text-gradient d-block mb-3" style="color: #4CAF50;"></i>
-                                        <h3 class="font-alt" data-en="AI based customised recommendations" data-fr="Recommandations personnalisées basées sur l'IA" data-es="Recomendaciones personalizadas basadas en IA">AI based customised recommendations</h3>
-                                        <p class="text-muted mb-0" data-en="Get tailored recommendations based on AI analysis of your farm data and needs. We cover all types of crops or livestock needs. You won't ever need to answer commercial calls, we are here to filter for you!" data-fr="Obtenez des recommandations personnalisées basées sur l'analyse IA de vos données agricoles et de vos besoins. Nous couvrons tous les types de besoins en cultures ou en élevage. Vous n'aurez jamais plus besoin de répondre à des appels commerciaux, nous sommes là pour filtrer pour vous!" data-es="Obtenga recomendaciones personalizadas basadas en el análisis de IA de los datos y necesidades de su explotación. Cubrimos todo tipo de necesidades de cultivos o ganadería. Nunca más tendrá que responder a llamadas comerciales, estamos aquí para filtrar por usted!">Get tailored recommendations based on AI analysis of your farm data and needs. We cover all types of crops or livestock needs. You won't ever need to answer commercial calls, we are here to filter for you!</p>                                
+                            </div>
+                            <div class="col-md-4">
+                                <div class="feature-card h-100 p-4 bg-light rounded shadow-sm">
+                                    <div class="text-center mb-4">
+                                        <div class="feature-number mb-3">2</div>
                                     </div>
+                                    <h4 class="font-alt text-center" data-en="Central Management" data-fr="Point Central de Gestion" data-es="Gestión Central">Point Central de Gestion</h4>
+                                    <p class="text-muted mb-0" data-en="Manage access, visualize, select, and comment on innovations chosen by your members."
+                                       data-fr="Gérez les accès, visualisez, sélectionnez et commentez les innovations choisies par vos membres."
+                                       data-es="Gestione el acceso, visualice, seleccione y comente las innovaciones elegidas por sus miembros.">
+                                        Gérez les accès, visualisez, sélectionnez et commentez les innovations choisies par vos membres.
+                                    </p>
                                 </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="feature-card h-100 p-4 bg-light rounded shadow-sm">
+                                    <div class="text-center mb-4">
+                                        <div class="feature-number mb-3">3</div>
+                                    </div>
+                                    <h4 class="font-alt text-center" data-en="Community Access" data-fr="Accès à la Communauté" data-es="Acceso a la Comunidad">Accès à la Communauté</h4>
+                                    <p class="text-muted mb-0" data-en="Participate in webinars and exchange with innovators and other organizations."
+                                       data-fr="Participez à des webinaires et échangez avec des innovateurs et d'autres organisations."
+                                       data-es="Participe en webinars e intercambie con innovadores y otras organizaciones.">
+                                        Participez à des webinaires et échangez avec des innovateurs et d'autres organisations.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-                            <div class="row gx-5 justify-content-center">
-                                <div class="col-md-6 col-lg-6 mb-5">
-                                    <!-- Feature item-->
-                                    <div class="text-center">
-                                        <i class="bi bi-newspaper icon-feature text-gradient d-block mb-3" style="color: #4CAF50;"></i>
-                                        <h3 class="font-alt" data-en="Weekly customised news" data-fr="Actualités hebdomadaires personnalisées" data-es="Noticias semanales personalizadas">Weekly customised news</h3>
-                                        <p class="text-muted mb-0" data-en="We filter agricultural news so you can stay updated with weekly news tailored to your farm's needs. Ours is the only newsletter you'll need to read." data-fr="Restez informé avec des actualités hebdomadaires adaptées aux besoins de votre exploitation. Nous offrons la seule revue que vous aurez besoin de lire." data-es="Manténgase actualizado con noticias semanales adaptadas a las necesidades de su explotación. Ofrecemos el único boletín que necesitará leer.">Stay updated with weekly news tailored to your farm's needs. Ours is the only newsletter you'll need to read.</p>                                
-                                    </div>
+                <!-- Farmers Section -->
+                <div id="farmers" class="row mb-5 align-items-center">
+                    <div class="col-md-4">
+                        <h3 class="text-center mb-4 section-title" data-en="For Farmers" data-fr="Pour les Agriculteurs" data-es="Para Agricultores">Pour les Agriculteurs</h3>
+                        <div class="text-center">
+                            <img src="assets/img/agricultor.png" alt="Modern Farmer with Technology" class="img-fluid mb-4 rounded shadow" style="max-width: 400px; width: 100%;">
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <p class="text-muted mb-5"
+                           data-en="We empower farmers with AI-driven insights and community knowledge to make informed decisions about new agricultural technologies. Our platform helps you evaluate innovations, understand their impact on your operations, and connect with peers who have tested these solutions."
+                           data-fr="Nous donnons aux agriculteurs les moyens de prendre des décisions éclairées sur les nouvelles technologies agricoles grâce à l'IA et aux connaissances de la communauté. Notre plateforme vous aide à évaluer les innovations, à comprendre leur impact sur vos opérations et à vous connecter avec des pairs qui ont testé ces solutions."
+                           data-es="Capacitamos a los agricultores con información basada en IA y conocimiento comunitario para tomar decisiones informadas sobre nuevas tecnologías agrícolas. Nuestra plataforma le ayuda a evaluar innovaciones, comprender su impacto en sus operaciones y conectarse con pares que han probado estas soluciones.">
+                            Nous donnons aux agriculteurs les moyens de prendre des décisions éclairées sur les nouvelles technologies agricoles grâce à l'IA et aux connaissances de la communauté. Notre plateforme vous aide à évaluer les innovations, à comprendre leur impact sur vos opérations et à vous connecter avec des pairs qui ont testé ces solutions.
+                        </p>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="feature-card text-center mb-4">
+                                    <i class="bi bi-robot icon-feature text-gradient d-block mb-3" style="color: #4CAF50;"></i>
+                                    <h4 class="font-alt" data-en="AI Recommendations" data-fr="Recommandations IA" data-es="Recomendaciones IA">AI Recommendations</h4>
+                                    <p class="text-muted" data-en="Get tailored AI-powered advice for your crops and livestock needs." data-fr="Obtenez des conseils personnalisés basés sur l'IA" data-es="Obtenga consejos personalizados basados en IA">Get tailored AI-powered advice for your crops and livestock needs.</p>
                                 </div>
-                                <div class="col-md-6 col-lg-6 mb-5">
-                                    <!-- Feature item-->
-                                    <div class="text-center">
-                                        <i class="bi bi-person-lines-fill icon-feature text-gradient d-block mb-3" style="color: #4CAF50;"></i>
-                                        <h3 class="font-alt" data-en="Access to technical experts" data-fr="Accès à des experts techniques" data-es="Acceso a expertos técnicos">Access to technical experts</h3>
-                                        <p class="text-muted mb-0" data-en="Get support from our network of technical experts. Their unbiased analysis will guarantee we only suggest the best for your business." data-fr="Obtenez le soutien de notre réseau d'experts techniques. Leur analyse impartiale garantira que nous ne suggérons que le meilleur pour votre entreprise." data-es="Obtenga apoyo de nuestra red de expertos técnicos. Su análisis imparcial garantizará que solo sugiramos lo mejor para su negocio.">Get support from our network of technical experts. Their unbiased analysis will guarantee we only suggest the best for your business</p>                                   
-                                     </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="feature-card text-center mb-4">
+                                    <i class="bi bi-cash-stack icon-feature text-gradient d-block mb-3" style="color: #4CAF50;"></i>
+                                    <h4 class="font-alt" data-en="ROI Analysis" data-fr="Analyse ROI" data-es="Análisis ROI">ROI Analysis</h4>
+                                    <p class="text-muted" data-en="Custom analysis including carbon footprint, grants, loans, and investment returns." 
+                                       data-fr="Analyse personnalisée incluant l'empreinte carbone, les subventions, les prêts et les retours sur investissement."
+                                       data-es="Análisis personalizado que incluye huella de carbono, subvenciones, préstamos y retornos de inversión.">Custom analysis including carbon footprint, grants, loans, and investment returns.</p>
                                 </div>
-                            <div class="row gx-5 justify-content-center">
-                                <div class="col-md-6 col-lg-6 mb-5">
-                                    <!-- Feature item-->
-                                    <div class="text-center">
-                                        <i class="bi bi-cash-stack icon-feature text-gradient d-block mb-3" style="color: #4CAF50;"></i>
-                                        <h3 class="font-alt" data-en="Personalised business plan" data-fr="Plan de ROI personnalisé" data-es="Plan de ROI personalizado">Personalised ROI plan</h3>
-                                        <p class="text-muted mb-0" data-en="Receive a personalised business case including carbon footprint estimation, applicable grants, loans or subventions as well as financial return on investment. Thanks to our CAD tool, we'll help you derisk your investment, create a new growth strategy or even sort through the regulation processes." data-fr="Recevez une analyse de rentabilisation personnalisée incluant une estimation de l'empreinte carbone, des subventions, des prêts ou des labels applicables ainsi qu'un retour sur investissement financier. Grâce à notre OAD, nous vous aiderons à réduire les risques de votre investissement, à créer une nouvelle stratégie de croissance ou même à trier les processus de réglementation." data-es="Reciba un caso de negocios personalizado que incluya una estimación de la huella de carbono, subvenciones aplicables, préstamos o etiquetas, así como un retorno financiero de la inversión. Gracias a nuestra herramienta de decisión asistida por computadora, le ayudaremos a reducir el riesgo de su inversión, crear una nueva estrategia de crecimiento o incluso clasificar los procesos de regulación.">Receive a personalised business plan including carbon footprint estimation, applicable grants, loans or subventions as well as financial return on investment. Thanks to our computer-assisted decision tool, we'll help you derisk your investment, create a new growth strategy or even sort through the regulation processes.</p>                                    
-                                    </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="feature-card text-center mb-4">
+                                    <i class="bi bi-people icon-feature text-gradient d-block mb-3" style="color: #4CAF50;"></i>
+                                    <h4 class="font-alt" data-en="Community Access" data-fr="Accès Communauté" data-es="Acceso Comunidad">Community Access</h4>
+                                    <p class="text-muted" data-en="Connect with other farmers and innovators, read reviews, contact peers."
+                                       data-fr="Connectez-vous avec d'autres agriculteurs et innovateurs, lisez les avis, contactez vos pairs."
+                                       data-es="Conéctese con otros agricultores e innovadores, lea reseñas, contacte con sus pares.">Connect with other farmers and innovators, read reviews, contact peers.</p>
                                 </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="feature-card text-center mb-4">
+                                    <i class="bi bi-newspaper icon-feature text-gradient d-block mb-3" style="color: #4CAF50;"></i>
+                                    <h4 class="font-alt" data-en="Custom News" data-fr="Actualités Personnalisées" data-es="Noticias Personalizadas">Custom News</h4>
+                                    <p class="text-muted" data-en="Stay informed with weekly updates tailored to your activity."
+                                       data-fr="Restez informé avec des mises à jour hebdomadaires adaptées à votre activité."
+                                       data-es="Manténgase informado con actualizaciones semanales adaptadas a su actividad.">Stay informed with weekly updates tailored to your activity.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-                                        <div class="col-md-6 col-lg-6 mb-5">
-                                    <!-- Feature item-->
-                                    <div class="text-center">
-                                        <i class="bi bi-people icon-feature text-gradient d-block mb-3" style="color: #4CAF50;"></i>
-                                        <h3 class="font-alt" data-en="Access to our community of innovators and users" data-fr="Accès à notre communauté d'innovateurs et d'utilisateurs" data-es="Acceso a nuestra comunidad de innovadores y usuarios">Access to our community of innovators and users</h3>
-                                        <p class="text-muted mb-0" data-en="Join our community of innovators and users to share experiences and knowledge. Read their user reviews or contact your peers directly, there is nothing more trustworthy than word-of-mouth." data-fr="Rejoignez notre communauté d'innovateurs et d'utilisateurs pour partager des expériences et des connaissances. Lisez leurs avis d'utilisateurs ou contactez directement vos pairs, il n'y a rien de plus fiable que le bouche-à-oreille." data-es="Únase a nuestra comunidad de innovadores y usuarios para compartir experiencias y conocimientos. Lea sus reseñas de usuarios o contacte directamente a sus compañeros, no hay nada más confiable que el boca a boca.">Join our community of innovators and users to share experiences and knowledge. Read their user reviews or contact your peers directly, there is nothing more trustworthy than word-of-mouth.</p>                                    </div>
+                <!-- Innovators Section -->
+                <div id="innovators" class="row mb-5">
+                    <div class="col-12 text-start mb-5">
+                        <h3 class="mb-4 section-title" data-en="For Innovators" data-fr="Pour les Innovateurs" data-es="Para Innovadores">Pour les Innovateurs</h3>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="text-center">
+                            <img src="assets/img/innovator.png" alt="Agricultural Innovation" class="img-fluid mb-4 rounded shadow" style="max-width: 400px; width: 100%;">
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <p class="text-muted mb-5"
+                           data-en="At Vitto Agtech, we don't just connect you with farmers already seeking new technologies — we actively cultivate awareness and build the trust needed for the mainstream market to adopt your solutions. By collaborating with agricultural organizations, we provide real-world data, credible ROI validation, and a community-driven approach that fosters widespread innovation adoption."
+                           data-fr="Chez Vitto Agtech, nous ne faisons pas que vous connecter aux agriculteurs déjà en quête de nouvelles technologies — nous cultivons activement la sensibilisation et bâtissons la confiance nécessaire pour que le marché grand public adopte vos solutions. En collaborant avec des organisations agricoles, nous apportons des données du monde réel, une validation crédible du retour sur investissement (ROI) et une approche communautaire qui favorise l'adoption généralisée des innovations."
+                           data-es="En Vitto Agtech, no solo te conectamos con agricultores que ya buscan nuevas tecnologías — cultivamos activamente la concientización y construimos la confianza necesaria para que el mercado general adopte tus soluciones. Al colaborar con organizaciones agrícolas, proporcionamos datos del mundo real, validación creíble del ROI y un enfoque comunitario que fomenta la adopción generalizada de innovaciones.">
+                            Chez Vitto Agtech, nous ne faisons pas que vous connecter aux agriculteurs déjà en quête de nouvelles technologies — nous cultivons activement la sensibilisation et bâtissons la confiance nécessaire pour que le marché grand public adopte vos solutions. En collaborant avec des organisations agricoles, nous apportons des données du monde réel, une validation crédible du retour sur investissement (ROI) et une approche communautaire qui favorise l'adoption généralisée des innovations.
+                        </p>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="feature-card text-center mb-4">
+                                    <i class="bi bi-file-earmark-text icon-feature text-gradient d-block mb-3" style="color: #4CAF50;"></i>
+                                    <h4 class="font-alt" data-en="Create Product Page" data-fr="Créer Page Produit" data-es="Crear Página Producto">Create Product Page</h4>
+                                    <p class="text-muted" data-en="Present your technology with clear benefits, ROI projections, and testimonials."
+                                       data-fr="Présentez votre technologie avec des avantages clairs, des projections de ROI et des témoignages."
+                                       data-es="Presente su tecnología con beneficios claros, proyecciones de ROI y testimonios.">Present your technology with clear benefits, ROI projections, and testimonials.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="feature-card text-center mb-4">
+                                    <i class="bi bi-graph-up icon-feature text-gradient d-block mb-3" style="color: #4CAF50;"></i>
+                                    <h4 class="font-alt" data-en="Expand Reach" data-fr="Étendre Portée" data-es="Ampliar Alcance">Expand Reach</h4>
+                                    <p class="text-muted" data-en="Accelerate large-scale adoption by reaching a wider audience."
+                                       data-fr="Accélérez l'adoption à grande échelle en touchant un public plus large."
+                                       data-es="Acelere la adopción a gran escala llegando a una audiencia más amplia.">Accelerate large-scale adoption by reaching a wider audience.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="feature-card text-center mb-4">
+                                    <i class="bi bi-clipboard-data icon-feature text-gradient d-block mb-3" style="color: #4CAF50;"></i>
+                                    <h4 class="font-alt" data-en="Data Collaboration" data-fr="Collaboration Données" data-es="Colaboración Datos">Data Collaboration</h4>
+                                    <p class="text-muted" data-en="Work with Vitto AgTech to collect user feedback and conduct pilot trials."
+                                       data-fr="Collaborez avec Vitto AgTech pour collecter les retours utilisateurs et mener des essais pilotes."
+                                       data-es="Trabaje con Vitto AgTech para recopilar comentarios de usuarios y realizar pruebas piloto.">Work with Vitto AgTech to collect user feedback and conduct pilot trials.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="feature-card text-center mb-4">
+                                    <i class="bi bi-check-circle icon-feature text-gradient d-block mb-3" style="color: #4CAF50;"></i>
+                                    <h4 class="font-alt" data-en="Validate & Demonstrate" data-fr="Valider & Démontrer" data-es="Validar & Demostrar">Validate & Demonstrate</h4>
+                                    <p class="text-muted" data-en="Share verified results to build farmer trust."
+                                       data-fr="Partagez des résultats vérifiés pour établir la confiance des agriculteurs."
+                                       data-es="Comparta resultados verificados para generar confianza en los agricultores.">Share verified results to build farmer trust.</p>
                                 </div>
                             </div>
                         </div>
@@ -189,7 +326,18 @@
                         <span data-en="Let's do it together!" data-fr="Faisons-le ensemble!" data-es="¡Hagámoslo juntos!">Let's do it together!</span><br>
                         <span data-en="Contact our team." data-fr="Contactez notre équipe." data-es="Contacta a nuestro equipo.">Contact our team.</span>
                     </h2>
-                    <a class="btn btn-outline-light py-3 px-4 rounded-pill" href="mailto:contact@vitto-tech.com?subject=Contact%20Us" data-en="Contact Us" data-fr="Contactez-nous" data-es="Contáctenos">Contact Us</a>
+                    <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center">
+                        <a class="btn btn-outline-light py-3 px-4 rounded-pill me-lg-3 mb-4 mb-lg-0" href="mailto:contact@vitto-tech.com?subject=Contact%20Us" data-en="Contact Us" data-fr="Contactez-nous" data-es="Contáctenos">Contact Us</a>
+                        <a class="btn btn-light py-3 px-4 rounded-pill" href="assets/brochures/brochure_fr.pdf" id="download-brochure-btn-footer"
+                           data-en-href="assets/brochures/brochure_en.pdf"
+                           data-fr-href="assets/brochures/brochure_fr.pdf"
+                           data-es-href="assets/brochures/brochure_es.pdf"
+                           data-en="Download Brochure"
+                           data-fr="Télécharger la Brochure"
+                           data-es="Descargar Folleto">
+                            Télécharger la Brochure
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -239,5 +387,33 @@
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <script>
+            function updateBrochureLinks(lang) {
+                const brochureButtons = document.querySelectorAll('#download-brochure-btn, #download-brochure-btn-footer');
+                brochureButtons.forEach(button => {
+                    button.href = button.getAttribute(`data-${lang}-href`);
+                    button.textContent = button.getAttribute(`data-${lang}`);
+                });
+            }
+
+            function setLanguage(lang) {
+                const elements = document.querySelectorAll('[data-en]');
+                elements.forEach(element => {
+                    if (element.getAttribute(`data-${lang}`)) {
+                        if (element.hasAttribute('placeholder')) {
+                            element.placeholder = element.getAttribute(`data-${lang}`);
+                        } else {
+                            element.textContent = element.getAttribute(`data-${lang}`);
+                        }
+                    }
+                });
+                updateBrochureLinks(lang);
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+                const initialLang = document.getElementById('language-select').value;
+                setLanguage(initialLang);
+            });
+        </script>
     </body>
 </html>
