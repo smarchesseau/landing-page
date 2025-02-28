@@ -43,6 +43,59 @@
                 font-weight: bold;
                 margin-bottom: 1.5rem;
             }
+            .language-switcher {
+                position: relative;
+                display: inline-block;
+            }
+            .language-switcher select {
+                padding: 0.375rem 2.25rem 0.375rem 3.25rem;
+                font-size: 0.9rem;
+                border-radius: 0.25rem;
+                border: 1px solid #ced4da;
+                background-color: #fff;
+                cursor: pointer;
+                appearance: none;
+                min-width: 180px;
+            }
+            .language-switcher select option[value="fr"] {
+                background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3 2"><rect width="1" height="2" fill="%23002395"/><rect width="1" height="2" x="1" fill="%23FFFFFF"/><rect width="1" height="2" x="2" fill="%23ED2939"/></svg>');
+                padding-left: 25px;
+            }
+            .language-switcher select option[value="es"] {
+                background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3 2"><rect width="3" height="2" fill="%23c60b1e"/><rect width="3" height="1.2" y="0.4" fill="%23ffc400"/></svg>');
+                padding-left: 25px;
+            }
+            .language-switcher select option[value="en"] {
+                background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 6"><rect width="10" height="6" fill="%23012169"/><path d="M0,0 L10,6 M10,0 L0,6" stroke="%23fff" stroke-width="1"/><path d="M5,0 L5,6 M0,3 L10,3" stroke="%23fff" stroke-width="2"/><path d="M5,0 L5,6 M0,3 L10,3" stroke="%23C8102E" stroke-width="1"/></svg>');
+                padding-left: 25px;
+            }
+            .language-switcher select:focus {
+                border-color: #4CAF50;
+                outline: 0;
+                box-shadow: 0 0 0 0.25rem rgba(76, 175, 80, 0.25);
+            }
+            .language-switcher::before {
+                content: "";
+                position: absolute;
+                left: 1rem;
+                top: 50%;
+                transform: translateY(-50%);
+                width: 2rem;
+                height: 1.25rem;
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+                pointer-events: none;
+            }
+            .language-switcher[data-selected="fr"]::before {
+                background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3 2"><rect width="1" height="2" fill="%23002395"/><rect width="1" height="2" x="1" fill="%23FFFFFF"/><rect width="1" height="2" x="2" fill="%23ED2939"/></svg>');
+            }
+            .language-switcher[data-selected="es"]::before {
+                background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3 2"><rect width="3" height="2" fill="%23c60b1e"/><rect width="3" height="1.2" y="0.4" fill="%23ffc400"/></svg>');
+            }
+            .language-switcher[data-selected="en"]::before {
+                background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 6"><rect width="10" height="6" fill="%23012169"/><path d="M0,0 L10,6 M10,0 L0,6" stroke="%23fff" stroke-width="1"/><path d="M5,0 L5,6 M0,3 L10,3" stroke="%23fff" stroke-width="2"/><path d="M5,0 L5,6 M0,3 L10,3" stroke="%23C8102E" stroke-width="1"/></svg>');
+            }
         </style>
 
         <!-- Google Tag Manager -->
@@ -94,8 +147,8 @@
                         <li class="nav-item"><a class="nav-link me-lg-3" href="#organizations" data-en="For Organizations" data-fr="Pour les Organisations" data-es="Para Organizaciones">For Organizations</a></li>
                         <li class="nav-item"><a class="nav-link me-lg-3" href="#innovators" data-en="For Innovators" data-fr="Pour les Innovateurs" data-es="Para Innovadores">For Innovators</a></li>
                         <li class="nav-item"><a class="nav-link me-lg-3" href="mailto:contact@vitto-tech.com?subject=Contact%20Us"  data-en="Contact us" data-fr="Contactez-nous" data-es="Contáctenos">Contact Us</a></li>
-                        <li class ="nav-item">
-                            <div class="language-switcher">
+                        <li class="nav-item">
+                            <div class="language-switcher" data-selected="fr">
                                 <select id="language-select" class="form-select" onchange="setLanguage(this.value)">
                                     <option value="fr">Français</option>
                                     <option value="es">Español</option>
@@ -130,31 +183,36 @@
         </header>
         
         <!-- Quote/testimonial aside-->
-        <aside class="text-center bg-green">
+        <aside class="text-center bg-green py-5">
             <div class="container px-5">
                 <div class="row gx-5 justify-content-center">
-                    <div class="col-xl-8">
-                        <div class="h2 fs-1 text-white mb-4" data-en="Finally the solution to help agricultural organizations and farmers access available innovations that match their expectations!" data-fr="Enfin la solution pour aider les organisations agricoles et les agriculteurs à accéder aux innovations disponibles qui matchent leurs attentes !" data-es="¡Finalmente la solución para ayudar a las organizaciones agrícolas y agricultores a acceder a las innovaciones disponibles que coinciden con sus expectativas!">Finally the solution to help agricultural organizations and farmers access available innovations that match their expectations!</div>                    </div>
+                    <div class="col-lg-10">
+                        <div class="h2 fs-1 text-white mb-0" data-en="Finally the solution to help agricultural organizations and farmers access available innovations that match their expectations!" data-fr="Enfin la solution pour aider les organisations agricoles et les agriculteurs à accéder aux innovations disponibles qui matchent leurs attentes !" data-es="¡Finalmente la solución para ayudar a las organizaciones agrícolas y agricultores a acceder a las innovaciones disponibles que coinciden con sus expectativas!">Finally the solution to help agricultural organizations and farmers access available innovations that match their expectations!</div>
+                    </div>
                 </div>
             </div>
         </aside>
         
         <!-- Problem Statement Section -->
-        <section id="problem-statement" class="text-center">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8">
-                        <h2 data-en="Our Mission" data-fr="Notre Mission" data-es="Nuestra Misión">Our Mission</h2>
-                        <p class="text-muted" data-en="Did you know that there are more than 6000 novel technologies dedicated to agriculture that have the potential to reduce up to 4.6 Gt of CO2 emissions? That is equivalent to 10% of the world's annual emissions!"
-                        data-fr="Saviez-vous qu'il existe plus de 6000 produits dédiés à l'agriculture qui ont le potentiel de réduire jusqu'à 4,6 Gt d'émissions de CO2 ? Cela équivaut à 10 % des émissions annuelles mondiales !"
-                        data-es="¿Sabías que existen más de 6000 nuevas tecnologías dedicadas a la agricultura que tienen el potencial de reducir hasta 4,6 Gt de emisiones de CO2? ¡Eso equivale al 10% de las emisiones anuales del mundo!">
-                        Did you know that there are more than 6000 novel technologies dedicated to agriculture that have the potential to reduce up to 4.6 Gt of CO2 emissions? That is equivalent to 10% of the world's annual emissions!
-                        </p>
-                        <p class="text-muted" data-en="Our mission is to help cooperatives and farmers adopt the best possible technology while remaining safe and competitive."
-                        data-fr="Notre mission est tout d'abord d'aider les organisations agricoles et les agriculteurs à prendre connaissance des méthodes déjà disponibles qui matchent leurs besoins pour une production plus durable et performante tout en réduisant les risques."
-                        data-es="Nuestra misión es ayudar a las cooperativas y agricultores a adoptar la mejor tecnología posible mientras se mantienen seguros y competitivos.">
-                        Our mission is to help cooperatives and farmers adopt the best possible technology while remaining safe and competitive.
-                        </p>
+        <section id="problem-statement" class="py-5">
+            <div class="container px-5">
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-12 text-center">
+                        <h2 class="section-title mb-4" data-en="Our Mission" data-fr="Notre Mission" data-es="Nuestra Misión">Our Mission</h2>
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10">
+                                <p class="text-muted mb-4" data-en="Did you know that there are more than 6000 novel technologies dedicated to agriculture that have the potential to reduce up to 4.6 Gt of CO2 emissions? That is equivalent to 10% of the world's annual emissions!"
+                                data-fr="Saviez-vous qu'il existe plus de 6000 produits dédiés à l'agriculture qui ont le potentiel de réduire jusqu'à 4,6 Gt d'émissions de CO2 ? Cela équivaut à 10 % des émissions annuelles mondiales !"
+                                data-es="¿Sabías que existen más de 6000 nuevas tecnologías dedicadas a la agricultura que tienen el potencial de reducir hasta 4,6 Gt de emisiones de CO2? ¡Eso equivale al 10% de las emisiones anuales del mundo!">
+                                Did you know that there are more than 6000 novel technologies dedicated to agriculture that have the potential to reduce up to 4.6 Gt of CO2 emissions? That is equivalent to 10% of the world's annual emissions!
+                                </p>
+                                <p class="text-muted mb-0" data-en="Our mission is to help cooperatives and farmers adopt the best possible technology while remaining safe and competitive."
+                                data-fr="Notre mission est tout d'abord d'aider les organisations agricoles et les agriculteurs à prendre connaissance des méthodes déjà disponibles qui matchent leurs besoins pour une production plus durable et performante tout en réduisant les risques."
+                                data-es="Nuestra misión es ayudar a las cooperativas y agricultores a adoptar la mejor tecnología posible mientras se mantienen seguros y competitivos.">
+                                Our mission is to help cooperatives and farmers adopt the best possible technology while remaining safe and competitive.
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -165,10 +223,10 @@
             <div class="container px-5">
                 
                 <!-- Agricultural Organizations Section -->
-                <div id="organizations" class="row mb-5">
+                <div id="organizations" class="row gx-5 mb-5">
                     <div class="col-12 text-center mb-5">
                         <h3 class="mb-4 section-title" data-en="Are you an Agricultural Organization?" data-fr="Vous êtes une Organisation Agricole ?" data-es="¿Eres una Organización Agrícola?">Vous êtes une Organisation Agricole ?</h3>
-                        <p class="text-muted mb-5" 
+                        <p class="text-muted mb-5 px-lg-5" 
                            data-en="We help agricultural organizations and their members accelerate innovation adoption, reduce risks, and increase profitability. By integrating AI-based recommendations, global innovation watch, and community validation, we enable agricultural organizations to become the go-to source for next-generation farming solutions."
                            data-fr="Nous aidons les organisations agricoles et leurs membres à accélérer l'adoption de l'innovation, à réduire les risques et à accroître leur rentabilité. En intégrant des recommandations basées sur l'IA, une veille sur l'innovation mondiale et la validation par la communauté, nous permettons aux organisations agricoles de devenir la source de référence pour les solutions agricoles de nouvelle génération."
                            data-es="Ayudamos a las organizaciones agrícolas y sus miembros a acelerar la adopción de innovaciones, reducir riesgos y aumentar la rentabilidad. Al integrar recomendaciones basadas en IA, vigilancia de innovación global y validación comunitaria, permitimos que las organizaciones agrícolas se conviertan en la fuente de referencia para soluciones agrícolas de próxima generación.">
@@ -230,8 +288,8 @@
                 </div>
 
                 <!-- Farmers Section -->
-                <div id="farmers" class="row mb-5">
-                    <div class="col-12 text-start mb-5">
+                <div id="farmers" class="row gx-5 mb-5">
+                    <div class="col-12 text-center mb-5">
                         <h3 class="mb-4 section-title" data-en="For Farmers" data-fr="Pour les Agriculteurs" data-es="Para Agricultores">Pour les Agriculteurs</h3>
                     </div>
                     <div class="col-md-4">
@@ -288,8 +346,8 @@
                 </div>
 
                 <!-- Innovators Section -->
-                <div id="innovators" class="row mb-5">
-                    <div class="col-12 text-start mb-5">
+                <div id="innovators" class="row gx-5 mb-5">
+                    <div class="col-12 text-center mb-5">
                         <h3 class="mb-4 section-title" data-en="For Innovators" data-fr="Pour les Innovateurs" data-es="Para Innovadores">Pour les Innovateurs</h3>
                     </div>
                     <div class="col-md-4">
@@ -373,16 +431,20 @@
                 </div>
             </div>
         </section>
-        <section id="about" class="about-section text-center">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8">
-                        <h2 data-en="About Us" data-fr="À propos de nous" data-es="Sobre nosotros">About Us</h2>
-                        <p class="text-muted" data-en="We are two co-founders with 30 years of experience in R&D, innovation, and sustainability. Our mission is to accelerate the adoption of sustainable innovations while ensuring farmers remain safe and competitive."
-                           data-fr="Nous sommes deux cofondateurs avec 30 ans d'expérience en R&D, innovation et durabilité. Notre mission est d'accélérer l'adoption des innovations durables tout en garantissant la sécurité et la compétitivité des agriculteurs."
-                           data-es="Somos dos cofundadores con 30 años de experiencia en I+D, innovación y sostenibilidad. Nuestra misión es acelerar la adopción de innovaciones sostenibles mientras garantizamos que los agricultores se mantengan seguros y competitivos.">
-                           We are two co-founders with 30 years of experience in R&D, innovation, and sustainability. Our mission is to To empower agriculture cooperatives and farmers with innovative tools that enhance productivity and sustainabilityaccelerate the adoption of sustainable innovations while ensuring farmers remain safe and competitive.
-                        </p>
+        <section id="about" class="about-section py-5">
+            <div class="container px-5">
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-12 text-center">
+                        <h2 class="section-title mb-4" data-en="About Us" data-fr="À propos de nous" data-es="Sobre nosotros">About Us</h2>
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10">
+                                <p class="text-muted mb-0" data-en="We are two co-founders with 30 years of experience in R&D, innovation, and sustainability. Our mission is to accelerate the adoption of sustainable innovations while ensuring farmers remain safe and competitive."
+                                   data-fr="Nous sommes deux cofondateurs avec 30 ans d'expérience en R&D, innovation et durabilité. Notre mission est d'accélérer l'adoption des innovations durables tout en garantissant la sécurité et la compétitivité des agriculteurs."
+                                   data-es="Somos dos cofundadores con 30 años de experiencia en I+D, innovación y sostenibilidad. Nuestra misión es acelerar la adopción de innovaciones sostenibles mientras garantizamos que los agricultores se mantengan seguros y competitivos.">
+                                   We are two co-founders with 30 years of experience in R&D, innovation, and sustainability. Our mission is to accelerate the adoption of sustainable innovations while ensuring farmers remain safe and competitive.
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -401,36 +463,41 @@
         </section>
     -->
         <!-- Footer-->
-        <footer class="bg-green text-white py-4">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <h5>Vitto Agtech</h5>
-                        <p class="small">Empowering agricultural innovation through AI and community knowledge.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <h5>Quick Links</h5>
-                        <ul class="list-unstyled">
-                            <li><a href="#farmers" class="text-white">For Farmers</a></li>
-                            <li><a href="#organizations" class="text-white">For Organizations</a></li>
-                            <li><a href="#innovators" class="text-white">For Innovators</a></li>
-                            <li><a href="#about" class="text-white">About Us</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4">
-                        <h5>Contact</h5>
-                        <p class="small">
-                            <a href="mailto:contact@vitto-tech.com" class="text-white">contact@vitto-tech.com</a>
+        <footer class="bg-green text-white py-5">
+            <div class="container px-5">
+                <div class="row gx-5">
+                    <div class="col-lg-4 mb-4 mb-lg-0">
+                        <h5 class="text-uppercase mb-4">Vitto Agtech</h5>
+                        <p class="mb-4">Empowering agricultural innovation through AI and community knowledge.</p>
+                        <p class="small mb-0">
+                            <a href="mailto:contact@vitto-tech.com" class="text-white text-decoration-none">
+                                <i class="bi bi-envelope me-2"></i>contact@vitto-tech.com
+                            </a>
                         </p>
                     </div>
+                    <div class="col-lg-4 mb-4 mb-lg-0">
+                        <h5 class="text-uppercase mb-4">Quick Links</h5>
+                        <ul class="list-unstyled mb-0">
+                            <li class="mb-2"><a href="#farmers" class="text-white text-decoration-none">For Farmers</a></li>
+                            <li class="mb-2"><a href="#organizations" class="text-white text-decoration-none">For Organizations</a></li>
+                            <li class="mb-2"><a href="#innovators" class="text-white text-decoration-none">For Innovators</a></li>
+                            <li class="mb-2"><a href="#about" class="text-white text-decoration-none">About Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4">
+                        <h5 class="text-uppercase mb-4">Legal</h5>
+                        <ul class="list-unstyled mb-0">
+                            <li class="mb-2"><a href="/privacy-policy" class="text-white text-decoration-none">Privacy Policy</a></li>
+                            <li class="mb-2"><a href="/terms" class="text-white text-decoration-none">Terms of Service</a></li>
+                            <li class="mb-2"><a href="/sitemap.xml" class="text-white text-decoration-none">Sitemap</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="text-center mt-4">
-                    <p class="small">&copy; 2025 Vitto Agtech. All rights reserved.</p>
-                    <p class="small">
-                        <a href="/sitemap.xml" class="text-white">Sitemap</a> |
-                        <a href="/privacy-policy" class="text-white">Privacy Policy</a> |
-                        <a href="/terms" class="text-white">Terms of Service</a>
-                    </p>
+                <hr class="my-4 bg-white">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p class="small mb-0">&copy; 2025 Vitto Agtech. All rights reserved.</p>
+                    </div>
                 </div>
             </div>
         </footer>
@@ -466,6 +533,7 @@
                         }
                     }
                 });
+                document.querySelector('.language-switcher').setAttribute('data-selected', lang);
                 updateBrochureLinks(lang);
             }
 
