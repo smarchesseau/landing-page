@@ -547,8 +547,12 @@
             <div class="container px-5">
                 <div class="row gx-5">
                     <div class="col-lg-4 mb-4 mb-lg-0">
-                        <h5 class="text-uppercase mb-4">Vitto Agtech</h5>
-                        <p class="mb-4">Empowering agricultural innovation through AI and community knowledge.</p>
+                        <h5 class="text-uppercase mb-4" data-en="Vitto Agtech" data-fr="Vitto Agtech" data-es="Vitto Agtech">Vitto Agtech</h5>
+                        <p class="mb-4" data-en="Unlock the Full Potential of Agriculture by Turning Innovation into Real-World Impact" 
+                           data-fr="Libérez le Plein Potentiel de l'Agriculture en Transformant l'Innovation en Impact Concret" 
+                           data-es="Desbloquea el Potencial Completo de la Agricultura Convirtiendo la Innovación en Impacto Real">
+                            Unlock the Full Potential of Agriculture by Turning Innovation into Real-World Impact
+                        </p>
                         <p class="small mb-0">
                             <a href="mailto:contact@vitto-tech.com" class="text-white text-decoration-none">
                                 <i class="bi bi-envelope me-2"></i>contact@vitto-tech.com
@@ -556,26 +560,26 @@
                         </p>
                     </div>
                     <div class="col-lg-4 mb-4 mb-lg-0">
-                        <h5 class="text-uppercase mb-4">Quick Links</h5>
+                        <h5 class="text-uppercase mb-4" data-en="Quick Links" data-fr="Liens Rapides" data-es="Enlaces Rápidos">Quick Links</h5>
                         <ul class="list-unstyled mb-0">
-                            <li class="mb-2"><a href="#farmers" class="text-white text-decoration-none">For Farmers</a></li>
-                            <li class="mb-2"><a href="#organizations" class="text-white text-decoration-none">For Organizations</a></li>
-                            <li class="mb-2"><a href="#innovators" class="text-white text-decoration-none">For Innovators</a></li>
-                            <li class="mb-2"><a href="#about" class="text-white text-decoration-none">About Us</a></li>
+                            <li class="mb-2"><a href="#farmers" class="text-white text-decoration-none" data-en="For Farmers" data-fr="Pour les Agriculteurs" data-es="Para Agricultores">For Farmers</a></li>
+                            <li class="mb-2"><a href="#organizations" class="text-white text-decoration-none" data-en="For Organizations" data-fr="Pour les Organisations" data-es="Para Organizaciones">For Organizations</a></li>
+                            <li class="mb-2"><a href="#innovators" class="text-white text-decoration-none" data-en="For Innovators" data-fr="Pour les Innovateurs" data-es="Para Innovadores">For Innovators</a></li>
+                            <li class="mb-2"><a href="#about" class="text-white text-decoration-none" data-en="About Us" data-fr="À propos de nous" data-es="Sobre nosotros">About Us</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-4">
-                        <h5 class="text-uppercase mb-4">Legal</h5>
+                        <h5 class="text-uppercase mb-4" data-en="Legal" data-fr="Légal" data-es="Legal">Legal</h5>
                         <ul class="list-unstyled mb-0">
-                            <li class="mb-2"><a href="privacy-policy.html" class="text-white text-decoration-none">Privacy Policy</a></li>
-                            <li class="mb-2"><a href="sitemap.xml" class="text-white text-decoration-none">Sitemap</a></li>
+                            <li class="mb-2"><a href="privacy-policy.html" class="text-white text-decoration-none" data-en="Privacy Policy" data-fr="Politique de Confidentialité" data-es="Política de Privacidad">Privacy Policy</a></li>
+                            <li class="mb-2"><a href="sitemap.xml" class="text-white text-decoration-none" data-en="Sitemap" data-fr="Plan du site" data-es="Mapa del sitio">Sitemap</a></li>
                         </ul>
                     </div>
                 </div>
                 <hr class="my-4 bg-white">
                 <div class="row">
                     <div class="col-md-12 text-center">
-                        <p class="small mb-0">&copy; 2025 Vitto Agtech. All rights reserved.</p>
+                        <p class="small mb-0" data-en="&copy; 2025 Vitto Agtech. All rights reserved." data-fr="&copy; 2025 Vitto Agtech. Tous droits réservés." data-es="&copy; 2025 Vitto Agtech. Todos los derechos reservados.">&copy; 2025 Vitto Agtech. All rights reserved.</p>
                     </div>
                 </div>
             </div>
@@ -617,7 +621,8 @@
             }
 
             document.addEventListener('DOMContentLoaded', function() {
-                const initialLang = document.getElementById('language-select').value;
+                const initialLang = 'fr';
+                document.getElementById('language-select').value = initialLang;
                 setLanguage(initialLang);
             });
         </script>
