@@ -160,6 +160,21 @@
                 </div>
             </div>
         </nav>
+
+
+        <script>
+                // Define the link as a variable
+                const createAccountLink = "https://agritech-mvp-qkyd.onrender.com/";
+
+                // Apply the link to all elements with a specific class or ID
+                document.addEventListener('DOMContentLoaded', function () {
+                    // Update the "Create Account" button in the modal
+                    const createAccountButtons = document.querySelectorAll('.create-account-link');
+                    createAccountButtons.forEach(button => {
+                        button.href = createAccountLink;
+                    });
+                });
+            </script>
         
         
         <!-- Mashead header-->
@@ -411,7 +426,7 @@
                                data-es="Descargar Guía de Innovadores">
                                 Télécharger le Guide des Innovateurs
                             </a>
-                        </div>
+                        <a href="#" class="btn btn-primary create-account-link" data-en="Sign up for free!" data-fr="Inscription gratuite" data-es="Regístrese gratis">Create Account</a>                        </div>
                     </div>
                     <div class="col-md-8">
                         <p class="text-muted mb-5"
@@ -626,5 +641,31 @@
                 setLanguage(initialLang);
             });
         </script>
+
+
+        <!-- Account Creation Modal -->
+        <div class="modal fade" id="accountModal" tabindex="-1" aria-labelledby="accountModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="accountModalLabel" data-en="Are you an agtech innovator ?" data-fr="Vous êtes un innovateur agtech ?" data-es="¿Es usted un innovador agtech?">Create an Account</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p data-en=" Join free to connect with growers and showcase your solutions!" 
+                            data-fr=" Inscrivez-vous gratuitement pour vous connecter aux agriculteurs et présenter vos solutions !" 
+                            data-es=" Regístrese gratis para conectarse con agricultores y mostrar sus soluciones!">
+                            Are you an agtech innovator or supplier? Join free to connect with growers and showcase your solutions!
+
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                    <a href="#" class="btn btn-primary create-account-link" data-en="Create Account" data-fr="Créer un Compte" data-es="Crear Cuenta">Create Account</a>                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
     </body>
 </html>

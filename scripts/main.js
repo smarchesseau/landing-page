@@ -34,3 +34,23 @@ document.addEventListener('DOMContentLoaded', () => {
     // Apply the language
     setLanguage(defaultLanguage);
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+    const modal = new bootstrap.Modal(document.getElementById('accountModal'));
+    let modalClosed = false;
+
+    // Show modal after 5 seconds
+    setTimeout(() => {
+        if (!modalClosed) modal.show();
+    }, 5000);
+
+    // Reopen modal 30 seconds after it is closed
+    document.getElementById('accountModal').addEventListener('hidden.bs.modal', () => {
+        modalClosed = true;
+        setTimeout(() => {
+            modalClosed = false;
+            modal.show();
+        }, 30000);
+    });
+});
+
