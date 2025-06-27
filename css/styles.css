@@ -113,6 +113,39 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+.founder-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.founder-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.about-photo {
+    width: 400px;
+    height: 250px; /* adjust height as desired */
+    overflow: hidden;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+}
+.logo-img {
+    max-height: 50px;         /* adjust logo height */
+    max-width: 150px;         /* optional: limit width */
+}
+
+.logo-img:hover {
+    filter: none;
+    opacity: 1;
+}
+
+.about-photo img {
+    height: 100%;
+    object-fit: cover;
+}
 
 hr {
   margin: 1rem 0;

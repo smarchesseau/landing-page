@@ -39,18 +39,38 @@ document.addEventListener('DOMContentLoaded', function () {
     const modal = new bootstrap.Modal(document.getElementById('accountModal'));
     let modalClosed = false;
 
-    // Show modal after 5 seconds
-    setTimeout(() => {
-        if (!modalClosed) modal.show();
-    }, 5000);
+    // Read current count from sessionStorage
+    let modalCount = sessionStorage.getItem('modalCount');
+    if (!modalCount) {
+        modalCount = 0;
+    } else {
+        modalCount = parseInt(modalCount, 10);
+    }
 
-    // Reopen modal 30 seconds after it is closed
+    // Show the modal initially only if shown less than twice
+    if (modalCount < 2) {
+        setTimeout(() => {
+            if (!modalClosed) {
+                modal.show();
+                modalCount++;
+                sessionStorage.setItem('modalCount', modalCount);
+            }
+        }, 5000);
+    }
+
     document.getElementById('accountModal').addEventListener('hidden.bs.modal', () => {
         modalClosed = true;
-        setTimeout(() => {
-            modalClosed = false;
-            modal.show();
-        }, 30000);
+
+        if (modalCount < 2) {
+            setTimeout(() => {
+                modalClosed = false;
+                modal.show();
+
+                modalCount++;
+                sessionStorage.setItem('modalCount', modalCount);
+            }, 30000);
+        }
     });
 });
+
 
