@@ -1,8 +1,7 @@
 function setLanguage(lang) {
-    // Store the selected language in localStorage
     localStorage.setItem('selectedLanguage', lang);
-    
-    // Update all elements with data-* attributes
+
+    // Update all translated texts
     document.querySelectorAll('[data-en], [data-fr], [data-es]').forEach(el => {
         const translation = el.getAttribute(`data-${lang}`);
         if (translation) {
@@ -10,14 +9,25 @@ function setLanguage(lang) {
         }
     });
 
-    // Update any placeholder attributes if they exist
+    // Update placeholders
     document.querySelectorAll('[data-placeholder-en], [data-placeholder-fr], [data-placeholder-es]').forEach(el => {
         const translation = el.getAttribute(`data-placeholder-${lang}`);
         if (translation) {
             el.setAttribute('placeholder', translation);
         }
     });
+
+    // ✅ ADD THIS: Update contact forms visibility
+    document.querySelectorAll(".contact-form").forEach(div => {
+        const langs = div.getAttribute("data-lang").split(" ");
+        if (langs.includes(lang)) {
+            div.classList.remove("d-none");
+        } else {
+            div.classList.add("d-none");
+        }
+    });
 }
+
 
 // Set initial language based on localStorage or browser preference
 document.addEventListener('DOMContentLoaded', () => {
@@ -73,4 +83,19 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+
+
+
+document.getElementById('contactModal').addEventListener('show.bs.modal', function () {
+  const savedLanguage = localStorage.getItem('selectedLanguage') || 'fr';
+
+  document.querySelectorAll(".contact-form").forEach(div => {
+    const langs = div.getAttribute("data-lang").split(" ");
+    if (langs.includes(savedLanguage)) {
+      div.classList.remove("d-none");
+    } else {
+      div.classList.add("d-none");
+    }
+  });
+});
 

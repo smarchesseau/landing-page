@@ -135,6 +135,7 @@ body {
 .logo-img {
     max-height: 50px;         /* adjust logo height */
     max-width: 150px;         /* optional: limit width */
+
 }
 
 .logo-img:hover {
