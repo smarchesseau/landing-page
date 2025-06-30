@@ -34,6 +34,8 @@ window.addEventListener('DOMContentLoaded', event => {
     // Close responsive navbar when language is selected
     const languageSelect = document.getElementById('language-select');
     languageSelect.addEventListener('change', () => {
+        const lang = languageSelect.value;
+        languageSelect.closest('.language-switcher').setAttribute('data-selected', lang);
         if (window.getComputedStyle(navbarToggler).display !== 'none') {
             navbarToggler.click();
         }
