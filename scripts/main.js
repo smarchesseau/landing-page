@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 modalCount++;
                 sessionStorage.setItem('modalCount', modalCount);
             }
-        }, 5000);
+        }, 2000);
     }
 
     document.getElementById('accountModal').addEventListener('hidden.bs.modal', () => {
