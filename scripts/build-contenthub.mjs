@@ -27,12 +27,13 @@ async function fetchTop() {
     supabase
       .from('scientific_reports')
       .select('id, title, summary, created_at')
+      .in('status', ['reviewed', 'Reviewed'])
       .order('created_at', { ascending: false })
       .limit(3),
     supabase
       .from('generated_articles')
       .select('id, title, summary, created_at, status')
-      .in('status', ['reviewed', 'published'])
+      .in('status', ['reviewed', 'Reviewed'])
       .order('created_at', { ascending: false })
       .limit(3),
   ]);

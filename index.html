@@ -84,6 +84,11 @@
             .language-switcher[data-selected="en"]::before {
                 background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 6"><rect width="10" height="6" fill="%23012169"/><path d="M0,0 L10,6 M10,0 L0,6" stroke="%23fff" stroke-width="1"/><path d="M5,0 L5,6 M0,3 L10,3" stroke="%23fff" stroke-width="2"/><path d="M5,0 L5,6 M0,3 L10,3" stroke="%23C8102E" stroke-width="1"/></svg>');
             }
+            /* Ensure fixed-top navbar doesn't overlap content on mobile/desktop */
+            body { padding-top: 72px; }
+            @media (min-width: 992px) { body { padding-top: 76px; } }
+            /* Add safe-area padding for footers on mobile devices */
+            footer { padding-bottom: calc(env(safe-area-inset-bottom, 0px) + 16px); }
         </style>
 
         <!-- Google Tag Manager -->
@@ -95,6 +100,27 @@
         </script>
             <!-- End Google Tag Manager -->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <script>
+        // Dynamically adjust body top padding to match actual navbar height (handles mobile collapse)
+        (function () {
+            function adjustOffsets() {
+                var nav = document.getElementById('mainNav');
+                if (!nav) return;
+                var h = nav.offsetHeight || 72;
+                document.body.style.paddingTop = h + 'px';
+            }
+            window.addEventListener('load', adjustOffsets, { passive: true });
+            window.addEventListener('resize', adjustOffsets, { passive: true });
+            document.addEventListener('DOMContentLoaded', function () {
+                var toggler = document.getElementById('navbar-toggler');
+                if (toggler) {
+                    toggler.addEventListener('click', function () {
+                        setTimeout(adjustOffsets, 350);
+                    }, { passive: true });
+                }
+            });
+        })();
+        </script>
         <!-- Structured Data -->
         <script type="application/ld+json">
         {
