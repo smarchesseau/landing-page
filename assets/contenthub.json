@@ -65,7 +65,8 @@
         "es": "Un proyecto piloto en Polonia está creando un sistema de referencia fácil de usar que integra datos de diversas fuentes para ayudar a los agricultores a comparar el rendimiento de sus explotaciones con el de otros de tamaño similar. El sistema tiene como objetivo mejorar la toma de decisiones y las habilidades digitales entre los agricultores mediante el aprovechamiento de herramientas existentes de apoyo a la decisión y la integración de datos.",
         "fr": "Un projet pilote en Pologne crée un système de benchmarking convivial qui intègre des données provenant de diverses sources afin d'aider les agriculteurs à comparer la performance de leur ferme avec celle d'autres exploitations de taille similaire. Le système vise à améliorer la prise de décision et les compétences numériques des agriculteurs en tirant parti des outils d'aide à la décision existants et de l'intégration des données."
       },
-      "created_at": "2025-11-12T17:42:53.005395"
+      "created_at": "2025-11-12T17:42:53.005395",
+      "image": "assets/articles/farmer-man-showing-cultivated-fresh-salads-agronomist-businesswoman-discussing-agronomy-production-farming-season-rancher-harvesting-organic-green-vegetables-hydroponic-greenhouse.jpg"
     },
     {
       "id": "9eb0ebe3-faae-4f6d-adb2-239753ae490b",
@@ -79,7 +80,8 @@
         "es": "Este proyecto probó un servicio de corretaje de datos que conecta datos de maquinaria, satélites, meteorológicos y parcelas de tierra. Los impactos reportados fueron una mejor integración de diversas fuentes de datos agrícolas y un apoyo más sólido para la toma de decisiones en la gestión de la finca.",
         "fr": "Ce projet a testé un service de courtage de données qui connecte des données provenant de machines, de satellites, de météorologie et de parcelles agricoles. Les impacts rapportés incluent une meilleure intégration des diverses sources de données agricoles et un soutien renforcé à la prise de décision pour la gestion des exploitations agricoles."
       },
-      "created_at": "2025-11-12T17:41:25.190585"
+      "created_at": "2025-11-12T17:41:25.190585",
+      "image": "assets/articles/WorkLife.PNG"
     },
     {
       "id": "3b9fde72-cf01-4c84-9d45-82f92da5b779",
@@ -93,7 +95,8 @@
         "es": "Este proyecto probó un sistema automatizado de documentación para abordar retrasos e inexactitudes en el registro del trabajo en la granja. Los resultados reportados fueron una reducción en el retraso del tiempo en la documentación, una mayor precisión en los registros y un mejor seguimiento de los costos.",
         "fr": "Ce projet a testé un système de documentation automatisé pour remédier aux retards et aux inexactitudes dans l'enregistrement du travail à la ferme. Les résultats rapportés ont été une réduction du délai dans la documentation, une amélioration de la précision des enregistrements et un meilleur suivi des coûts."
       },
-      "created_at": "2025-11-12T17:35:55.345353"
+      "created_at": "2025-11-12T17:35:55.345353",
+      "image": "assets/articles/drone-spraying-fertilizer-vegetable-green-plants-agriculture-technology-farm-automation.jpg"
     }
   ],
   "articles": [
@@ -110,7 +113,8 @@
         "fr": "La viticulture européenne est confrontée à un double défi : une baisse de production liée au stress climatique et la nécessité d'une adaptation systémique. La Spain et la France adoptent des stratégies de résilience, illustrant une évolution des incitations et des risques pour les viticulteurs dans l'avenir du secteur."
       },
       "created_at": "2025-11-11T19:10:02.8376",
-      "status": "reviewed"
+      "status": "reviewed",
+      "image": "assets/articles/woman-white-laboratory-robe-examines-salad-cabbage-greenhouse-using-tablet.jpg"
     },
     {
       "id": "83a0ca16-9fd5-40cd-b59d-378be3236123",
@@ -125,7 +129,8 @@
         "fr": "Les rapports récents mettent en évidence des pressions variées sur les ravageurs dans les cultures clés, soulignant la nécessité d'une surveillance innovante et d'interventions ciblées. Alors que certains ravageurs traditionnels diminuent, d'autres apparaissent plus tôt, illustrant des interactions complexes dans les écosystèmes en mutation, accentuées par les progrès technologiques et la variabilité climatique."
       },
       "created_at": "2025-11-11T19:08:56.306616",
-      "status": "reviewed"
+      "status": "reviewed",
+      "image": "assets/articles/Pest.png"
     },
     {
       "id": "ef7cd836-8f76-474c-a5c8-563db39a609c",
@@ -140,8 +145,9 @@
         "fr": "Les initiatives récentes montrent une orientation stratégique vers des pratiques agricoles régénératives et biologiques, visant à répondre aux défis climatiques et aux contraintes de main-d'œuvre. Des programmes en France illustrent les efforts pour accompagner la transition des agriculteurs vers des méthodes centrées sur la santé des sols, combinant durabilité et rentabilité."
       },
       "created_at": "2025-10-28T14:33:26.940425",
-      "status": "reviewed"
+      "status": "reviewed",
+      "image": "assets/articles/smart-farming-with-agriculture-iot.jpg"
     }
   ],
-  "generated_at": "2025-11-19T12:17:47.836Z"
+  "generated_at": "2025-11-19T12:48:08.277Z"
 }
