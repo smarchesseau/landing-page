@@ -1,0 +1,36 @@
+name: Build ContentHub data
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 8 * * *' # every day at 08:00 UTC
+  push:
+    paths:
+      - articles.html
+      - scripts/build-contenthub.mjs
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install dependencies
+        run: |
+          npm init -y
+          npm i @supabase/supabase-js@2
+      - name: Build ContentHub JSON
+        run: node scripts/build-contenthub.mjs
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+      - name: Commit content JSON
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add assets/contenthub.json
+          git commit -m "Update ContentHub feed" || echo "No changes"
+          git push
+
+
