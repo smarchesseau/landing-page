@@ -89,6 +89,24 @@
             @media (min-width: 992px) { body { padding-top: 76px; } }
             /* Add safe-area padding for footers on mobile devices */
             footer { padding-bottom: calc(env(safe-area-inset-bottom, 0px) + 16px); }
+            /* Reduce excessive horizontal padding/margins in footer on small screens */
+            @media (max-width: 576px) {
+                footer .container {
+                    padding-left: 1rem !important;
+                    padding-right: 1rem !important;
+                }
+                footer .row.align-items-center {
+                    margin-left: 0 !important;
+                    margin-right: 0 !important;
+                }
+                footer .row.gx-5 {
+                    --bs-gutter-x: 1rem;
+                }
+            }
+            /* Prevent layout shift when Bootstrap modal toggles body scrollbar */
+            html { overflow-y: scroll; scrollbar-gutter: stable; }
+            .modal-open { padding-right: 0 !important; }
+            .modal { padding-right: 0 !important; overflow-y: auto; }
         </style>
 
         <!-- Google Tag Manager -->
@@ -927,7 +945,7 @@ data-fr="MBA Université des Sciences Appliquées de Berlin (Renewables), MEng
                        
                     </div>
                     <div class="col-lg-4 text-lg-end">
-                        <div class="d-flex justify-content-start justify-content-lg-end align-items-center">
+                        <div class="d-flex justify-content-start justify-content-lg-end align-items-center store-links">
                             <a href="https://play.google.com/store/apps/details?id=com.stephyyyyy.VittoFarmerApp" target="_blank" rel="noopener" class="me-3" aria-label="Get it on Google Play">
                                 <img src="assets/img/google-play-badge.svg" alt="Get it on Google Play" style="height: 56px;">
                             </a>
