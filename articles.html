@@ -134,7 +134,7 @@
                 <hr class="my-4 bg-white">
                 <div class="row">
                     <div class="col-md-12 text-center">
-                        <p class="small mb-0" data-en="&copy; 2025 Vitto AgTech. All rights reserved. Not incorporated." data-fr="&copy; 2025 Vitto AgTech. Tous droits réservés." data-es="&copy; 2025 Vitto AgTech. Todos los derechos reservados.">&copy; 2025 Vitto AgTech. All rights reserved.</p>
+                        <p class="small mb-0" data-en="&copy; 2025 Vitto AgTech. All rights reserved. Not incorporated." data-fr="&copy; 2025 Vitto AgTech. Tous droits réservés. " data-es="&copy; 2025 Vitto AgTech. Todos los derechos reservados.">&copy; 2025 Vitto AgTech. All rights reserved.</p>
                     </div>
                 </div>
             </div>
@@ -237,6 +237,7 @@ window.addEventListener('DOMContentLoaded', function() {
                 '<h5 class="card-title">'+(item.title || '')+'</h5>'+
                 '<p class="card-text">'+sliced+'</p>'+
                 '<a href="'+item.href+'" target="_blank" rel="noopener" class="btn btn-success mt-auto">'+(item.ctaText || 'Open')+'</a>'+
+                (item.showImageCredit ? '<small class="text-muted mt-2" style="font-size:0.8rem; display:block;">*Images by FreePix</small>' : '')+
                 '</div></div></div>';
         };
         var renderInto = function(containerId, items) {
@@ -262,7 +263,7 @@ window.addEventListener('DOMContentLoaded', function() {
                 var href = APP_BASE_URL + '/report/' + r.id;
                 var l = getLang();
                 var cta = (l === 'fr') ? 'Voir dans notre application' : (l === 'es') ? 'Ver en nuestra app' : 'View in our app';
-                return { title: title, summary: summary, image: r.image || null, href: href, ctaText: cta, imageHeight: '240px' };
+                return { title: title, summary: summary, image: r.image || null, href: href, ctaText: cta, imageHeight: '240px', showImageCredit: true };
             });
             var articles = (json.articles || []).map(function(a) {
                 var title = getLocalized(a.title, a.title || '');
@@ -270,7 +271,7 @@ window.addEventListener('DOMContentLoaded', function() {
                 var href = APP_BASE_URL + '/generated-article/' + a.id;
                 var l = getLang();
                 var cta = (l === 'fr') ? 'Voir dans notre application' : (l === 'es') ? 'Ver en nuestra app' : 'View in our app';
-                return { title: title, summary: summary, image: a.image || null, href: href, ctaText: cta, imageHeight: '240px' };
+                return { title: title, summary: summary, image: a.image || null, href: href, ctaText: cta, imageHeight: '240px', showImageCredit: true };
             });
             renderInto('contenthub-podcasts', podcasts);
             renderInto('contenthub-reports', reports);
