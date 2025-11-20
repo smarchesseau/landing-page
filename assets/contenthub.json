@@ -1,6 +1,23 @@
 {
   "podcasts": [
     {
+      "id": "49e8902a-c3a8-4e23-a006-623414917c56",
+      "title": "🔍🌱 Pulverizar solo donde hay maleza… y no en todo el campo",
+      "title_multilingual": {
+        "en": "🔍🌱 Spray only where there are weeds... and not in the entire field.",
+        "es": "🔍🌱 Pulverizar solo donde hay maleza… y no en todo el campo",
+        "fr": "🔍🌱 Ne pulvériser que là où il y a des mauvaises herbes... et pas dans tout le champ."
+      },
+      "summary": "En este episodio de Vitto Live AgTech en 5 minutos, conversamos con Bruno, de DeepAgro, sobre un sistema de pulverización inteligente que utiliza inteligencia artificial para detectar malezas y aplicar herbicida únicamente donde es necesario. La solución permite reducir de forma notable el consumo de insumos, simplificar la logística y disminuir el impacto ambiental. Bruno comparte también la experiencia de un productor tradicional que, tras adoptar la tecnología, inspiró a sus vecinos a hacer lo mismo. Un caso breve y concreto sobre cómo la innovación puede hacer el trabajo agrícola más rentable y sostenible.",
+      "summary_multilingual": {
+        "en": "In this episode of Vitto Live AgTech in 5 minutes, we talk to DeepAgro's Bruno about a smart spraying system that uses artificial intelligence to detect weeds and apply herbicide only where it is needed. The solution significantly reduces input consumption, simplifies logistics and reduces environmental impact. Bruno also shares the experience of a traditional farmer who, after adopting the technology, inspired his neighbors to do the same. A brief and concrete case on how innovation can make agricultural work more profitable and sustainable.",
+        "es": "En este episodio de Vitto Live AgTech en 5 minutos, conversamos con Bruno, de DeepAgro, sobre un sistema de pulverización inteligente que utiliza inteligencia artificial para detectar malezas y aplicar herbicida únicamente donde es necesario. La solución permite reducir de forma notable el consumo de insumos, simplificar la logística y disminuir el impacto ambiental. Bruno comparte también la experiencia de un productor tradicional que, tras adoptar la tecnología, inspiró a sus vecinos a hacer lo mismo. Un caso breve y concreto sobre cómo la innovación puede hacer el trabajo agrícola más rentable y sostenible.",
+        "fr": "Dans cet épisode de Vitto Live AgTech en 5 minutes, nous parlons avec Bruno de DeepAgro d'un système de pulvérisation intelligent qui utilise l'intelligence artificielle pour détecter les mauvaises herbes et appliquer l'herbicide uniquement là où il est nécessaire. Cette solution réduit considérablement la consommation d'intrants, simplifie la logistique et réduit l'impact sur l'environnement. Bruno partage également l'expérience d'un agriculteur traditionnel qui, après avoir adopté la technologie, a incité ses voisins à faire de même. Un cas concret et bref de la manière dont l'innovation peut rendre l'agriculture plus rentable et plus durable."
+      },
+      "link": "https://www.youtube.com/watch?v=qo1vv7y9SkI",
+      "created_at": "2025-11-19T20:18:52.504014+00:00"
+    },
+    {
       "id": "2b198d45-2d7c-4cb1-815a-664fcee499a2",
       "title": "🚜💡 ¿Te imaginas sembrar más rápido, con más precisión y sin cansarte tanto?",
       "title_multilingual": {
@@ -33,26 +50,24 @@
       },
       "link": "https://www.youtube.com/watch?v=pWZzwIZ5hP0",
       "created_at": "2025-11-18T11:45:52.926622+00:00"
-    },
-    {
-      "id": "f145e989-9805-4c7d-afa2-0a2cdd6cf317",
-      "title": "Asegura la polinización, asegura el rendimiento 🌸➡️📈",
-      "title_multilingual": {
-        "en": "Ensures pollination, ensures yield 🌸➡️📈",
-        "es": "Asegura la polinización, asegura el rendimiento 🌸➡️📈",
-        "fr": "Assure la pollinisation, assure le rendement 🌸➡️📈"
-      },
-      "summary": "En Vitto Live en 5 minutos (EXPO Agritech), Eva (Bisari Innovación) explica cómo su sistema de polinización artificial compensa la falta de polinizadores naturales causada por cambio climático, uso de pesticidas o escasez de abejas. La solución asegura la polinización en el momento preciso, elevando el rendimiento y el ingreso por hectárea. Caso real: un productor de almendro logró hasta un 20% más de producción al complementar el trabajo de las abejas.",
-      "summary_multilingual": {
-        "en": "In Vitto Live in 5 minutes (EXPO Agritech), Eva (Bisari Innovation) explains how her artificial pollination system compensates for the lack of natural pollinators caused by climate change, pesticide use or shortage of bees. The solution ensures pollination at the right time, increasing yields and income per hectare. Case study: an almond grower achieved up to 20% higher yields by supplementing the work of bees.",
-        "es": "En Vitto Live en 5 minutos (EXPO Agritech), Eva (Bisari Innovación) explica cómo su sistema de polinización artificial compensa la falta de polinizadores naturales causada por cambio climático, uso de pesticidas o escasez de abejas. La solución asegura la polinización en el momento preciso, elevando el rendimiento y el ingreso por hectárea. Caso real: un productor de almendro logró hasta un 20% más de producción al complementar el trabajo de las abejas.",
-        "fr": "Dans Vitto Live in 5 minutes (EXPO Agritech), Eva (Bisari Innovation) explique comment son système de pollinisation artificielle compense le manque de pollinisateurs naturels causé par le changement climatique, l'utilisation de pesticides ou une pénurie d'abeilles. La solution garantit une pollinisation au bon moment, augmentant ainsi les rendements et les revenus par hectare. Étude de cas : un producteur d'amandes a obtenu jusqu'à 20 % de rendements supplémentaires en complétant le travail des abeilles."
-      },
-      "link": "https://youtu.be/KZ1oYZfNF8I",
-      "created_at": "2025-11-13T12:29:14.186804+00:00"
     }
   ],
   "reports": [
+    {
+      "id": "747b17d6-4e5c-4513-a5be-29cb43fea544",
+      "title": {
+        "en": "🇪🇸 Circular Economy Model for Liquid Pig Manure in Spain",
+        "es": "🇪🇸 Modelo de economía circular para purines en España",
+        "fr": "🇪🇸 Modèle d'économie circulaire pour le lisier de porc en Espagne"
+      },
+      "summary": {
+        "en": "A project in Spain aims to manage liquid pig manure sustainably by using it as organic fertilizer for crops intended for animal feed, creating a circular economy system. The project will reduce production costs, improve environmental management, and enhance the competitiveness of regional pork production.",
+        "es": "Un proyecto en España pretende gestionar de forma sostenible el estiércol líquido de cerdo utilizándolo como abono orgánico para cultivos destinados a la alimentación animal, creando un sistema de economía circular. El proyecto reducirá los costes de producción, mejorará la gestión medioambiental y aumentará la competitividad de la producción porcina regional.",
+        "fr": "Un projet espagnol vise à gérer durablement le lisier de porc en l'utilisant comme engrais organique pour les cultures destinées à l'alimentation animale, créant ainsi un système d'économie circulaire. Le projet permettra de réduire les coûts de production, d'améliorer la gestion de l'environnement et de renforcer la compétitivité de la production porcine régionale."
+      },
+      "created_at": "2025-11-18T15:27:23.767877",
+      "image": "assets/articles/farmer-man-showing-cultivated-fresh-salads-agronomist-businesswoman-discussing-agronomy-production-farming-season-rancher-harvesting-organic-green-vegetables-hydroponic-greenhouse.jpg"
+    },
     {
       "id": "f3292520-cdef-43cb-ba73-7639812a9064",
       "title": {
@@ -66,7 +81,7 @@
         "fr": "Un projet pilote en Pologne crée un système de benchmarking convivial qui intègre des données provenant de diverses sources afin d'aider les agriculteurs à comparer la performance de leur ferme avec celle d'autres exploitations de taille similaire. Le système vise à améliorer la prise de décision et les compétences numériques des agriculteurs en tirant parti des outils d'aide à la décision existants et de l'intégration des données."
       },
       "created_at": "2025-11-12T17:42:53.005395",
-      "image": "assets/articles/farmer-man-showing-cultivated-fresh-salads-agronomist-businesswoman-discussing-agronomy-production-farming-season-rancher-harvesting-organic-green-vegetables-hydroponic-greenhouse.jpg"
+      "image": "assets/articles/drone-spraying-fertilizer-vegetable-green-plants-agriculture-technology-farm-automation.jpg"
     },
     {
       "id": "9eb0ebe3-faae-4f6d-adb2-239753ae490b",
@@ -82,21 +97,6 @@
       },
       "created_at": "2025-11-12T17:41:25.190585",
       "image": "assets/articles/WorkLife.PNG"
-    },
-    {
-      "id": "3b9fde72-cf01-4c84-9d45-82f92da5b779",
-      "title": {
-        "en": "🇩🇪 Germany: Automated Documentation of Arable Crop Farming Processes Pilot in 2023",
-        "es": "Alemania: Proyecto piloto de documentación automatizada de procesos de cultivo de cereales en 2023",
-        "fr": "🇩🇪 Allemagne : Projet pilote de documentation automatisée des processus de culture des cultures arables en 2023"
-      },
-      "summary": {
-        "en": "This project tested an automated documentation system to address delays and inaccuracies in recording farm work. Reported outcomes were reduced time lag in documentation, improved record accuracy, and better cost tracking.",
-        "es": "Este proyecto probó un sistema automatizado de documentación para abordar retrasos e inexactitudes en el registro del trabajo en la granja. Los resultados reportados fueron una reducción en el retraso del tiempo en la documentación, una mayor precisión en los registros y un mejor seguimiento de los costos.",
-        "fr": "Ce projet a testé un système de documentation automatisé pour remédier aux retards et aux inexactitudes dans l'enregistrement du travail à la ferme. Les résultats rapportés ont été une réduction du délai dans la documentation, une amélioration de la précision des enregistrements et un meilleur suivi des coûts."
-      },
-      "created_at": "2025-11-12T17:35:55.345353",
-      "image": "assets/articles/drone-spraying-fertilizer-vegetable-green-plants-agriculture-technology-farm-automation.jpg"
     }
   ],
   "articles": [
@@ -149,5 +149,5 @@
       "image": "assets/articles/smart-farming-with-agriculture-iot.jpg"
     }
   ],
-  "generated_at": "2025-11-19T14:01:49.526Z"
+  "generated_at": "2025-11-20T08:32:03.008Z"
 }
