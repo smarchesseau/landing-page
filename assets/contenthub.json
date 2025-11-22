@@ -4,15 +4,15 @@
       "id": "49e8902a-c3a8-4e23-a006-623414917c56",
       "title": "🔍🌱 Pulverizar solo donde hay maleza… y no en todo el campo",
       "title_multilingual": {
-        "en": "🔍🌱 Spray only where there are weeds... and not in the entire field.",
+        "en": "🔍🌱 Spray only where there is weeds... and not in the entire field.",
         "es": "🔍🌱 Pulverizar solo donde hay maleza… y no en todo el campo",
-        "fr": "🔍🌱 Ne pulvériser que là où il y a des mauvaises herbes... et pas dans tout le champ."
+        "fr": "🔍🌱 Pulvériser seulement là où il y a des mauvaises herbes... et pas dans tout le champ"
       },
       "summary": "En este episodio de Vitto Live AgTech en 5 minutos, conversamos con Bruno, de DeepAgro, sobre un sistema de pulverización inteligente que utiliza inteligencia artificial para detectar malezas y aplicar herbicida únicamente donde es necesario. La solución permite reducir de forma notable el consumo de insumos, simplificar la logística y disminuir el impacto ambiental. Bruno comparte también la experiencia de un productor tradicional que, tras adoptar la tecnología, inspiró a sus vecinos a hacer lo mismo. Un caso breve y concreto sobre cómo la innovación puede hacer el trabajo agrícola más rentable y sostenible.",
       "summary_multilingual": {
-        "en": "In this episode of Vitto Live AgTech in 5 minutes, we talk to DeepAgro's Bruno about a smart spraying system that uses artificial intelligence to detect weeds and apply herbicide only where it is needed. The solution significantly reduces input consumption, simplifies logistics and reduces environmental impact. Bruno also shares the experience of a traditional farmer who, after adopting the technology, inspired his neighbors to do the same. A brief and concrete case on how innovation can make agricultural work more profitable and sustainable.",
+        "en": "In this episode of Vitto Live AgTech in 5 minutes, we talk with Bruno from DeepAgro about a smart spraying system that uses artificial intelligence to detect weeds and apply herbicide only where it is needed. The solution allows for a significant reduction in input consumption, simplifies logistics, and reduces environmental impact. Bruno also shares the experience of a traditional farmer who, after adopting the technology, inspired his neighbors to do the same. A brief and concrete case on how innovation can make agricultural work more profitable and sustainable.",
         "es": "En este episodio de Vitto Live AgTech en 5 minutos, conversamos con Bruno, de DeepAgro, sobre un sistema de pulverización inteligente que utiliza inteligencia artificial para detectar malezas y aplicar herbicida únicamente donde es necesario. La solución permite reducir de forma notable el consumo de insumos, simplificar la logística y disminuir el impacto ambiental. Bruno comparte también la experiencia de un productor tradicional que, tras adoptar la tecnología, inspiró a sus vecinos a hacer lo mismo. Un caso breve y concreto sobre cómo la innovación puede hacer el trabajo agrícola más rentable y sostenible.",
-        "fr": "Dans cet épisode de Vitto Live AgTech en 5 minutes, nous parlons avec Bruno de DeepAgro d'un système de pulvérisation intelligent qui utilise l'intelligence artificielle pour détecter les mauvaises herbes et appliquer l'herbicide uniquement là où il est nécessaire. Cette solution réduit considérablement la consommation d'intrants, simplifie la logistique et réduit l'impact sur l'environnement. Bruno partage également l'expérience d'un agriculteur traditionnel qui, après avoir adopté la technologie, a incité ses voisins à faire de même. Un cas concret et bref de la manière dont l'innovation peut rendre l'agriculture plus rentable et plus durable."
+        "fr": "Dans cet épisode de Vitto Live AgTech en 5 minutes, nous discutons avec Bruno, de DeepAgro, sur un système de pulvérisation intelligent qui utilise l'intelligence artificielle pour détecter les mauvaises herbes et appliquer des herbicides uniquement là où c'est nécessaire. La solution permet de réduire de manière significative la consommation d'intrants, de simplifier la logistique et de réduire l'impact environnemental. Bruno partage également l'expérience d'un producteur traditionnel qui, après avoir adopté la technologie, a inspiré ses voisins à faire de même. Un cas bref et concret sur la façon dont l'innovation peut rendre le travail agricole plus rentable et durable."
       },
       "link": "https://www.youtube.com/watch?v=qo1vv7y9SkI",
       "created_at": "2025-11-19T20:18:52.504014+00:00"
@@ -149,5 +149,5 @@
       "image": "assets/articles/smart-farming-with-agriculture-iot.jpg"
     }
   ],
-  "generated_at": "2025-11-21T08:32:24.257Z"
+  "generated_at": "2025-11-22T08:27:53.665Z"
 }
