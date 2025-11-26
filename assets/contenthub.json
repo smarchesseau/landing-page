@@ -101,53 +101,53 @@
   ],
   "articles": [
     {
-      "id": "edd1a9d8-2e46-43ba-8def-fb6eb1e5549d",
+      "id": "2dd9462a-357f-46ad-bfd6-a582932ff784",
       "title": {
-        "en": "Resilience in Permanent Crops: Navigating Climate and Market Pressures in Europe’s Vineyards",
-        "es": "Resiliencia en Cultivos Permanentes: Enfrentando el Clima y el Mercado en las Viñas Europeas",
-        "fr": "Résilience dans les Cultures Permanentes : Naviguer entre le Climat et le Marché dans les Vignobles Européens"
+        "en": "Small-scale Dairy Farms Embrace Regenerative Models Amid Resilience Challenges",
+        "es": "Pequeñas granjas lácteas adoptan modelos regenerativos frente a retos de resiliencia",
+        "fr": "Les petites exploitations laitières adoptent des modèles régénératifs face aux défis de résilience"
       },
       "summary": {
-        "en": "European viticulture faces a dual challenge: declining production amid climate-induced stresses and the necessity for systemic adaptation. Both Spain and France are pursuing resilience strategies that reflect a shift towards sustainability, revealing evolving incentives and risks for growers in the sector's future.",
-        "es": "La viticultura europea enfrenta un doble desafío: una disminución en la producción debido a tensiones climáticas y la necesidad de adaptación sistémica. España y Francia están implementando estrategias de resiliencia que reflejan cambios en incentivos y riesgos para los agricultores en el futuro del sector.",
-        "fr": "La viticulture européenne est confrontée à un double défi : une baisse de production liée au stress climatique et la nécessité d'une adaptation systémique. La Spain et la France adoptent des stratégies de résilience, illustrant une évolution des incitations et des risques pour les viticulteurs dans l'avenir du secteur."
+        "en": "Across the dairy sector, diverse adaptation strategies reveal a tension between sustainable practices and resilience to sector-specific health threats. Smaller farms demonstrate that integrated, low-input models can be both economically viable and environmentally regenerative, even amid disease setbacks.",
+        "es": "En el sector lácteo, diversas estrategias de adaptación muestran una tensión entre prácticas sostenibles y resiliencia frente a amenazas sanitarias específicas. Las explotaciones pequeñas evidencian que modelos integrados y de bajo insumo pueden ser rentables y regenerativos, incluso ante reveses por enfermedades.",
+        "fr": "Dans le secteur laitier, diverses stratégies d'adaptation révèlent une tension entre pratiques durables et résilience face à des menaces sanitaires. Les petites exploitations montrent que des modèles intégrés et à faible input peuvent être économiquement viables et écologiquement régénérateurs, même face à des revers liés à des maladies."
       },
-      "created_at": "2025-11-11T19:10:02.8376",
+      "created_at": "2025-11-11T19:18:37.736601",
+      "status": "reviewed",
+      "image": "assets/articles/Dairy.png"
+    },
+    {
+      "id": "9c9c4b11-e4e2-4cdd-a62a-297583723e7b",
+      "title": {
+        "en": "Water Scarcity Challenges Amplify Strategic Shifts in Crop Management Amid Promising Yield Outlooks",
+        "es": "Los Desafíos por La Escasez de Agua Intensifican Cambios Estratégicos en Cultivos Frente a Perspectivas de Alta Rentabilidad",
+        "fr": "Les Défis de la Pénurie d'Eau Intensifient les Orientations Stratégiques en Agriculture face à des Perspectives de Rendements Prometteuses"
+      },
+      "summary": {
+        "en": "Across diverse crop sectors, farmers face mounting water scarcity pressures that threaten to undermine production gains. Yet, recent reports of record-breaking wheat development and upwardly revised beet yields suggest that innovation and adaptive management are reshaping expectations. The convergence highlights a critical window for strategic incentives that promote resilient practices amid climatic stress.",
+        "es": "En diferentes cadenas de cultivos, los agricultores enfrentan crecientes presiones por escasez de agua que amenazan los avances en producción. Sin embargo, noticias de récords en el desarrollo de trigo y mejoras en los rendimientos de remolacha sugieren que la innovación y la gestión adaptativa están moldeando nuevas expectativas. Este encuentro de tendencias resalta la necesidad de incentivos estratégicos para impulsar prácticas resilientes frente al cambio climático.",
+        "fr": "Partout dans le secteur agricole, la pénurie d'eau met en péril les gains de production. Néanmoins, les récents rapports de records de croissance du blé et de rendements betteraves en hausse indiquent que l'innovation et l'adaptation redéfinissent les perspectives. Cette convergence souligne l'importance d'incitations stratégiques pour favoriser des pratiques résilientes face aux stress climatiques."
+      },
+      "created_at": "2025-11-11T19:17:14.161821",
+      "status": "reviewed",
+      "image": "assets/articles/Water.png"
+    },
+    {
+      "id": "9f5399fa-0e5f-4eac-afb4-3575268a0237",
+      "title": {
+        "en": "Data-Driven Dairies: Bridging Innovation and Adoption Challenges in the Age of Precision Livestock Farming",
+        "es": "Ganaderías Impulsadas por Datos: Desafíos y Oportunidades en la Agricultura de Precisión en el Sector Lácteo",
+        "fr": "Les Dairies à l'Ère des Données : Relever les Défis d'Adoption de la Fermeture de la Performance par la Technologie"
+      },
+      "summary": {
+        "en": "Across leading agricultural media, a convergence emerges around the transformative potential of data and automation in dairy farming. Despite technological advances like sensors and robots promising higher productivity, adoption remains uneven, hindered by perceived complexity and costs. This analysis explores how behavioral incentives and systemic support structures can accelerate transition toward data-enabled, resilient dairy systems.",
+        "es": "Los principales medios agrícolas coinciden en destacar el potencial transformador de los datos y la automatización en la ganadería lechera. A pesar de los avances tecnológicos como sensores y robots que prometen mayor productividad, la adopción aún no es uniforme, enfrentando obstáculos como la percepción de complejidad y los costos. Este análisis aborda cómo los incentivos y el apoyo estructural pueden acelerar la transición hacia sistemas lácteos resilientes y basados en datos.",
+        "fr": "Une convergence apparaît dans les principaux médias agricoles autour du potentiel de la data et de l'automatisation pour transformer l'élevage laitier. Si les avancées technologiques telles que capteurs et robots promettent une productivité accrue, l'adoption reste inégale, freinée par la complexité perçue et le coût. Cette analyse examine comment stimuler la transition vers des systèmes laitiers résilients, basés sur la data, via des incitations comportementales et un soutien systémique."
+      },
+      "created_at": "2025-11-11T19:16:36.061508",
       "status": "reviewed",
       "image": "assets/articles/woman-white-laboratory-robe-examines-salad-cabbage-greenhouse-using-tablet.jpg"
-    },
-    {
-      "id": "83a0ca16-9fd5-40cd-b59d-378be3236123",
-      "title": {
-        "en": "Evolving Pest Dynamics in Cropping Systems: Challenges and Opportunities for Proactive Management",
-        "es": "Evolución de la dinámica de plagas en los sistemas de cultivo: desafíos y oportunidades para una gestión proactiva",
-        "fr": "L'évolution des dynamiques de ravageurs dans les systèmes culturales : défis et opportunités pour une gestion proactive"
-      },
-      "summary": {
-        "en": "Recent reports highlight shifting pest pressures in key crops, emphasizing the need for innovative monitoring and targeted interventions. While some traditional pests decline, others emerge earlier, underscoring complex ecosystem interactions amid technological advances and climate variability.",
-        "es": "Informes recientes resaltan cambios en las presiones de plagas en cultivos clave, subrayando la necesidad de monitoreo innovador e intervenciones focalizadas. Mientras algunas plagas tradicionales disminuyen, otras emergen más temprano, evidenciando interacciones complejas en los ecosistemas ante avances tecnológicos y variabilidad climática.",
-        "fr": "Les rapports récents mettent en évidence des pressions variées sur les ravageurs dans les cultures clés, soulignant la nécessité d'une surveillance innovante et d'interventions ciblées. Alors que certains ravageurs traditionnels diminuent, d'autres apparaissent plus tôt, illustrant des interactions complexes dans les écosystèmes en mutation, accentuées par les progrès technologiques et la variabilité climatique."
-      },
-      "created_at": "2025-11-11T19:08:56.306616",
-      "status": "reviewed",
-      "image": "assets/articles/Pest.png"
-    },
-    {
-      "id": "ef7cd836-8f76-474c-a5c8-563db39a609c",
-      "title": {
-        "en": "Advancing Regenerative Agriculture to Mitigate Climate Impact and Reduce Labor in Organic Systems",
-        "es": "Avanzando en la agricultura regenerativa para mitigar el impacto climático y reducir el trabajo en sistemas orgánicos",
-        "fr": "Promouvoir l'agriculture régénérative pour atténuer le changement climatique et réduire le travail en systèmes biologiques"
-      },
-      "summary": {
-        "en": "Emerging initiatives highlight a strategic shift towards regenerative and organic farming practices aimed at addressing climate challenges and labor constraints. Large-scale programs in France exemplify efforts to support farmers transitioning to soil health-focused methods, integrating sustainability with economic viability.",
-        "es": "Las nuevas iniciativas resaltan un cambio estratégico hacia prácticas agrícolas regenerativas y orgánicas destinadas a enfrentar los desafíos del clima y las limitaciones laborales. Programas en Francia ejemplifican esfuerzos para apoyar a los agricultores en la transición hacia métodos centrados en la salud del suelo, combinando sostenibilidad y viabilidad económica.",
-        "fr": "Les initiatives récentes montrent une orientation stratégique vers des pratiques agricoles régénératives et biologiques, visant à répondre aux défis climatiques et aux contraintes de main-d'œuvre. Des programmes en France illustrent les efforts pour accompagner la transition des agriculteurs vers des méthodes centrées sur la santé des sols, combinant durabilité et rentabilité."
-      },
-      "created_at": "2025-10-28T14:33:26.940425",
-      "status": "reviewed",
-      "image": "assets/articles/smart-farming-with-agriculture-iot.jpg"
     }
   ],
-  "generated_at": "2025-11-25T08:32:22.798Z"
+  "generated_at": "2025-11-26T08:31:58.116Z"
 }
