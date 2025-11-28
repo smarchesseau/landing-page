@@ -1,6 +1,40 @@
 {
   "podcasts": [
     {
+      "id": "5b06fd45-044a-4cc0-a0eb-e9bad2e6cc7d",
+      "title": "🚜🔋 ¿Te cuesta encontrar tractoristas y cada vez te piden más sostenibilidad?",
+      "title_multilingual": {
+        "en": "🚜🔋 Are you having trouble finding tractor drivers and are they asking for more sustainability?",
+        "es": "🚜🔋 ¿Te cuesta encontrar tractoristas y cada vez te piden más sostenibilidad?",
+        "fr": "🚜🔋 Avez-vous du mal à trouver des chauffeurs de tracteur et qu'ils vous demandent de plus en plus de durabilité?"
+      },
+      "summary": "En este episodio de Vitto Live AgTech en 5 minutos, desde Agritech Málaga, Carlos de Mula Autonomous Farming nos presenta un tractor eléctrico autónomo que puede hacer labores como la intercepa sin necesidad de tractorista.\n\n¿Qué consigue el productor?\n- Reducir la dependencia de mano de obra difícil de encontrar.\n- Trabajar de forma autónoma día y noche, haga frío, calor o niebla.\n- Ahorrar en desplazamientos y costes de personal cuando la finca está lejos de los pueblos.\n- Avanzar hacia explotaciones más sostenibles y electrificadas para cumplir con lo que piden los grandes clientes.",
+      "summary_multilingual": {
+        "en": "In this episode of Vitto Live AgTech in 5 minutes, from Agritech Málaga, Carlos from Mula Autonomous Farming presents an autonomous electric tractor that can perform tasks such as inter-row cultivation without the need for a tractor driver.\n\nWhat does the producer achieve?\n- Reduce dependence on hard-to-find labor.\n- Work autonomously day and night, regardless of cold, heat, or fog.\n- Save on travel and personnel costs when the farm is far from towns.\n- Move towards more sustainable and electrified farms to meet the demands of large clients.",
+        "es": "En este episodio de Vitto Live AgTech en 5 minutos, desde Agritech Málaga, Carlos de Mula Autonomous Farming nos presenta un tractor eléctrico autónomo que puede hacer labores como la intercepa sin necesidad de tractorista.\n\n¿Qué consigue el productor?\n- Reducir la dependencia de mano de obra difícil de encontrar.\n- Trabajar de forma autónoma día y noche, haga frío, calor o niebla.\n- Ahorrar en desplazamientos y costes de personal cuando la finca está lejos de los pueblos.\n- Avanzar hacia explotaciones más sostenibles y electrificadas para cumplir con lo que piden los grandes clientes.",
+        "fr": "Dans cet épisode de Vitto Live AgTech en 5 minutes, depuis Agritech Malaga, Carlos de Mula Autonomous Farming nous présente un tracteur électrique autonome qui peut effectuer des tâches telles que l'ébourgeonnage sans avoir besoin d'un conducteur de tracteur.\n\nQu'obtient le producteur?\n- Réduire la dépendance à la main-d'œuvre difficile à trouver.\n- Travailler de manière autonome jour et nuit, qu'il fasse froid, chaud ou qu'il y ait du brouillard.\n- Économiser sur les déplacements et les coûts de personnel lorsque la ferme est éloignée des villages.\n- Progresser vers des exploitations plus durables et électrifiées pour répondre aux exigences des grands clients."
+      },
+      "link": "https://www.youtube.com/watch?v=3zLARUo8DdE",
+      "created_at": "2025-11-26T11:35:46.877157+00:00"
+    },
+    {
+      "id": "f8a0ec46-9e9f-4166-8d4c-e63c301c749b",
+      "title": "💧🌱 ¿Riegas de más, de menos… o no lo tienes claro?",
+      "title_multilingual": {
+        "en": "💧🌱 Do you water too much, too little... or are you not sure?",
+        "es": "💧🌱 ¿Riegas de más, de menos… o no lo tienes claro?",
+        "fr": "💧🌱 Arroses-tu trop, pas assez... ou n'es-tu pas sûr(e) ?"
+      },
+      "summary": "En este nuevo episodio de Vitto Live AgTech en 5 minutos desde Agritech Málaga, David nos cuenta cómo una sonda de humedad y temperatura del suelo te permite ver cuánta agua hay en cada profundidad, sin tener que estar todo el día en la finca.\n\nCon esta tecnología puedes:\n- Saber si el riego está siendo eficiente.\n- Evitar desperdiciar agua y fertilizante.\n- Decidir cuándo hacer un lavado del suelo si hay exceso de fertilizante.\n- Ahorrar tiempo y personal en campo, controlando todo desde casa.\n\nPerfecto para quienes quieren que el campo sea un trabajo más atractivo para la nueva generación 👨‍🌾📱.",
+      "summary_multilingual": {
+        "en": "In this new episode of Vitto Live AgTech in 5 minutes from Agritech Málaga, David tells us how a soil moisture and temperature probe allows you to see how much water is at each depth, without having to be on the farm all day.\n\nWith this technology you can:\n- Know if irrigation is being efficient.\n- Avoid wasting water and fertilizer.\n- Decide when to flush the soil if there is an excess of fertilizer.\n- Save time and personnel in the field, controlling everything from home.\n\nPerfect for those who want the field to be a more attractive job for the new generation 👨‍🌾📱.",
+        "es": "En este nuevo episodio de Vitto Live AgTech en 5 minutos desde Agritech Málaga, David nos cuenta cómo una sonda de humedad y temperatura del suelo te permite ver cuánta agua hay en cada profundidad, sin tener que estar todo el día en la finca.\n\nCon esta tecnología puedes:\n- Saber si el riego está siendo eficiente.\n- Evitar desperdiciar agua y fertilizante.\n- Decidir cuándo hacer un lavado del suelo si hay exceso de fertilizante.\n- Ahorrar tiempo y personal en campo, controlando todo desde casa.\n\nPerfecto para quienes quieren que el campo sea un trabajo más atractivo para la nueva generación 👨‍🌾📱.",
+        "fr": "Dans ce nouvel épisode de Vitto Live AgTech en 5 minutes depuis Agritech Malaga, David nous explique comment une sonde d'humidité et de température du sol vous permet de voir combien d'eau se trouve à chaque profondeur, sans avoir à passer toute la journée à la ferme.\n\nAvec cette technologie, vous pouvez :\n- Savoir si l'irrigation est efficace.\n- Éviter de gaspiller de l'eau et des engrais.\n- Décider quand laver le sol s'il y a un excès d'engrais.\n- Gagner du temps et du personnel sur le terrain, en contrôlant tout depuis chez vous.\n\nParfait pour ceux qui veulent que l'agriculture soit un travail plus attrayant pour la nouvelle génération 👨‍🌾📱."
+      },
+      "link": "https://www.youtube.com/watch?v=fCApVdGiZUc",
+      "created_at": "2025-11-26T09:26:45.162889+00:00"
+    },
+    {
       "id": "49e8902a-c3a8-4e23-a006-623414917c56",
       "title": "🔍🌱 Pulverizar solo donde hay maleza… y no en todo el campo",
       "title_multilingual": {
@@ -16,40 +50,6 @@
       },
       "link": "https://www.youtube.com/watch?v=qo1vv7y9SkI",
       "created_at": "2025-11-19T20:18:52.504014+00:00"
-    },
-    {
-      "id": "2b198d45-2d7c-4cb1-815a-664fcee499a2",
-      "title": "🚜💡 ¿Te imaginas sembrar más rápido, con más precisión y sin cansarte tanto?",
-      "title_multilingual": {
-        "en": "🚜💡 Can you imagine seeding faster, more accurately and without getting so tired?",
-        "es": "🚜💡 ¿Te imaginas sembrar más rápido, con más precisión y sin cansarte tanto?",
-        "fr": "🚜💡 Pouvez-vous imaginer semer plus vite, plus précisément et sans vous fatiguer ?"
-      },
-      "summary": "En Vitto Live AgTech en 5 minutos, José Manuel nos cuenta cómo los sistemas de guiado para tractores y el software de gestión agrícola ayudan a:\n✅ Ahorrar tiempo, dinero y esfuerzo\n✅ Trabajar de noche gracias al guiado digital\n✅ Evitar solapes y pasadas de más\n✅ Aumentar la productividad (¡hasta +70% en un caso real de maíz en Lugo!)",
-      "summary_multilingual": {
-        "en": "In Vitto Live AgTech in 5 minutes, José Manuel tells us how tractor guidance systems and farm management software help to:\n✅ Save time, money and effort.\n✅ Work at night thanks to digital guidance.\n✅ Avoid overlaps and extra passes.\n✅ Increase productivity (up to +70% in a real case of maize in Lugo!)",
-        "es": "En Vitto Live AgTech en 5 minutos, José Manuel nos cuenta cómo los sistemas de guiado para tractores y el software de gestión agrícola ayudan a:\n✅ Ahorrar tiempo, dinero y esfuerzo\n✅ Trabajar de noche gracias al guiado digital\n✅ Evitar solapes y pasadas de más\n✅ Aumentar la productividad (¡hasta +70% en un caso real de maíz en Lugo!)",
-        "fr": "Dans Vitto Live AgTech en 5 minutes, José Manuel nous explique comment les systèmes de guidage des tracteurs et les logiciels de gestion agricole permettent de :\n✅ Gagner du temps, de l'argent et des efforts.\n✅ Travailler de nuit grâce au guidage numérique.\n✅ Éviter les chevauchements et les passages supplémentaires.\n✅ Augmenter la productivité (jusqu'à +70% dans un cas réel de maïs à Lugo !)"
-      },
-      "link": "https://youtu.be/svCRtJilw6Q",
-      "created_at": "2025-11-18T11:50:02.465586+00:00"
-    },
-    {
-      "id": "a4ad3aab-ed4f-4704-ba03-0fa785286be6",
-      "title": "¿Y si pudieras saber exactamente cuándo regar? 💧🌱",
-      "title_multilingual": {
-        "en": "What if you could know exactly when to water? 💧🌱",
-        "es": "¿Y si pudieras saber exactamente cuándo regar? 💧🌱",
-        "fr": "Et si vous pouviez savoir exactement quand arroser ? 💧🌱"
-      },
-      "summary": "En Vitto Live AgTech en 5 minutos, Raúl nos cuenta cómo su sensor de suelo Hydroball ayuda a dejar de regar “por intuición” y empezar a regar con datos reales.\n🚜 Caso real: un agricultor que usaba motobomba descubrió que estaba echando mucha más agua de la necesaria. Con el sensor, ajustó el riego y logró ahorrar hasta un 50% de agua y combustible.\n\nSi quieres:\n✅ Ahorrar agua\n✅ Gastar menos combustible e insumos\n✅ Tomar mejores decisiones en tu finca",
-      "summary_multilingual": {
-        "en": "In Vitto Live AgTech in 5 minutes, Raul tells us how his Hydroball soil sensor helps to stop irrigating \"by intuition\" and start irrigating with real data.\nA real case: a farmer who was using a motor pump discovered that he was using much more water than necessary. With the sensor, he adjusted his irrigation and managed to save up to 50% of water and fuel.\n\nIf you want to:\n✅ Save water.\n✅ Spend less fuel and inputs.\n✅ Make better decisions on your farm.",
-        "es": "En Vitto Live AgTech en 5 minutos, Raúl nos cuenta cómo su sensor de suelo Hydroball ayuda a dejar de regar “por intuición” y empezar a regar con datos reales.\n🚜 Caso real: un agricultor que usaba motobomba descubrió que estaba echando mucha más agua de la necesaria. Con el sensor, ajustó el riego y logró ahorrar hasta un 50% de agua y combustible.\n\nSi quieres:\n✅ Ahorrar agua\n✅ Gastar menos combustible e insumos\n✅ Tomar mejores decisiones en tu finca",
-        "fr": "Dans Vitto Live AgTech en 5 minutes, Raul nous explique comment son capteur de sol Hydroball permet d'arrêter d'irriguer \"par intuition\" et de commencer à irriguer avec des données réelles.\nExemple concret : un agriculteur qui utilisait une motopompe s'est rendu compte qu'il utilisait beaucoup plus d'eau que nécessaire. Grâce au capteur, il a ajusté son irrigation et a réussi à économiser jusqu'à 50 % d'eau et de carburant.\n\nSi vous voulez :\n✅ économiser de l'eau\n✅ Dépenser moins de carburant et d'intrants.\n✅ Prendre de meilleures décisions sur votre exploitation."
-      },
-      "link": "https://www.youtube.com/watch?v=pWZzwIZ5hP0",
-      "created_at": "2025-11-18T11:45:52.926622+00:00"
     }
   ],
   "reports": [
@@ -149,5 +149,5 @@
       "image": "assets/articles/woman-white-laboratory-robe-examines-salad-cabbage-greenhouse-using-tablet.jpg"
     }
   ],
-  "generated_at": "2025-11-27T08:32:32.792Z"
+  "generated_at": "2025-11-28T08:32:03.128Z"
 }
