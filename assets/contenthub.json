@@ -54,6 +54,21 @@
   ],
   "reports": [
     {
+      "id": "01d139c1-da4f-4435-bb85-f2bb551d6079",
+      "title": {
+        "en": "🇫🇷 Extensive vineyard management and semi-natural habitats increase biodiversity and ecosystem services",
+        "es": "La gestión extensiva de viñedos y los hábitats semi-naturales aumentan la biodiversidad y los servicios ecosistémicos.",
+        "fr": "Une gestion extensive des vignobles et des habitats semi-naturels augmentent la biodiversité et les services écosystémiques."
+      },
+      "summary": {
+        "en": "This meta-analysis shows that implementing extensive vegetation cover and maintaining semi-natural habitats in vineyards significantly boosts biodiversity and ecosystem services by around 14%. Practices like diverse cover crops and low pesticide use enhance benefits such as carbon sequestration, erosion control, and pest regulation, with landscape context playing a key role.",
+        "es": "Este metaanálisis muestra que implementar una cobertura vegetal extensa y mantener hábitats semi-naturales en los viñedos aumenta significativamente la biodiversidad y los servicios ecosistémicos en aproximadamente un 14%. Prácticas como el uso de cultivos de cobertura diversos y la reducción del uso de pesticidas mejoran beneficios como la captura de carbono, el control de la erosión y la regulación de plagas, siendo el contexto del paisaje un factor clave.",
+        "fr": "Cette méta-analyse montre que la mise en place d'une couverture végétale étendue et le maintien d'habitats semi-naturels dans les vignobles augmentent significativement la biodiversité et les services écosystémiques d'environ 14 %. Des pratiques telles que l'utilisation de cultures de couverture diversifiées et une faible utilisation de pesticides améliorent des bénéfices tels que la séquestration du carbone, le contrôle de l'érosion et la régulation des nuisibles, le contexte paysager jouant un rôle clé."
+      },
+      "created_at": "2025-12-02T10:31:52.261632",
+      "image": "assets/articles/WorkLife.PNG"
+    },
+    {
       "id": "747b17d6-4e5c-4513-a5be-29cb43fea544",
       "title": {
         "en": "🇪🇸 Circular Economy Model for Liquid Pig Manure in Spain",
@@ -82,21 +97,6 @@
       },
       "created_at": "2025-11-12T17:42:53.005395",
       "image": "assets/articles/drone-spraying-fertilizer-vegetable-green-plants-agriculture-technology-farm-automation.jpg"
-    },
-    {
-      "id": "9eb0ebe3-faae-4f6d-adb2-239753ae490b",
-      "title": {
-        "en": "🇨🇿 Czech Republic: Data Brokerage and Decision Support System Pilot 2023",
-        "es": "República Checa: Proyecto Piloto de Corretaje de Datos y Sistema de Apoyo a la Toma de Decisiones 2023",
-        "fr": "République tchèque : Projet pilote de courtage de données et de système d’aide à la décision 2023"
-      },
-      "summary": {
-        "en": "This project tested a data brokerage service that connects machinery, satellite, meteorological, and land parcel data. Reported impacts were improved integration of diverse farming data sources and stronger decision-making support for farm management.",
-        "es": "Este proyecto probó un servicio de corretaje de datos que conecta datos de maquinaria, satélites, meteorológicos y parcelas de tierra. Los impactos reportados fueron una mejor integración de diversas fuentes de datos agrícolas y un apoyo más sólido para la toma de decisiones en la gestión de la finca.",
-        "fr": "Ce projet a testé un service de courtage de données qui connecte des données provenant de machines, de satellites, de météorologie et de parcelles agricoles. Les impacts rapportés incluent une meilleure intégration des diverses sources de données agricoles et un soutien renforcé à la prise de décision pour la gestion des exploitations agricoles."
-      },
-      "created_at": "2025-11-12T17:41:25.190585",
-      "image": "assets/articles/WorkLife.PNG"
     }
   ],
   "articles": [
@@ -149,5 +149,5 @@
       "image": "assets/articles/woman-white-laboratory-robe-examines-salad-cabbage-greenhouse-using-tablet.jpg"
     }
   ],
-  "generated_at": "2025-12-02T08:34:22.647Z"
+  "generated_at": "2025-12-03T08:33:18.231Z"
 }
