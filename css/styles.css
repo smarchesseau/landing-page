@@ -11268,3 +11268,28 @@ footer a:hover, footer a:active, footer a:focus {
     max-width: 17rem;
   }
 }
+
+/* Press Releases Carousel - Responsive fixed height */
+#pressReleasesCard {
+  height: 620px; /* Mobile: taller for stacked content */
+}
+@media (min-width: 576px) {
+  #pressReleasesCard {
+    height: 560px;
+  }
+}
+@media (min-width: 768px) {
+  #pressReleasesCard {
+    height: 480px;
+  }
+}
+@media (min-width: 992px) {
+  #pressReleasesCard {
+    height: 420px;
+  }
+}
+@media (min-width: 1200px) {
+  #pressReleasesCard {
+    height: 380px;
+  }
+}
