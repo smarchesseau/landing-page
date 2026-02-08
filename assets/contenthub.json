@@ -133,21 +133,21 @@
       "image": "assets/articles/woman-white-laboratory-robe-examines-salad-cabbage-greenhouse-using-tablet.jpg"
     },
     {
-      "id": "2dd9462a-357f-46ad-bfd6-a582932ff784",
+      "id": "30bbd4b4-2c8f-4653-8b10-6b9dc841e2be",
       "title": {
-        "en": "Small-scale Dairy Farms Embrace Regenerative Models Amid Resilience Challenges",
-        "es": "Pequeñas granjas lácteas adoptan modelos regenerativos frente a retos de resiliencia",
-        "fr": "Les petites exploitations laitières adoptent des modèles régénératifs face aux défis de résilience"
+        "en": "Bridging Low Yields and Water Scarcity: Navigating the Risks and Incentives in Horticulture's Margins",
+        "es": "Conectando bajos rendimientos y escasez de agua: navegando los riesgos y estímulos en los márgenes de la horticultura",
+        "fr": "Relier les faibles rendements et la pénurie d’eau : naviguer entre risques et incitations dans les marges de l'horticulture"
       },
       "summary": {
-        "en": "Across the dairy sector, diverse adaptation strategies reveal a tension between sustainable practices and resilience to sector-specific health threats. Smaller farms demonstrate that integrated, low-input models can be both economically viable and environmentally regenerative, even amid disease setbacks.",
-        "es": "En el sector lácteo, diversas estrategias de adaptación muestran una tensión entre prácticas sostenibles y resiliencia frente a amenazas sanitarias específicas. Las explotaciones pequeñas evidencian que modelos integrados y de bajo insumo pueden ser rentables y regenerativos, incluso ante reveses por enfermedades.",
-        "fr": "Dans le secteur laitier, diverses stratégies d'adaptation révèlent une tension entre pratiques durables et résilience face à des menaces sanitaires. Les petites exploitations montrent que des modèles intégrés et à faible input peuvent être économiquement viables et écologiquement régénérateurs, même face à des revers liés à des maladies."
+        "en": "Recent sector analyses reveal a tension between stagnant yields in horticulture and ongoing water resource challenges, compounded by economic instability. This convergence underscores the necessity for innovation and incentive structures attuned to resilience and farmer motivation.",
+        "es": "Los análisis recientes del sector muestran una tensión entre rendimientos estancados en horticultura y los desafíos continuos de recursos hídricos, agravados por la inestabilidad económica. Esto destaca la necesidad de innovación y estructuras de incentivos ajustadas a la resiliencia y motivación de los agricultores.",
+        "fr": "Les analyses sectorielles récentes mettent en évidence une tension entre des rendements horticoles stagnants et des défis persistants liés aux ressources en eau, aggravés par l'instabilité économique. Cela souligne la nécessité d'une innovation et d'incitations adaptées à la résilience et à la motivation des agriculteurs."
       },
-      "created_at": "2025-11-11T19:18:37.736601",
+      "created_at": "2026-01-20T14:39:16.553517",
       "status": "reviewed",
-      "image": "assets/articles/Dairy.png"
+      "image": "assets/articles/Water.png"
     }
   ],
-  "generated_at": "2026-02-01T08:39:35.063Z"
+  "generated_at": "2026-02-08T08:39:49.469Z"
 }
