@@ -54,100 +54,100 @@
   ],
   "reports": [
     {
-      "id": "01d139c1-da4f-4435-bb85-f2bb551d6079",
+      "id": "b4f3f384-a01c-48c5-8ca7-3d9a5145b76a",
       "title": {
-        "en": "🇫🇷 Extensive vineyard management and semi-natural habitats increase biodiversity and ecosystem services",
-        "es": "La gestión extensiva de viñedos y los hábitats semi-naturales aumentan la biodiversidad y los servicios ecosistémicos.",
-        "fr": "Une gestion extensive des vignobles et des habitats semi-naturels augmentent la biodiversité et les services écosystémiques."
+        "en": "🇪🇺 Reducing Methane Leaks in Biogas and Biomethane Plants",
+        "es": "🇪🇺 Reducción de las fugas de metano en las plantas de biogás y biometano",
+        "fr": "🇪🇺 Réduire les fuites de méthane dans les usines de biogaz et de biométhane"
       },
       "summary": {
-        "en": "This meta-analysis shows that implementing extensive vegetation cover and maintaining semi-natural habitats in vineyards significantly boosts biodiversity and ecosystem services by around 14%. Practices like diverse cover crops and low pesticide use enhance benefits such as carbon sequestration, erosion control, and pest regulation, with landscape context playing a key role.",
-        "es": "Este metaanálisis muestra que implementar una cobertura vegetal extensa y mantener hábitats semi-naturales en los viñedos aumenta significativamente la biodiversidad y los servicios ecosistémicos en aproximadamente un 14%. Prácticas como el uso de cultivos de cobertura diversos y la reducción del uso de pesticidas mejoran beneficios como la captura de carbono, el control de la erosión y la regulación de plagas, siendo el contexto del paisaje un factor clave.",
-        "fr": "Cette méta-analyse montre que la mise en place d'une couverture végétale étendue et le maintien d'habitats semi-naturels dans les vignobles augmentent significativement la biodiversité et les services écosystémiques d'environ 14 %. Des pratiques telles que l'utilisation de cultures de couverture diversifiées et une faible utilisation de pesticides améliorent des bénéfices tels que la séquestration du carbone, le contrôle de l'érosion et la régulation des nuisibles, le contexte paysager jouant un rôle clé."
+        "en": "This European study from 2024 analyzes methane emissions across over 100 plants to define best practices for anaerobic digestion and upgrading systems.",
+        "es": "Este estudio europeo de 2024 analiza las emisiones de metano de más de 100 plantas para definir las mejores prácticas de digestión anaerobia y sistemas de mejora.",
+        "fr": "Cette étude européenne de 2024 analyse les émissions de méthane de plus de 100 usines afin de définir les meilleures pratiques en matière de digestion anaérobie et de systèmes de valorisation."
       },
-      "created_at": "2025-12-02T10:31:52.261632",
-      "image": "assets/articles/WorkLife.PNG"
-    },
-    {
-      "id": "747b17d6-4e5c-4513-a5be-29cb43fea544",
-      "title": {
-        "en": "🇪🇸 Circular Economy Model for Liquid Pig Manure in Spain",
-        "es": "🇪🇸 Modelo de economía circular para purines en España",
-        "fr": "🇪🇸 Modèle d'économie circulaire pour le lisier de porc en Espagne"
-      },
-      "summary": {
-        "en": "A project in Spain aims to manage liquid pig manure sustainably by using it as organic fertilizer for crops intended for animal feed, creating a circular economy system. The project will reduce production costs, improve environmental management, and enhance the competitiveness of regional pork production.",
-        "es": "Un proyecto en España pretende gestionar de forma sostenible el estiércol líquido de cerdo utilizándolo como abono orgánico para cultivos destinados a la alimentación animal, creando un sistema de economía circular. El proyecto reducirá los costes de producción, mejorará la gestión medioambiental y aumentará la competitividad de la producción porcina regional.",
-        "fr": "Un projet espagnol vise à gérer durablement le lisier de porc en l'utilisant comme engrais organique pour les cultures destinées à l'alimentation animale, créant ainsi un système d'économie circulaire. Le projet permettra de réduire les coûts de production, d'améliorer la gestion de l'environnement et de renforcer la compétitivité de la production porcine régionale."
-      },
-      "created_at": "2025-11-18T15:27:23.767877",
+      "created_at": "2026-02-26T13:46:59.614113",
       "image": "assets/articles/farmer-man-showing-cultivated-fresh-salads-agronomist-businesswoman-discussing-agronomy-production-farming-season-rancher-harvesting-organic-green-vegetables-hydroponic-greenhouse.jpg"
     },
     {
-      "id": "f3292520-cdef-43cb-ba73-7639812a9064",
+      "id": "62b65aba-1df5-485b-9de8-4d39c80138da",
       "title": {
-        "en": "🇵🇱 Poland - Developing a Farm Benchmarking System for Productivity and Sustainability in 2024",
-        "es": "🇵🇱 Polonia - Desarrollando un Sistema de Referencia para Granjas para la Productividad y Sostenibilidad en 2024",
-        "fr": "🇵🇱 Pologne - Développement d'un système de référence pour la ferme afin d'améliorer la productivité et la durabilité en 2024"
+        "en": "🇪🇺 Unlocking Europe's Biomethane Potential: Manure, Residues, and New Crops",
+        "es": "🇪🇺 Liberar el potencial del biometano en Europa: Estiércol, residuos y nuevos cultivos",
+        "fr": "🇪🇺 Exploiter le potentiel du biométhane en Europe : Fumier, résidus et nouvelles cultures"
       },
       "summary": {
-        "en": "A pilot project in Poland is creating a user-friendly benchmarking system that integrates data from various sources to help farmers compare their farm performance with others of similar size. The system aims to improve decision-making and digital skills among farmers by leveraging existing decision support tools and data integration.",
-        "es": "Un proyecto piloto en Polonia está creando un sistema de referencia fácil de usar que integra datos de diversas fuentes para ayudar a los agricultores a comparar el rendimiento de sus explotaciones con el de otros de tamaño similar. El sistema tiene como objetivo mejorar la toma de decisiones y las habilidades digitales entre los agricultores mediante el aprovechamiento de herramientas existentes de apoyo a la decisión y la integración de datos.",
-        "fr": "Un projet pilote en Pologne crée un système de benchmarking convivial qui intègre des données provenant de diverses sources afin d'aider les agriculteurs à comparer la performance de leur ferme avec celle d'autres exploitations de taille similaire. Le système vise à améliorer la prise de décision et les compétences numériques des agriculteurs en tirant parti des outils d'aide à la décision existants et de l'intégration des données."
+        "en": "This 2022 report by Gas for Climate identifies how EU Member States can reach the \"REPowerEU\" target of producing 35 billion cubic meters (bcm) of biomethane by 2030 and looks ahead to a potential of 151 bcm by 2050 using only sustainable agricultural materials.",
+        "es": "Este informe de 2022 de Gas for Climate identifica cómo los Estados miembros de la UE pueden alcanzar el objetivo \"REPowerEU\" de producir 35.000 millones de metros cúbicos (bcm) de biometano para 2030 y prevé un potencial de 151 bcm para 2050 utilizando sólo materiales agrícolas sostenibles.",
+        "fr": "Ce rapport 2022 de Gas for Climate identifie comment les États membres de l'UE peuvent atteindre l'objectif \"REPowerEU\" de produire 35 milliards de mètres cubes (mmc) de biométhane d'ici 2030 et envisage un potentiel de 151 mmc d'ici 2050 en utilisant uniquement des matériaux agricoles durables."
       },
-      "created_at": "2025-11-12T17:42:53.005395",
-      "image": "assets/articles/drone-spraying-fertilizer-vegetable-green-plants-agriculture-technology-farm-automation.jpg"
+      "created_at": "2026-02-26T13:33:37.82446",
+      "image": "assets/articles/woman-white-laboratory-robe-examines-salad-cabbage-greenhouse-using-tablet.jpg"
+    },
+    {
+      "id": "f9b269ef-5448-4937-9c25-3d815584b549",
+      "title": {
+        "en": "🇪🇺 Valorizing agricultural waste: Guide to biogas and biomethane",
+        "es": "🇪🇺 Valorización de residuos agrícolas: Guía del biogás y el biometano",
+        "fr": "🇪🇺 Valoriser les déchets agricoles : Guide du biogaz et du biométhane"
+      },
+      "summary": {
+        "en": "In 2022, researchers across Europe examined how anaerobic digestion transforms manure, crops and food waste into renewable energy and high-quality fertilizer.",
+        "es": "En 2022, investigadores de toda Europa examinaron cómo la digestión anaerobia transforma el estiércol, los cultivos y los residuos alimentarios en energía renovable y abono de alta calidad.",
+        "fr": "En 2022, dans toute l'Europe, des chercheurs ont examiné comment la digestion anaérobie transforme le fumier, les cultures et les déchets alimentaires en énergie renouvelable et en engrais de haute qualité."
+      },
+      "created_at": "2026-02-26T13:07:40.483044",
+      "image": "assets/articles/image-with-field-windmill-agricultural-concept.jpg"
     }
   ],
   "articles": [
     {
-      "id": "4026d90c-f206-47d9-af97-4593be22a8bd",
+      "id": "65b3d2af-2500-44bf-9150-e6c705357b11",
       "title": {
-        "en": "Bridging Capital Gaps and Empowering Women: How Innovative Financing Is Reshaping Rural Agriculture",
-        "es": "Cerrando la brecha de financiamiento y empoderando a las mujeres: Cómo la innovación financiera transforma la agricultura rural",
-        "fr": "Combler le fossé du capital et autonomiser les femmes : La nouvelle vague de financement révolutionne l'agriculture rurale"
+        "en": "Genetic Innovation Under Constraints: Navigating Intellectual Property and Variety Replacement in Argentina's Seed Sector",
+        "es": "Innovación genética bajo restricciones: navegando la propiedad intelectual y el reemplazo varietal en el sector semillas argentino",
+        "fr": "Innovation génétique sous contraintes : naviguer la propriété intellectuelle et le renouvellement variétal en Argentine"
       },
       "summary": {
-        "en": "Across recent reports, a common trend emerges: increased focus on financial mechanisms tailored for rural actors, particularly women entrepreneurs, and new funding initiatives for agri-services. These developments signify a pivotal shift toward inclusive innovation that addresses systemic barriers in rural financing and enterprise development.",
-        "es": "Una tendencia común en los informes recientes es el aumento del enfoque en mecanismos financieros adaptados a actores rurales, especialmente mujeres emprendedoras, y nuevas iniciativas de financiamiento para servicios agrícolas. Estos avances representan un cambio fundamental hacia una innovación inclusiva que afronta las barreras sistémicas en el financiamiento rural.",
-        "fr": "Une tendance commune apparaît dans ces rapports : une attention accrue aux mécanismes financiers adaptés aux acteurs ruraux, en particulier les femmes entrepreneures, et de nouvelles initiatives de financement pour les services agricoles. Ces développements marquent un virage essentiel vers une innovation inclusive visant à surmonter les barrières systémiques de financement rural."
+        "en": "Across Argentina's seed industry, efforts to accelerate genetic improvement face systemic barriers such as intellectual property valuation and policy retentions. Simultaneously, the sector recognizes the urgency to modernize crop varieties, yet progress remains sluggish due to entrenched incentives and regulatory challenges.",
+        "es": "En la industria de semillas argentina, los esfuerzos por acelerar la mejora genética enfrentan barreras sistémicas como la valoración de la propiedad intelectual y retenciones políticas. Al mismo tiempo, el sector reconoce la necesidad de modernizar las variedades, pero el avance continúa siendo lento debido a incentivos arraigados y desafíos regulatorios.",
+        "fr": "Dans le secteur des semences en Argentine, les efforts pour accélérer l'amélioration génétique rencontrent des obstacles systémiques comme la valorisation de la propriété intellectuelle et les retenues politiques. Parallèlement, le secteur perçoit l'urgence de moderniser les variétés, mais le progrès est lent en raison d'incitations enracinées et de défis réglementaires."
       },
-      "created_at": "2026-01-20T14:48:37.418396",
+      "created_at": "2026-02-17T15:04:43.521801",
       "status": "reviewed",
-      "image": "assets/articles/smart-farming-with-agriculture-iot.jpg"
+      "image": "assets/articles/drone-spraying-fertilizer-vegetable-green-plants-agriculture-technology-farm-automation.jpg"
     },
     {
-      "id": "b5a8e424-d73e-4777-8c10-6ae538943bca",
+      "id": "1ca83a8b-1309-42be-abab-c82c6ba45ecf",
       "title": {
-        "en": "Unlocking Livestock Investment: Financial Incentives Boost Argentina's Beef Revival",
-        "es": "Liberando la inversión en ganadería: incentivos financieros impulsan la recuperación del ganado en Argentina",
-        "fr": "Libérer l'investissement dans le bétail : les incitations financières stimulent la renaissance bovine en Argentine"
+        "en": "Global Meat Supply Chains Under Scrutiny: Corporate Control and Animal Welfare Challenges",
+        "es": "Cadenas de suministro de carne globales bajo escrutinio: control corporativo y bienestar animal",
+        "fr": "Les chaînes d'approvisionnement en viande mondiale sous pression : contrôle d'entreprise et enjeux de bien-être animal"
       },
       "summary": {
-        "en": "Across Argentina, recent financial initiatives, including substantial credit programs, are transforming the beef sector's landscape. This convergence reflects a strategic push to address systemic barriers faced by farmers while capitalizing on favorable international demand and policy support, revealing both opportunities and challenges for sustained adoption.",
-        "es": "En todo Argentina, recientes iniciativas financieras, incluyendo importantes programas de créditos, están transformando el panorama del sector ganadero. Esta convergencia refleja un impulso estratégico para superar barreras sistemicas, aprovechar la demanda internacional favorable y el respaldo político, poniendo en evidencia tanto oportunidades como desafíos para una adopción sostenible.",
-        "fr": "En Argentine, des initiatives financières récentes, notamment d’importants programmes de crédit, transforment le paysage du secteur bovin. Cette confluence traduit une volonté stratégique de surmonter les obstacles systémiques tout en exploitant la demande internationale et le soutien politique, révélant opportunités et défis pour une adoption durable."
+        "en": "Major industry players like Minerva Foods exemplify the consolidation trend in global meat supply chains, with significant control over post-harvest logistics and supply chain infrastructure. Amidst growing concerns over animal welfare and supply chain transparency, these corporations face both opportunities and risks in adopting innovative storage and handling solutions to meet evolving consumer expectations and regulatory pressures.",
+        "es": "Los principales actores del sector, como Minerva Foods, ejemplifican la tendencia de consolidación en las cadenas de suministro de carne globales, con un control sustancial sobre la logística post-sacrificio y la infraestructura de cadena de suministro. Ante las crecientes preocupaciones por el bienestar animal y la transparencia, estas corporaciones enfrentan oportunidades y riesgos en la adopción de soluciones innovadoras de almacenamiento y manejo para satisfacer las expectativas y regulaciones cambiantes.",
+        "fr": "Des acteurs majeurs comme Minerva Foods illustrent la tendance à la consolidation dans les chaînes d'approvisionnement mondiales en viande, avec un contrôle important sur la logistique après abattage et l'infrastructure. Face à la montée des préoccupations liées au bien-être animal et à la transparence de la chaîne, ces entreprises doivent innover dans le stockage et la manipulation pour répondre aux attentes et régulations changeantes."
       },
-      "created_at": "2026-01-20T14:47:07.949957",
+      "created_at": "2026-02-17T15:04:11.794165",
       "status": "reviewed",
-      "image": "assets/articles/woman-white-laboratory-robe-examines-salad-cabbage-greenhouse-using-tablet.jpg"
+      "image": "assets/articles/standard-quality-control-concept-m.jpg"
     },
     {
-      "id": "2dd9462a-357f-46ad-bfd6-a582932ff784",
+      "id": "67d99b53-c155-4c4c-af5a-588e0ccbba1c",
       "title": {
-        "en": "Small-scale Dairy Farms Embrace Regenerative Models Amid Resilience Challenges",
-        "es": "Pequeñas granjas lácteas adoptan modelos regenerativos frente a retos de resiliencia",
-        "fr": "Les petites exploitations laitières adoptent des modèles régénératifs face aux défis de résilience"
+        "en": "Sustainable Crops on Finance: Unlocking Opportunities Amid Price Tensions",
+        "es": "Cultivos sostenibles y financiamiento: desbloqueando oportunidades en medio de tensiones de precios",
+        "fr": "Cultures durables et financement : libérer des opportunités face aux tensions de prix"
       },
       "summary": {
-        "en": "Across the dairy sector, diverse adaptation strategies reveal a tension between sustainable practices and resilience to sector-specific health threats. Smaller farms demonstrate that integrated, low-input models can be both economically viable and environmentally regenerative, even amid disease setbacks.",
-        "es": "En el sector lácteo, diversas estrategias de adaptación muestran una tensión entre prácticas sostenibles y resiliencia frente a amenazas sanitarias específicas. Las explotaciones pequeñas evidencian que modelos integrados y de bajo insumo pueden ser rentables y regenerativos, incluso ante reveses por enfermedades.",
-        "fr": "Dans le secteur laitier, diverses stratégies d'adaptation révèlent une tension entre pratiques durables et résilience face à des menaces sanitaires. Les petites exploitations montrent que des modèles intégrés et à faible input peuvent être économiquement viables et écologiquement régénérateurs, même face à des revers liés à des maladies."
+        "en": "Across the top agricultural sources, a common theme emerges: small-scale perennial crop producers, notably in Mendoza and San Juan, are navigating financial constraints amid fluctuating market prices. The deployment of targeted credit mechanisms aims to bolster production resilience and incentivize investment in emerging crops like pistachios, reflecting a systemic effort to stabilize livelihoods and foster innovative diversification. These strategies illustrate a shift toward pragmatic financial solutions that address inherent risks and unlock value creation for smallholders.",
+        "es": "En las principales fuentes agrícolas, surge un tema común: los pequeños productores de cultivos perennes, principalmente en Mendoza y San Juan, enfrentan restricciones financieras ante las fluctuaciones de precios del mercado. La implementación de mecanismos de crédito específicos busca fortalecer la resiliencia productiva y promover la inversión en cultivos emergentes como los pistachos, reflejando un esfuerzo sistémico por estabilizar los medios de vida y fomentar una diversificación innovadora. Estas estrategias ejemplifican un giro hacia soluciones financieras pragmáticas que abordan los riesgos inherentes y desbloquean valor para los pequeños productores.",
+        "fr": "Dans les principales sources agricoles, un thème commun émerge : les petits producteurs de cultures pérennes, notamment à Mendoza et San Juan, gèrent des contraintes financières face aux fluctuations des prix du marché. La mise en place de mécanismes de crédit ciblés vise à renforcer la résilience de la production et à encourager l’investissement dans de nouvelles cultures comme les pistachiers, témoignant d’un effort systémique pour stabiliser les moyens de subsistance et favoriser la diversification innovante. Ces stratégies illustrent une évolution vers des solutions financières pragmatiques qui abordent les risques inhérents et libèrent de la valeur pour les petits exploitants."
       },
-      "created_at": "2025-11-11T19:18:37.736601",
+      "created_at": "2026-02-17T15:00:59.964445",
       "status": "reviewed",
-      "image": "assets/articles/Dairy.png"
+      "image": "assets/articles/WorkLife.PNG"
     }
   ],
-  "generated_at": "2026-01-22T08:37:26.207Z"
+  "generated_at": "2026-03-08T08:12:22.510Z"
 }
