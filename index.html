@@ -8,7 +8,8 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
   <link href="css/styles.css" rel="stylesheet" />
   <style>
-    body{padding-top:76px}
+    body{padding-top:80px}
+    .masthead{padding-top:0 !important;padding-bottom:4rem !important}
     .container-fluid{padding-left:1.25rem;padding-right:1.25rem}
     @media (min-width: 992px){.container-fluid{padding-left:2rem;padding-right:2rem}}
     .section-title{font-size:2.2rem;font-weight:700}
@@ -28,11 +29,11 @@
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" id="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+        <li class="nav-item"><a class="nav-link me-lg-3" href="index.html#organizations" data-en="For Organizations" data-fr="Pour les organisations" data-es="Para organizaciones">For Organizations</a></li>
         <li class="nav-item"><a class="nav-link me-lg-3" href="farmers.html" data-en="For Farmers" data-fr="Pour les agriculteurs" data-es="Para agricultores">For Farmers</a></li>
-        <li class="nav-item"><a class="nav-link me-lg-3" href="organizations.html" data-en="For Organizations" data-fr="Pour les organisations" data-es="Para organizaciones">For Organizations</a></li>
-        <li class="nav-item"><a class="nav-link me-lg-3" href="innovators.html" data-en="For Innovators" data-fr="Pour les porteurs d'innovation" data-es="Para innovadores">For Innovators</a></li>
+        <li class="nav-item"><a class="nav-link me-lg-3" href="innovators.html" data-en="For Innovators" data-fr="Pour les innovateurs" data-es="Para innovadores">For Innovators</a></li>
         <li class="nav-item"><a class="nav-link me-lg-3" href="#about" data-en="About Us" data-fr="&Agrave; propos de nous" data-es="Sobre nosotros">About Us</a></li>
-        <li class="nav-item"><a class="nav-link me-lg-3" href="articles.html" data-en="Our ContentHub" data-fr="Notre centre de contenus" data-es="Nuestro centro de contenidos">Our ContentHub</a></li>
+        <li class="nav-item"><a class="nav-link me-lg-3" href="articles.html" data-en="Our ContentHub" data-fr="Notre Content Hub" data-es="Nuestro Content Hub">Our ContentHub</a></li>
         <li class="nav-item"><a class="btn btn-outline-primary py-2 px-3 rounded-pill fs-6 me-2" href="https://app.vitto-tech.com" target="_blank" rel="noopener" data-en="LOG IN" data-fr="CONNEXION" data-es="INICIAR SESI&Oacute;N">LOG IN</a></li>
         <li class="nav-item"><a class="btn btn-outline-success py-2 px-3 rounded-pill fs-6" href="#" data-bs-toggle="modal" data-bs-target="#contactModal" data-en="Request a demo" data-fr="Demander une d&eacute;mo" data-es="Solicitar una demo">Request a demo</a></li>
         <li class="nav-item">
@@ -48,36 +49,100 @@
     </div>
   </div>
 </nav>
-
-<header class="masthead">
-  <div class="container-fluid px-5">
-    <div class="row gx-5 align-items-center">
-      <div class="col-lg-6">
-        <h1 class="display-3 lh-1 mb-3" data-en="Turn agricultural innovation into real-world adoption at scale." data-fr="Transformez l'innovation agricole en adoption r&eacute;elle &agrave; grande &eacute;chelle." data-es="Convierta la innovaci&oacute;n agr&iacute;cola en adopci&oacute;n real a gran escala.">Turn agricultural innovation into real-world adoption at scale.</h1>
-        <p class="lead fw-normal text-muted mb-4" data-en="Vitto helps cooperatives and agribusinesses identify what works and scale it across their farmer networks, faster and with less risk." data-fr="Vitto aide les coop&eacute;ratives et les entreprises agricoles &agrave; identifier ce qui fonctionne et &agrave; le d&eacute;ployer dans leurs r&eacute;seaux d'agriculteurs, plus vite et avec moins de risques." data-es="Vitto ayuda a cooperativas y agronegocios a identificar lo que funciona y escalarlo en sus redes de agricultores, m&aacute;s r&aacute;pido y con menos riesgo.">Vitto helps cooperatives and agribusinesses identify what works and scale it across their farmer networks, faster and with less risk.</p>
-        <a class="btn btn-outline-success py-2 px-3 rounded-pill fs-6" href="#" data-bs-toggle="modal" data-bs-target="#contactModal" data-en="Request a demo" data-fr="Demander une d&eacute;mo" data-es="Solicitar una demo">Request a demo</a>
-      </div>
-      <div class="col-lg-6 text-center"><img class="img-fluid" src="assets/img/Collage3.png" alt="Agricultural innovation"  loading="eager" decoding="async" fetchpriority="high" /></div>
+<header class="masthead" style="margin-top: 25px; padding-top: 1rem; background-color: #fbfdff;">
+    <div class="container-fluid px-5">
+        <div class="row gx-5 align-items-start">
+            <div class="col-lg-6">
+                <h1 class="display-3 lh-1 mb-3" data-en="Turn agricultural innovation into real-world adoption at scale." data-fr="Transformez l'innovation agricole en adoption r&eacute;elle &agrave; grande &eacute;chelle." data-es="Convierta la innovaci&oacute;n agr&iacute;cola en adopci&oacute;n real a gran escala.">Turn agricultural innovation into real-world adoption at scale.</h1>
+                <p class="lead fw-normal text-muted mb-4" data-en="Vitto helps cooperatives and agribusinesses identify what works and scale it across their farmer networks, faster and with less risk." data-fr="Vitto aide les coop&eacute;ratives et les entreprises agricoles &agrave; identifier ce qui fonctionne et &agrave; le d&eacute;ployer dans leurs r&eacute;seaux d'agriculteurs, plus vite et avec moins de risques." data-es="Vitto ayuda a cooperativas y agronegocios a identificar lo que funciona y escalarlo en sus redes de agricultores, m&aacute;s r&aacute;pido y con menos riesgo.">Vitto helps cooperatives and agribusinesses identify what works and scale it across their farmer networks, faster and with less risk.</p>
+                <a class="btn btn-outline-success py-2 px-3 rounded-pill fs-6" href="#" data-bs-toggle="modal" data-bs-target="#contactModal" data-en="Request a demo" data-fr="Demander une d&eacute;mo" data-es="Solicitar una demo">Request a demo</a>
+            </div>
+            <div class="col-lg-5 text-lg-end text-center"><img class="img-fluid mt-0 ms-lg-auto" style="margin-top:0; display:block;" src="assets/img/Collage3.png" alt="Agricultural innovation"  loading="eager" decoding="async" fetchpriority="high" /></div>
+        </div>
     </div>
-  </div>
 </header>
 
 <aside class="text-center bg-green py-5">
   <div class="container-fluid"><div class="h2 fs-1 text-white mb-0" data-en="Innovation isn’t the problem. Adoption is." data-fr="L'innovation n'est pas le probl&egrave;me. L'adoption l'est." data-es="La innovaci&oacute;n no es el problema. La adopci&oacute;n s&iacute;.">Innovation isn’t the problem. Adoption is.</div></div>
 </aside>
-
 <section class="py-5">
-  <div class="container-fluid">
-    <div class="row g-4">
-      <div class="col-12 text-center">
-        <h2 class="section-title" data-en="Explore by Audience" data-fr="Explorez par profil" data-es="Explore por perfil">Explore by Audience</h2>
+  <div class="container-fluid", id="organizations">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center mb-5">
+        <h1 class="section-title" data-en="We help agricultural organizations scale impactful agritech solutions" data-fr="Nous aidons les organisations agricoles à déployer à grande échelle des solutions agritech à fort impact" data-es="Ayudamos a organizaciones agr&iacute;colas a escalar soluciones agtech de alto impacto">We help agricultural organizations scale impactful agritech solutions</h1>
       </div>
-      <div class="col-md-4"><div class="feature-card h-100 p-4 bg-light rounded shadow-sm text-center"><h4 data-en="For Organizations" data-fr="Pour les organisations" data-es="Para organizaciones">For Organizations</h4><p class="text-muted" data-en="Problem, solution, value, use cases, process and business model." data-fr="Probl&egrave;me, solution, valeur, cas d'usage, processus et mod&egrave;le &eacute;conomique." data-es="Problema, soluci&oacute;n, valor, casos de uso, proceso y modelo de negocio.">Problem, solution, value, use cases, process and business model.</p><a class="btn btn-outline-primary" href="organizations.html" data-en="Open page" data-fr="Ouvrir la page" data-es="Abrir p&aacute;gina">Open page</a></div></div>
-      <div class="col-md-4"><div class="feature-card h-100 p-4 bg-light rounded shadow-sm text-center"><h4 data-en="For Innovators" data-fr="Pour les porteurs d'innovation" data-es="Para innovadores">For Innovators</h4><p class="text-muted" data-en="Move from pilots to large-scale implementation." data-fr="Passez des pilotes au d&eacute;ploiement &agrave; grande &eacute;chelle." data-es="Pase de los pilotos al despliegue a gran escala.">Move from pilots to large-scale implementation.</p><a class="btn btn-outline-primary" href="innovators.html" data-en="Open page" data-fr="Ouvrir la page" data-es="Abrir p&aacute;gina">Open page</a></div></div>
-      <div class="col-md-4"><div class="feature-card h-100 p-4 bg-light rounded shadow-sm text-center"><h4 data-en="For Farmers" data-fr="Pour les agriculteurs" data-es="Para agricultores">For Farmers</h4><p class="text-muted" data-en="Practical and validated solutions for field realities." data-fr="Des solutions pratiques et valid&eacute;es pour la r&eacute;alit&eacute; terrain." data-es="Soluciones pr&aacute;cticas y validadas para la realidad de campo.">Practical and validated solutions for field realities.</p><a class="btn btn-outline-primary" href="farmers.html" data-en="Open page" data-fr="Ouvrir la page" data-es="Abrir p&aacute;gina">Open page</a></div></div>
+
+      <div class="col-lg-4 mb-4">
+        <div class="feature-card h-100 p-0 bg-light rounded shadow-sm overflow-hidden">
+          <img src="assets/img/coop.png" alt="Agricultural organization team and innovation context" class="img-fluid w-100 h-100" style="object-fit: cover; min-height: 420px;"  loading="eager" decoding="async" fetchpriority="high" />
+        </div>
+      </div>
+
+      <div class="col-lg-8 mb-4">
+            <div class="feature-card h-100 p-4 rounded shadow-sm" style="background:linear-gradient(135deg, #f0f9f4 0%, #ffffff 100%); border-left: 4px solid #4CAF50;">
+              <h5 class="mb-3" style="color:#2d5016; font-weight:600;" data-en="The Challenge" data-fr="Le défi" data-es="El desaf&iacute;o">The Challenge</h5>
+              <p class="mb-2 text-muted" data-en="Thousands of agritech solutions exist." data-fr="Des milliers de solutions agritech existent." data-es="Existen miles de soluciones agtech.">Thousands of agritech solutions exist.</p>
+              <p class="mb-3 text-muted" data-en="But very few move beyond early adoption." data-fr="Mais très peu depassent l'adoption initiale." data-es="Pero muy pocas superan la adopci&oacute;n temprana.">But very few move beyond early adoption.</p>
+              <p class="mb-2 text-muted"><strong data-en="Agricultural organizations struggle to:" data-fr="Les organisations agricoles peinent à :" data-es="Las organizaciones agr&iacute;colas tienen dificultades para:">Agricultural organizations struggle to:</strong></p>
+              <ul class="mb-3 text-muted">
+                <li data-en="Identify what actually works" data-fr="Identifier ce qui fonctionne vraiment" data-es="Identificar lo que realmente funciona">Identify what actually works</li>
+                <li data-en="Align solutions with farmer realities" data-fr="Aligner les solutions avec la réalité des agriculteurs" data-es="Alinear soluciones con la realidad de los agricultores">Align solutions with farmer realities</li>
+                <li data-en="Deploy across fragmented networks" data-fr="Deployer dans des réseaux fragmentes" data-es="Desplegar en redes fragmentadas">Deploy across fragmented networks</li>
+              </ul>
+              <p class="mb-2 text-muted"><strong data-en="Result:" data-fr="Résultat :" data-es="Resultado:">Result:</strong> <span data-en="Innovation stays slow, underused, and fragmented." data-fr="L'innovation reste lente, sous-utilisée et fragmentée." data-es="La innovaci&oacute;n sigue siendo lenta, subutilizada y fragmentada.">Innovation stays slow, underused, and fragmented.</span></p>
+              <p class="mb-0 text-muted" data-en="This means missed ROI, lost revenue opportunities, and underperforming farmer programs." data-fr="Cela signifie un ROI manqué, des opportunités de revenus perdues et des programmes agriculteurs moins performants." data-es="Esto implica ROI perdido, oportunidades de ingresos desaprovechadas y programas para agricultores con bajo rendimiento.">This means missed ROI, lost revenue opportunities, and underperforming farmer programs.</p>
+            </div>
+      </div>
+
+      <div class="col-12 text-center mb-4">
+        <h2 class="section-title" data-en="Build confidence before you scale" data-fr="Construisez la confiance avant de passer à l'échelle" data-es="Genere confianza antes de escalar">Build confidence before you scale</h2>
+        <p class="text-muted" data-en="From innovation scouting to scaled implementation." data-fr="De la veille innovation à la mise en œuvre à grande échelle." data-es="Del scouting de innovaci&oacute;n al despliegue a escala.">From innovation scouting to scaled implementation.</p>
+        <p class="text-muted" data-en="Vitto helps you unlock solutions that deliver economic, environmental, and social value and scale them across your network." data-fr="Vitto vous aide a debloquer des solutions qui créent de la valeur économique, environnementale et sociale, puis a les déployer dans votre réseau." data-es="Vitto le ayuda a desbloquear soluciones que aportan valor econ&oacute;mico, ambiental y social, y a escalarlas en toda su red.">Vitto helps you unlock solutions that deliver economic, environmental, and social value and scale them across your network.</p>
+      </div>
+
+      <div class="col-md-4 mb-4"><div class="feature-card h-100 p-4 bg-light rounded shadow-sm text-center"><i class="bi bi-patch-check icon-feature d-block mb-3" style="color:#4CAF50"></i><h4 class="font-alt" data-en="Identify what works" data-fr="Identifier ce qui fonctionne" data-es="Identificar lo que funciona">Identify what works</h4><p class="text-muted mb-0" data-en="Find relevant, high-impact solutions" data-fr="Identifier des solutions pertinentes à fort impact" data-es="Encontrar soluciones relevantes y de alto impacto">Find relevant, high-impact solutions</p></div></div>
+      <div class="col-md-4 mb-4"><div class="feature-card h-100 p-4 bg-light rounded shadow-sm text-center"><i class="bi bi-sliders2-vertical icon-feature d-block mb-3" style="color:#4CAF50"></i><h4 class="font-alt" data-en="Validate with confidence" data-fr="Valider avec confiance" data-es="Validar con confianza">Validate with confidence</h4><p class="text-muted mb-0" data-en="Use real-world data to reduce risk" data-fr="Utiliser des données réelles pour réduire le risque" data-es="Usar datos reales para reducir el riesgo">Use real-world data to reduce risk</p></div></div>
+      <div class="col-md-4 mb-4"><div class="feature-card h-100 p-4 bg-light rounded shadow-sm text-center"><i class="bi bi-diagram-3 icon-feature d-block mb-3" style="color:#4CAF50"></i><h4 class="font-alt" data-en="Scale across your network" data-fr="Deployer à l'échelle de votre réseau" data-es="Escalar en toda su red">Scale across your network</h4><p class="text-muted mb-0" data-en="Deploy solutions where they are most likely to succeed" data-fr="Deployer les solutions la ou elles ont le plus de chances de réussir" data-es="Desplegar soluciones donde tengan mayor probabilidad de &eacute;xito">Deploy solutions where they are most likely to succeed</p></div></div>
+      <div class="col-12 text-center mb-5"><p class="text-muted" data-en="From first signal to full deployment, on one platform." data-fr="Du premier signal au déploiement complet, sur une seule plateforme." data-es="De la primera se&ntilde;al al despliegue completo, en una sola plataforma.">From first signal to full deployment, on one platform.</p></div>
+
+      <div class="col-12 text-center mb-4"><h2 class="section-title" data-en="Then unlock measurable network value" data-fr="Puis débloquez une valeur réseau mesurable" data-es="Luego desbloquee valor medible en toda la red">Then unlock measurable network value</h2><h4 data-en="What you unlock with Vitto" data-fr="Ce que vous debloquez avec Vitto" data-es="Lo que desbloquea con Vitto">What you unlock with Vitto</h4></div>
+      <div class="col-md-3 mb-4"><div class="feature-card h-100 p-4 bg-light rounded shadow-sm text-center"><i class="bi bi-graph-up-arrow icon-feature d-block mb-3" style="color:#4CAF50"></i><p class="mb-0" data-en="Scale the use of proven high-impact solutions across your farmers" data-fr="Augmenter l'adoption de solutions prouvées à fort impact chez vos agriculteurs" data-es="Escalar el uso de soluciones probadas y de alto impacto entre sus agricultores">Scale the use of proven high-impact solutions across your farmers</p></div></div>
+      <div class="col-md-3 mb-4"><div class="feature-card h-100 p-4 bg-light rounded shadow-sm text-center"><i class="bi bi-globe2 icon-feature d-block mb-3" style="color:#4CAF50"></i><p class="mb-0" data-en="Capture value across three dimensions: economic, environmental, and social" data-fr="Capturer de la valeur sur trois dimensions : économique, environnementale et sociale" data-es="Capturar valor en tres dimensiones: econ&oacute;mica, ambiental y social">Capture value across three dimensions: economic, environmental, and social</p></div></div>
+      <div class="col-md-3 mb-4"><div class="feature-card h-100 p-4 bg-light rounded shadow-sm text-center"><i class="bi bi-lightning-charge icon-feature d-block mb-3" style="color:#4CAF50"></i><p class="mb-0" data-en="Reduce failed pilots and wasted investment" data-fr="Réduire les pilotes échoués et les investissements perdus" data-es="Reducir pilotos fallidos e inversi&oacute;n desperdiciada">Reduce failed pilots and wasted investment</p></div></div>
+      <div class="col-md-3 mb-4"><div class="feature-card h-100 p-4 bg-light rounded shadow-sm text-center"><i class="bi bi-people icon-feature d-block mb-3" style="color:#4CAF50"></i><p class="mb-0" data-en="Strengthen member engagement and retention" data-fr="Renforcer l'engagement et la retention des membres" data-es="Fortalecer el compromiso y la retenci&oacute;n de miembros">Strengthen member engagement and retention</p></div></div>
+
+      <div class="col-12 text-center mt-4 mb-4"><h2 class="section-title" data-en="Align every team around implementation" data-fr="Alignez toutes les équipes autour de la mise en œuvre" data-es="Alinee a todos los equipos alrededor de la implementaci&oacute;n">Align every team around implementation</h2><h4 data-en="Vitto supports key teams across your organization" data-fr="Vitto soutient les équipes clés de votre organisation" data-es="Vitto apoya a los equipos clave de su organizaci&oacute;n">Vitto supports key teams across your organization</h4></div>
+      <div class="col-md-6 col-lg-3 mb-4"><div class="feature-card h-100 p-4 bg-light rounded shadow-sm"><h5 data-en="Service Teams (Field / Advisory)" data-fr="Équipes service (terrain / conseil)" data-es="Equipos de servicio (campo / asesor&iacute;a)">Service Teams (Field / Advisory)</h5><ul class="text-muted mb-0"><li data-en="Focus support where it drives the most impact for farmers" data-fr="Concentrer l'accompagnement là où l'impact est le plus fort" data-es="Enfocar el apoyo donde genere mayor impacto">Focus support where it drives the most impact for farmers</li><li data-en="Guide farmers with proven solutions" data-fr="Guider les agriculteurs avec des solutions prouvées" data-es="Guiar a agricultores con soluciones probadas">Guide farmers with proven solutions</li><li data-en="Increase effectiveness of field interventions" data-fr="Améliorer l'efficacité des interventions terrain" data-es="Aumentar la efectividad de las intervenciones en campo">Increase effectiveness of field interventions</li></ul></div></div>
+      <div class="col-md-6 col-lg-3 mb-4"><div class="feature-card h-100 p-4 bg-light rounded shadow-sm"><h5 data-en="Sales Teams" data-fr="Équipes commerciales" data-es="Equipos de ventas">Sales Teams</h5><ul class="text-muted mb-0"><li data-en="Identify relevant solutions for different farmer segments" data-fr="Identifier les solutions pertinentes pour chaque segment d'agriculteurs" data-es="Identificar soluciones relevantes por segmento de agricultor">Identify relevant solutions for different farmer segments</li><li data-en="Support more targeted and credible recommendations" data-fr="Soutenir des recommandations plus ciblées et crédibles" data-es="Respaldar recomendaciones m&aacute;s precisas y cre&iacute;bles">Support more targeted and credible recommendations</li><li data-en="Accelerate uptake of new products and services" data-fr="Accélérer l'adoption de nouveaux produits et services" data-es="Acelerar la adopci&oacute;n de nuevos productos y servicios">Accelerate uptake of new products and services</li></ul></div></div>
+      <div class="col-md-6 col-lg-3 mb-4"><div class="feature-card h-100 p-4 bg-light rounded shadow-sm"><h5 data-en="Innovation Teams" data-fr="Équipes innovation" data-es="Equipos de innovaci&oacute;n">Innovation Teams</h5><ul class="text-muted mb-0"><li data-en="Identify and evaluate high-potential solutions" data-fr="Identifier et évaluer les solutions à fort potentiel" data-es="Identificar y evaluar soluciones de alto potencial">Identify and evaluate high-potential solutions</li><li data-en="Reduce time spent scouting and evaluating solutions" data-fr="Réduire le temps de veille et d'évaluation" data-es="Reducir el tiempo dedicado al scouting y la evaluaci&oacute;n">Reduce time spent scouting and evaluating solutions</li><li data-en="Scale what works across the organization" data-fr="Passer à l'échelle ce qui fonctionne dans toute l'organisation" data-es="Escalar lo que funciona en toda la organizaci&oacute;n">Scale what works across the organization</li></ul></div></div>
+      <div class="col-md-6 col-lg-3 mb-4"><div class="feature-card h-100 p-4 bg-light rounded shadow-sm"><h5 data-en="Sustainability Teams" data-fr="Équipes durabilité" data-es="Equipos de sostenibilidad">Sustainability Teams</h5><ul class="text-muted mb-0"><li data-en="Identify practices that deliver measurable impact" data-fr="Identifier les pratiques à impact mesurable" data-es="Identificar pr&aacute;cticas con impacto medible">Identify practices that deliver measurable impact</li><li data-en="Track outcomes across the network" data-fr="Suivre les résultats à l'échelle du réseau" data-es="Medir resultados en toda la red">Track outcomes across the network</li><li data-en="Support certification and reporting" data-fr="Soutenir la certification et le reporting" data-es="Apoyar la certificaci&oacute;n y los reportes">Support certification and reporting</li></ul></div></div>
+
+      <div class="col-12 text-center mt-4 mb-4"><h2 class="section-title" data-en="Move from need to scale, step by step" data-fr="Passez du besoin à l'échelle, étape par étape" data-es="Pase de la necesidad al escalado, paso a paso">Move from need to scale, step by step</h2><h4 data-en="How Vitto accelerates implementation" data-fr="Comment Vitto accelere la mise en œuvre" data-es="C&oacute;mo Vitto acelera la implementaci&oacute;n">How Vitto accelerates implementation</h4></div>
+      <div class="col-12"><div class="row row-cols-1 row-cols-sm-2 row-cols-lg-5 g-3">
+        <div class="col"><div class="feature-card h-100 p-3 bg-light rounded shadow-sm text-center"><div class="process-number">1</div><p class="text-muted mb-0 mt-2" data-en="Capture needs across your network" data-fr="Capturer les besoins dans votre réseau" data-es="Capturar necesidades en toda su red">Capture needs across your network</p></div></div>
+        <div class="col"><div class="feature-card h-100 p-3 bg-light rounded shadow-sm text-center"><div class="process-number">2</div><p class="text-muted mb-0 mt-2" data-en="Match with relevant solutions" data-fr="Associer avec les solutions pertinentes" data-es="Vincular con soluciones relevantes">Match with relevant solutions</p></div></div>
+        <div class="col"><div class="feature-card h-100 p-3 bg-light rounded shadow-sm text-center"><div class="process-number">3</div><p class="text-muted mb-0 mt-2" data-en="Validate what works" data-fr="Valider ce qui fonctionne" data-es="Validar lo que funciona">Validate what works</p></div></div>
+        <div class="col"><div class="feature-card h-100 p-3 bg-light rounded shadow-sm text-center"><div class="process-number">4</div><p class="text-muted mb-0 mt-2" data-en="Scale across the right farmers" data-fr="Deployer auprès des bons agriculteurs" data-es="Escalar entre los agricultores adecuados">Scale across the right farmers</p></div></div>
+        <div class="col"><div class="feature-card h-100 p-3 bg-light rounded shadow-sm text-center"><div class="process-number">5</div><p class="text-muted mb-0 mt-2" data-en="Track impact and ROI" data-fr="Suivre l'impact et le ROI" data-es="Medir impacto y ROI">Track impact and ROI</p></div></div>
+      </div></div>
+      <div class="col-12 text-center mt-3 mb-5"><p class="text-muted" data-en="We reduce friction at every step, from need to scale." data-fr="Nous réduisons les frictions a chaque étape, du besoin au passage à l'échelle." data-es="Reducimos fricci&oacute;n en cada etapa, desde la necesidad hasta el escalado.">We reduce friction at every step, from need to scale.</p></div>
+
+      <div class="col-12 text-center mb-4"><h2 class="section-title" data-en="Scale this as a system, not a one-off" data-fr="Passez à l'échelle comme un système, pas comme un cas isolé" data-es="Escale esto como sistema, no como un caso aislado">Scale this as a system, not a one-off</h2><h4 data-en="Enterprise subscription for agricultural organizations" data-fr="Abonnement entreprise pour les organisations agricoles" data-es="Suscripci&oacute;n empresarial para organizaciones agr&iacute;colas">Enterprise subscription for agricultural organizations</h4><p class="text-muted" data-en="Access Vitto's platform and decision-support tools to identify, validate, and scale high-impact solutions across your farmer network." data-fr="Accédez a la plateforme Vitto et a ses outils d'aide a la decision pour identifier, valider et déployer des solutions à fort impact sur votre réseau d'agriculteurs." data-es="Acceda a la plataforma de Vitto y a sus herramientas de apoyo a decisiones para identificar, validar y escalar soluciones de alto impacto en su red de agricultores.">Access Vitto's platform and decision-support tools to identify, validate, and scale high-impact solutions across your farmer network.</p></div>
+
+      <div class="col-12 text-center mb-4"><h4 data-en="Focus where impact compounds fastest" data-fr="Concentrez-vous là où l'impact se multiplie le plus vite" data-es="Enf&oacute;quese donde el impacto se multiplica m&aacute;s r&aacute;pido">Focus where impact compounds fastest</h4><p class="text-muted" data-en="Vitto focuses on high-impact innovation across three areas:" data-fr="Vitto se concentre sur l'innovation à fort impact dans trois domaines :" data-es="Vitto se enfoca en innovaci&oacute;n de alto impacto en tres &aacute;reas:">Vitto focuses on high-impact innovation across three areas:</p></div>
+      <div class="col-md-4 mb-4"><div class="feature-card h-100 p-4 bg-light rounded shadow-sm text-center"><h5 data-en="Farm Efficiency and Resilience" data-fr="Efficacité et résilience de l'exploitation" data-es="Eficiencia y resiliencia de la finca">Farm Efficiency and Resilience</h5><p class="text-muted mb-0" data-en="Improve productivity, reduce costs, and strengthen resilience" data-fr="Ameliorer la productivite, reduire les coûts et renforcer la resilience" data-es="Mejorar productividad, reducir costos y fortalecer resiliencia">Improve productivity, reduce costs, and strengthen resilience</p></div></div>
+      <div class="col-md-4 mb-4"><div class="feature-card h-100 p-4 bg-light rounded shadow-sm text-center"><h5 data-en="Sustainable Agriculture" data-fr="Agriculture durable" data-es="Agricultura sostenible">Sustainable Agriculture</h5><p class="text-muted mb-0" data-en="Support transition to more sustainable and climate-resilient practices" data-fr="Soutenir la transition vers des pratiques plus durables et résilientes au climat" data-es="Apoyar la transici&oacute;n hacia pr&aacute;cticas m&aacute;s sostenibles y resilientes al clima">Support transition to more sustainable and climate-resilient practices</p></div></div>
+      <div class="col-md-4 mb-4"><div class="feature-card h-100 p-4 bg-light rounded shadow-sm text-center"><h5 data-en="New Business Opportunities" data-fr="Nouvelles opportunités business" data-es="Nuevas oportunidades de negocio">New Business Opportunities</h5><p class="text-muted mb-0" data-en="Unlock new revenue streams (bioeconomy, carbon, market innovation)" data-fr="Débloquer de nouvelles sources de revenus (bioéconomie, carbone, innovation de marché)" data-es="Desbloquear nuevas fuentes de ingresos (bioeconom&iacute;a, carbono, innovaci&oacute;n de mercado)">Unlock new revenue streams (bioeconomy, carbon, market innovation)</p></div></div>
+
+      <div class="col-12 text-center mt-4">
+        <p class="text-muted mb-2" data-en="See how Vitto can scale solutions across your network" data-fr="Decouvrez comment Vitto peut déployer les solutions à l'échelle de votre réseau" data-es="Descubra c&oacute;mo Vitto puede escalar soluciones en toda su red">See how Vitto can scale solutions across your network</p>
+        <a class="btn btn-outline-success btn-lg px-4 py-3 fs-5" href="#" data-bs-toggle="modal" data-bs-target="#contactModal" data-en="Request a demo" data-fr="Demander une démo" data-es="Solicitar una demo">Request a demo</a>
+      </div>
     </div>
   </div>
 </section>
+
+
 
 
 
@@ -177,7 +242,7 @@ data-fr="MBA Université des Sciences Appliquées de Berlin (Renewables), MEng
             </div>
         </div>
         </section>
-      <!-- <section id="Partners" class="about-section py-5">
+      <section id="Partners" class="about-section py-5">
             <div class="container-fluid">
                 <div class="row justify-content-center">
                     <div class="col-12 text-center mb-5">
@@ -191,7 +256,7 @@ data-fr="MBA Université des Sciences Appliquées de Berlin (Renewables), MEng
                 <div class="container-fluid text-center">
                     <div class="row justify-content-center align-items-center gy-3">
                     <div class="col-auto">
-                        <img src="assets/img/ISC3 logo.jpeg" alt="Partner 1" class="logo-img" style="height: 60px;" loading="lazy" decoding="async" fetchpriority="low">
+                        <img src="assets/img/risingup.svg" alt="Partner 1" class="logo-img" style="height: 60px;" loading="lazy" decoding="async" fetchpriority="low">
                     </div>
                     <div class="col-auto">
                         <img src="assets/img/Carbon13_logo.webp" alt="Partner 2" class="logo-img" style="height: 60px;" loading="lazy" decoding="async" fetchpriority="low">
@@ -265,7 +330,7 @@ data-fr="MBA Université des Sciences Appliquées de Berlin (Renewables), MEng
                 </div>
             </div>
         </section> <!-- Partners Section -->
-
+  
         <!-- Press Releases Section -->
         <section id="press-releases" class="about-section py-5">
             <div class="container-fluid">
@@ -506,17 +571,6 @@ data-fr="MBA Université des Sciences Appliquées de Berlin (Renewables), MEng
                             </a>
                         </p>
                     </div>
-                    <div class="col-lg-4 mb-4 mb-lg-0">
-                        <h5 class="text-uppercase mb-4" data-en="Quick Links" data-fr="Liens Rapides" data-es="Enlaces Rápidos">Quick Links</h5>
-                        <ul class="list-unstyled mb-0">
-                            <li class="mb-2"><a href="#farmers" class="text-white text-decoration-none" data-en="For Farmers" data-fr="Pour les Agriculteurs" data-es="Para Agricultores">For Farmers</a></li>
-                            <li class="mb-2"><a href="#organizations" class="text-white text-decoration-none" data-en="For Organizations" data-fr="Pour les Organisations" data-es="Para Organizaciones">For Organizations</a></li>
-                            <li class="mb-2"><a href="#innovators" class="text-white text-decoration-none" data-en="For Innovators" data-fr="Pour les Innovateurs" data-es="Para Innovadores">For Innovators</a></li>
-                            <li class="mb-2"><a href="#about" class="text-white text-decoration-none" data-en="About Us" data-fr="À propos de nous" data-es="Sobre nosotros">About Us</a></li>
-                            <li class="mb-2"><a href="articles.html" class="text-white text-decoration-none" data-en="Our Articles" data-fr="Nos Articles" data-es="Nuestros Artículos">Our Articles</a></li>
-
-                        </ul>
-                    </div>
                     <div class="col-lg-4">
                         <h5 class="text-uppercase mb-4" data-en="Legal" data-fr="Légal" data-es="Legal">Legal</h5>
                         <ul class="list-unstyled mb-0">
@@ -627,7 +681,3 @@ data-fr="MBA Université des Sciences Appliquées de Berlin (Renewables), MEng
 
 </body>
 </html>
-
-
-
-
