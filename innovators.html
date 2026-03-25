@@ -1,0 +1,185 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vitto - For Innovators</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+  <link href="css/styles.css" rel="stylesheet" />
+  <style>
+    body{padding-top:76px}
+    .container-fluid{padding-left:1.25rem;padding-right:1.25rem}
+    @media (min-width: 992px){.container-fluid{padding-left:2rem;padding-right:2rem}}
+    .language-switcher{position:relative;display:inline-block}
+    .language-switcher select{padding:.375rem 2.25rem .375rem 3.25rem;font-size:.9rem;border-radius:.25rem;border:1px solid #ced4da;background:#fff;cursor:pointer;appearance:none;min-width:180px}
+    .language-switcher::before{content:"";position:absolute;left:1rem;top:50%;transform:translateY(-50%);width:2rem;height:1.25rem;background-size:contain;background-repeat:no-repeat;background-position:center;pointer-events:none}
+    .language-switcher[data-selected="fr"]::before{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3 2"><rect width="1" height="2" fill="%23002395"/><rect width="1" height="2" x="1" fill="%23FFFFFF"/><rect width="1" height="2" x="2" fill="%23ED2939"/></svg>')}
+    .language-switcher[data-selected="es"]::before{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3 2"><rect width="3" height="2" fill="%23c60b1e"/><rect width="3" height="1.2" y="0.4" fill="%23ffc400"/></svg>')}
+    .language-switcher[data-selected="en"]::before{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 6"><rect width="10" height="6" fill="%23012169"/><path d="M0,0 L10,6 M10,0 L0,6" stroke="%23fff" stroke-width="1"/><path d="M5,0 L5,6 M0,3 L10,3" stroke="%23fff" stroke-width="2"/><path d="M5,0 L5,6 M0,3 L10,3" stroke="%23C8102E" stroke-width="1"/></svg>')}
+  </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold" href="index.html"><img src="assets/img/LogoVittoSB.png" alt="Vitto AgTech Logo" style="height: 40px; margin-right: 10px;"/>Vitto AgTech</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" id="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+        <li class="nav-item"><a class="nav-link me-lg-3" href="farmers.html" data-en="For Farmers" data-fr="Pour les agriculteurs" data-es="Para agricultores">For Farmers</a></li>
+        <li class="nav-item"><a class="nav-link me-lg-3" href="organizations.html" data-en="For Organizations" data-fr="Pour les organisations" data-es="Para organizaciones">For Organizations</a></li>
+        <li class="nav-item"><a class="nav-link me-lg-3" href="index.html#about" data-en="About Us" data-fr="&Agrave; propos de nous" data-es="Sobre nosotros">About Us</a></li>
+        <li class="nav-item"><a class="nav-link me-lg-3" href="articles.html" data-en="Our ContentHub" data-fr="Notre centre de contenus" data-es="Nuestro centro de contenidos">Our ContentHub</a></li>
+        <li class="nav-item"><a class="btn btn-outline-primary py-2 px-3 rounded-pill fs-6 me-2" href="https://app.vitto-tech.com" target="_blank" rel="noopener" data-en="LOG IN" data-fr="CONNEXION" data-es="INICIAR SESI&Oacute;N">LOG IN</a></li>
+        <li class="nav-item"><a class="btn btn-outline-success py-2 px-3 rounded-pill fs-6" href="#" data-bs-toggle="modal" data-bs-target="#contactModal" data-en="Request a demo" data-fr="Demander une d&eacute;mo" data-es="Solicitar una demo">Request a demo</a></li>
+        <li class="nav-item"><div class="language-switcher" data-selected="en"><select class="form-select" id="language-select" onchange="setLanguage(this.value)"><option value="fr">Fran&ccedil;ais</option><option value="es">Espa&ntilde;ol</option><option value="en">English</option></select></div></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<section class="py-5"><div class="container-fluid"><div class="row justify-content-center">
+<div class="col-12 text-center mb-4"><h1 class="section-title" data-en="For Innovators" data-fr="Pour les porteurs d'innovation" data-es="Para innovadores">For Innovators</h1></div>
+<div class="col-lg-4 mb-4"><div class="feature-card h-100 p-0 bg-light rounded shadow-sm overflow-hidden"><img src="assets/img/innovator.png" alt="Innovator showcase" class="img-fluid w-100 h-100" style="object-fit: cover; min-height: 420px;" /></div></div>
+<div class="col-lg-8 mb-4">
+<p class="text-muted mb-4" data-en="Get your solution into the hands of agricultural organizations that can scale it. Vitto helps you move beyond pilots and reach real deployment across farmer networks." data-fr="Faites arriver votre solution entre les mains d'organisations agricoles capables de la d&eacute;ployer &agrave; grande &eacute;chelle. Vitto vous aide &agrave; d&eacute;passer les pilotes et &agrave; atteindre un d&eacute;ploiement r&eacute;el sur les r&eacute;seaux d'agriculteurs." data-es="Lleve su soluci&oacute;n a organizaciones agr&iacute;colas que pueden escalarla. Vitto le ayuda a pasar de los pilotos al despliegue real en redes de agricultores.">Get your solution into the hands of agricultural organizations that can scale it. Vitto helps you move beyond pilots and reach real deployment across farmer networks.</p>
+<div class="mb-3"><h4 data-en="What you get" data-fr="Ce que vous obtenez" data-es="Lo que obtiene">What you get</h4></div>
+<div class="row g-3">
+<div class="col-md-6"><div class="feature-card h-100 p-4 bg-light rounded shadow-sm text-center"><i class="bi bi-bullseye icon-feature d-block mb-3" style="color:#4CAF50"></i><h5 data-en="Direct access to decision-makers" data-fr="Acc&egrave;s direct aux d&eacute;cideurs" data-es="Acceso directo a quienes deciden">Direct access to decision-makers</h5><p class="text-muted mb-0" data-en="Reach cooperatives and agribusinesses actively looking for solutions" data-fr="Touchez des coop&eacute;ratives et des entreprises agricoles qui recherchent activement des solutions" data-es="Llegue a cooperativas y agronegocios que buscan soluciones activamente">Reach cooperatives and agribusinesses actively looking for solutions</p></div></div>
+<div class="col-md-6"><div class="feature-card h-100 p-4 bg-light rounded shadow-sm text-center"><i class="bi bi-lightning-charge icon-feature d-block mb-3" style="color:#4CAF50"></i><h5 data-en="Faster validation in real conditions" data-fr="Validation plus rapide en conditions r&eacute;elles" data-es="Validaci&oacute;n m&aacute;s r&aacute;pida en condiciones reales">Faster validation in real conditions</h5><p class="text-muted mb-0" data-en="Test your solution with the right partners and use cases" data-fr="Testez votre solution avec les bons partenaires et cas d'usage" data-es="Pruebe su soluci&oacute;n con los socios y casos de uso adecuados">Test your solution with the right partners and use cases</p></div></div>
+<div class="col-md-6"><div class="feature-card h-100 p-4 bg-light rounded shadow-sm text-center"><i class="bi bi-graph-up-arrow icon-feature d-block mb-3" style="color:#4CAF50"></i><h5 data-en="Scale beyond early adopters" data-fr="Passez au-del&agrave; des premiers adopteurs" data-es="Escalar m&aacute;s all&aacute; de los primeros adoptantes">Scale beyond early adopters</h5><p class="text-muted mb-0" data-en="Move from pilots to large-scale implementation" data-fr="Passez des pilotes &agrave; une mise en oeuvre &agrave; grande &eacute;chelle" data-es="Pase de pilotos a una implementaci&oacute;n a gran escala">Move from pilots to large-scale implementation</p></div></div>
+<div class="col-md-6"><div class="feature-card h-100 p-4 bg-light rounded shadow-sm text-center"><i class="bi bi-people icon-feature d-block mb-3" style="color:#4CAF50"></i><h5 data-en="Higher-quality partnerships" data-fr="Des partenariats de meilleure qualit&eacute;" data-es="Alianzas de mayor calidad">Higher-quality partnerships</h5><p class="text-muted mb-0" data-en="Connect with organizations ready to deploy, not just explore" data-fr="Connectez-vous &agrave; des organisations pr&ecirc;tes &agrave; d&eacute;ployer, pas seulement &agrave; explorer" data-es="Conecte con organizaciones listas para desplegar, no solo para explorar">Connect with organizations ready to deploy, not just explore</p></div></div>
+</div></div>
+<div class="col-lg-10 mt-4"><div class="feature-card p-4 bg-light rounded shadow-sm text-center"><h4 class="font-alt mb-3" data-en="Why it matters" data-fr="Pourquoi c'est important" data-es="Por qu&eacute; importa">Why it matters</h4><p class="text-muted mb-0" data-en="Most solutions never move beyond pilots. Vitto helps you reach organizations that can actually scale your solution." data-fr="La plupart des solutions ne d&eacute;passent jamais le stade pilote. Vitto vous aide &agrave; atteindre des organisations capables de vraiment passer &agrave; l'&eacute;chelle." data-es="La mayor&iacute;a de las soluciones nunca supera los pilotos. Vitto le ayuda a llegar a organizaciones que realmente pueden escalar su soluci&oacute;n.">Most solutions never move beyond pilots. Vitto helps you reach organizations that can actually scale your solution.</p></div><div class="text-center mt-4"><a class="btn btn-outline-success py-2 px-4 rounded-pill fs-5" href="#" data-bs-toggle="modal" data-bs-target="#contactModal" data-en="Request a demo" data-fr="Demander une d&eacute;mo" data-es="Solicitar una demo">Request a demo</a></div></div>
+</div></div></section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="contactModalLabel"
+            data-en="Contact Us"
+            data-fr="Contactez-nous"
+            data-es="Contáctenos">
+          Contact Us
+        </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center">
+        
+
+
+        <!-- FR form -->
+        <div class="contact-form d-none" data-lang="fr">
+          <iframe width="100%" height="500"
+            src="https://7b1aa52b.sibforms.com/serve/MUIFAO3KJAwTVCG7GXISJoV6KIWsohBBGiPsQuqPci5CWGL8DyRjsbuJ0zOQnhXgr_G8oNuKUgumv8b5LPkNzJiv-sb9SmCu_79TWlQ4FUszusdnckVQTmO8oEazNQ5CXnQNPPY1AXWcjZ18qWgZf6kcxI1_EUlXRjpYG0G4zVKCtW1oewFaTxH71WyAV-XESV0GHuMV7wXswh8o"
+            frameborder="0"
+            scrolling="auto"
+            allowfullscreen
+            style="display: block; margin: 0 auto; max-width: 100%;">
+          </iframe>
+
+        </div>
+
+                <!-- EN + ES form -->
+        <div class="contact-form" data-lang="en es">
+          <iframe width="100%" height="500"
+            src="https://7b1aa52b.sibforms.com/serve/MUIFAIcsKS48UBIcEfAh4Jh6nq4DtdysS7_hLdsz_dtQvQlmQKsRjPoyttYZGmGzNCYXEmoVLpIbXVdW0OyNorSB90qvngFCYE1jCOKCfvpUW8GY2TsgmIEMmMoqesDgfPs75SXDzCuBUKTBkqd7sQpbnbw0OrHFw3N5i3eF61OBcnHktRELyQZ7JN6Jap6WmQTfaRXyTGozh0JD"
+            frameborder="0"
+            scrolling="auto"
+            allowfullscreen
+            style="display: block; margin: 0 auto; max-width: 100%;">
+          </iframe>
+         
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<script src="js/scripts.js"></script>
+<script src="scripts/main.js"></script>
+
+  <!-- Footer-->
+        <footer class="bg-green text-white py-5">
+            <div class="container px-5">
+                <div class="row align-items-center mb-4">
+                    <div class="col-lg-8 mb-3 mb-lg-0">
+                        <h5 class="text-uppercase mb-2" data-en="Get the Vitto app for farmers" data-fr="Téléchargez l’app Vitto pour les agriculteurs" data-es="Descargue la app Vitto para agricultores">Get the Vitto app for farmers</h5>
+                        <p class="mb-2" data-en="Your smart companion for better farming decisions." data-fr="Votre alliée pour de meilleures décisions agricoles." data-es="Su aliada para mejores decisiones agrícolas.">Your smart companion for better farming decisions.</p>
+                       
+                    </div>
+                    <div class="col-lg-4 text-lg-end">
+                        <div class="d-flex justify-content-start justify-content-lg-end align-items-center store-links">
+                            <a href="https://play.google.com/store/apps/details?id=com.stephyyyyy.VittoFarmerApp" target="_blank" rel="noopener" class="me-3" aria-label="Get it on Google Play">
+                                <img src="assets/img/google-play-badge.svg" alt="Get it on Google Play" style="height: 40px;">
+                            </a>
+                            <a href="https://apps.apple.com/app/vitto-agtech/id6753060986" target="_blank" rel="noopener" class="me-3" aria-label="Download on the App Store">
+                                <img src="assets/img/app-store-badge.svg" alt="Download on the App Store" style="height: 40px;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row gx-5">
+                    <div class="col-lg-4 mb-4 mb-lg-0">
+                        <h5 class="text-uppercase mb-4" data-en="Vitto AgTech" data-fr="Vitto AgTech" data-es="Vitto AgTech">Vitto AgTech</h5>
+                        <p class="mb-4" data-en="Unlock the Full Potential of Agriculture by Turning Innovation into Real-World Impact" 
+                           data-fr="Libérez le Plein Potentiel de l'Agriculture en Transformant l'Innovation en Impact Concret" 
+                           data-es="Desbloquee todo el potencial de la agricultura convirtiendo la innovaci&oacute;n en impacto real">
+                            Unlock the Full Potential of Agriculture by Turning Innovation into Real-World Impact
+                        </p>
+                        <p class="small mb-1">
+                            <a href="mailto:contact@vitto-tech.com" class="text-white text-decoration-none">
+                                <i class="bi bi-envelope me-2"></i>contact@vitto-tech.com
+                            </a>
+                        </p>
+                        <p class="mb-0">
+                            <span class="me-2 fw-semibold" style="font-size: 1rem;" data-en="Follow us:" data-fr="Suivez-nous :" data-es="Síguenos:">Follow us:</span>
+                            <a href="https://www.linkedin.com/company/vitto-tech/" target="_blank" rel="noopener" class="text-white text-decoration-none me-3" aria-label="LinkedIn">
+                                <i class="bi bi-linkedin" style="font-size: 1.4rem; color: #0A66C2;"></i>
+                            </a>
+                            <a href="https://www.facebook.com/profile.php?id=61579552833754" target="_blank" rel="noopener" class="text-white text-decoration-none me-3" aria-label="Facebook">
+                                <i class="bi bi-facebook" style="font-size: 1.4rem;"></i>
+                            </a>
+                            <a href="https://www.instagram.com/vittoagtech?igsh=aXR0Y3ZwyzM17Gk0&utm_source=qr" target="_blank" rel="noopener" class="text-white text-decoration-none" aria-label="Instagram">
+                                <i class="bi bi-instagram" style="font-size: 1.4rem;"></i>
+                            </a>
+                        </p>
+                    </div>
+                    <div class="col-lg-4 mb-4 mb-lg-0">
+                        <h5 class="text-uppercase mb-4" data-en="Quick Links" data-fr="Liens Rapides" data-es="Enlaces Rápidos">Quick Links</h5>
+                        <ul class="list-unstyled mb-0">
+                            <li class="mb-2"><a href="#farmers" class="text-white text-decoration-none" data-en="For Farmers" data-fr="Pour les Agriculteurs" data-es="Para Agricultores">For Farmers</a></li>
+                            <li class="mb-2"><a href="#organizations" class="text-white text-decoration-none" data-en="For Organizations" data-fr="Pour les Organisations" data-es="Para Organizaciones">For Organizations</a></li>
+                            <li class="mb-2"><a href="#innovators" class="text-white text-decoration-none" data-en="For Innovators" data-fr="Pour les Innovateurs" data-es="Para Innovadores">For Innovators</a></li>
+                            <li class="mb-2"><a href="#about" class="text-white text-decoration-none" data-en="About Us" data-fr="À propos de nous" data-es="Sobre nosotros">About Us</a></li>
+                            <li class="mb-2"><a href="articles.html" class="text-white text-decoration-none" data-en="Our Articles" data-fr="Nos Articles" data-es="Nuestros Artículos">Our Articles</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-lg-4">
+                        <h5 class="text-uppercase mb-4" data-en="Legal" data-fr="Légal" data-es="Legal">Legal</h5>
+                        <ul class="list-unstyled mb-0">
+                            <li class="mb-2"><a href="privacy-policy.html" class="text-white text-decoration-none" data-en="Privacy Policy" data-fr="Politique de Confidentialité" data-es="Política de Privacidad">Privacy Policy</a></li>
+                            <li class="mb-2"><a href="sitemap.xml" class="text-white text-decoration-none" data-en="Sitemap" data-fr="Plan du site" data-es="Mapa del sitio">Sitemap</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr class="my-4 bg-white">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p class="small mb-0" data-en="&copy; 2025 Vitto AgTech. All rights reserved. Not incorporated." data-fr="&copy; 2025 Vitto AgTech. Tous droits réservés." data-es="&copy; 2025 Vitto AgTech. Todos los derechos reservados.">&copy; 2025 Vitto AgTech. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>
+
+
+
+
+
+

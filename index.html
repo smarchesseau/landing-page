@@ -1,623 +1,85 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7T7GXKBD2Y"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>Vitto AgTech - Turn Agricultural Innovation Into Adoption at Scale</title>
+  <link href="assets/favicon.ico" rel="icon" type="image/x-icon" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+  <link href="css/styles.css" rel="stylesheet" />
+  <style>
+    body{padding-top:76px}
+    .container-fluid{padding-left:1.25rem;padding-right:1.25rem}
+    @media (min-width: 992px){.container-fluid{padding-left:2rem;padding-right:2rem}}
+    .section-title{font-size:2.2rem;font-weight:700}
+    .language-switcher{position:relative;display:inline-block}
+    .language-switcher select{padding:.375rem 2.25rem .375rem 3.25rem;font-size:.9rem;border-radius:.25rem;border:1px solid #ced4da;background:#fff;cursor:pointer;appearance:none;min-width:180px}
+    .language-switcher::before{content:"";position:absolute;left:1rem;top:50%;transform:translateY(-50%);width:2rem;height:1.25rem;background-size:contain;background-repeat:no-repeat;background-position:center;pointer-events:none}
+    .language-switcher[data-selected="fr"]::before{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3 2"><rect width="1" height="2" fill="%23002395"/><rect width="1" height="2" x="1" fill="%23FFFFFF"/><rect width="1" height="2" x="2" fill="%23ED2939"/></svg>')}
+    .language-switcher[data-selected="es"]::before{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3 2"><rect width="3" height="2" fill="%23c60b1e"/><rect width="3" height="1.2" y="0.4" fill="%23ffc400"/></svg>')}
+    .language-switcher[data-selected="en"]::before{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 6"><rect width="10" height="6" fill="%23012169"/><path d="M0,0 L10,6 M10,0 L0,6" stroke="%23fff" stroke-width="1"/><path d="M5,0 L5,6 M0,3 L10,3" stroke="%23fff" stroke-width="2"/><path d="M5,0 L5,6 M0,3 L10,3" stroke="%23C8102E" stroke-width="1"/></svg>')}
+  </style>
+</head>
+<body id="page-top">
 
-  gtag('config', 'G-7T7GXKBD2Y');
-</script>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="Vitto AgTech: Empowering farmers and agricultural organizations with AI-powered innovation adoption tools. Get personalized recommendations, ROI analysis, and connect with a community of agricultural innovators." />
-        <meta name="keywords" content="agricultural technology, farm innovation, AI farming, agricultural community, sustainable farming, agtech solutions, ROI analysis, farm management" />
-        <meta name="author" content="Vitto AgTech" />
-        <meta name="robots" content="index, follow" />
-        <meta property="og:title" content="Vitto AgTech - Agricultural Innovation Platform" />
-        <meta property="og:description" content="Transform your farm with sustainable and efficient innovations powered by AI and community knowledge." />
-        <meta property="og:image" content="assets/img/LogoVittoSB.png" />
-        <meta property="og:url" content="https://vitto-tech.com" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <title>Vitto AgTech - Agricultural Innovation Platform | AI-Powered Farm Solutions</title>
-        <link rel="canonical" href="https://vitto-tech.com" />
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Bootstrap icons-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
-        <!-- Google fonts-->
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-        <style>
-            .feature-number {
-                width: 40px;
-                height: 40px;
-                background-color: #4CAF50;
-                color: white;
-                border-radius: 50%;
-                display: inline-flex;
-                align-items: center;
-                justify-content: center;
-                font-size: 1.5rem;
-                font-weight: bold;
-                margin: 0 auto;
-            }
-            .section-title {
-                font-size: 2.5rem;
-                font-weight: bold;
-                margin-bottom: 1.5rem;
-            }
-            .language-switcher {
-                position: relative;
-                display: inline-block;
-            }
-            .language-switcher select {
-                padding: 0.375rem 2.25rem 0.375rem 3.25rem;
-                font-size: 0.9rem;
-                border-radius: 0.25rem;
-                border: 1px solid #ced4da;
-                background-color: #fff;
-                cursor: pointer;
-                appearance: none;
-                min-width: 180px;
-            }
-            .language-switcher select:focus {
-                border-color: #4CAF50;
-                outline: 0;
-                box-shadow: 0 0 0 0.25rem rgba(76, 175, 80, 0.25);
-            }
-            .language-switcher::before {
-                content: "";
-                position: absolute;
-                left: 1rem;
-                top: 50%;
-                transform: translateY(-50%);
-                width: 2rem;
-                height: 1.25rem;
-                background-size: contain;
-                background-repeat: no-repeat;
-                background-position: center;
-                pointer-events: none;
-            }
-            .language-switcher[data-selected="fr"]::before {
-                background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3 2"><rect width="1" height="2" fill="%23002395"/><rect width="1" height="2" x="1" fill="%23FFFFFF"/><rect width="1" height="2" x="2" fill="%23ED2939"/></svg>');
-            }
-            .language-switcher[data-selected="es"]::before {
-                background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3 2"><rect width="3" height="2" fill="%23c60b1e"/><rect width="3" height="1.2" y="0.4" fill="%23ffc400"/></svg>');
-            }
-            .language-switcher[data-selected="en"]::before {
-                background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 6"><rect width="10" height="6" fill="%23012169"/><path d="M0,0 L10,6 M10,0 L0,6" stroke="%23fff" stroke-width="1"/><path d="M5,0 L5,6 M0,3 L10,3" stroke="%23fff" stroke-width="2"/><path d="M5,0 L5,6 M0,3 L10,3" stroke="%23C8102E" stroke-width="1"/></svg>');
-            }
-            /* Ensure fixed-top navbar doesn't overlap content on mobile/desktop */
-            body { padding-top: 72px; }
-            @media (min-width: 992px) { body { padding-top: 76px; } }
-            /* Add safe-area padding for footers on mobile devices */
-            footer { padding-bottom: calc(env(safe-area-inset-bottom, 0px) + 16px); }
-            /* Reduce excessive horizontal padding/margins in footer on small screens */
-            @media (max-width: 576px) {
-                footer .container {
-                    padding-left: 1rem !important;
-                    padding-right: 1rem !important;
-                }
-                footer .row.align-items-center {
-                    margin-left: 0 !important;
-                    margin-right: 0 !important;
-                }
-                footer .row.gx-5 {
-                    --bs-gutter-x: 1rem;
-                }
-            }
-            /* Prevent layout shift when Bootstrap modal toggles body scrollbar */
-            html { overflow-y: scroll; scrollbar-gutter: stable; }
-            .modal-open { padding-right: 0 !important; }
-            .modal { padding-right: 0 !important; overflow-y: auto; }
-        </style>
+<nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold" href="#page-top"><img src="assets/img/LogoVittoSB.png" alt="Vitto AgTech Logo" style="height:40px;margin-right:10px;"/>Vitto AgTech</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" id="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+        <li class="nav-item"><a class="nav-link me-lg-3" href="farmers.html" data-en="For Farmers" data-fr="Pour les agriculteurs" data-es="Para agricultores">For Farmers</a></li>
+        <li class="nav-item"><a class="nav-link me-lg-3" href="organizations.html" data-en="For Organizations" data-fr="Pour les organisations" data-es="Para organizaciones">For Organizations</a></li>
+        <li class="nav-item"><a class="nav-link me-lg-3" href="innovators.html" data-en="For Innovators" data-fr="Pour les porteurs d'innovation" data-es="Para innovadores">For Innovators</a></li>
+        <li class="nav-item"><a class="nav-link me-lg-3" href="#about" data-en="About Us" data-fr="&Agrave; propos de nous" data-es="Sobre nosotros">About Us</a></li>
+        <li class="nav-item"><a class="nav-link me-lg-3" href="articles.html" data-en="Our ContentHub" data-fr="Notre centre de contenus" data-es="Nuestro centro de contenidos">Our ContentHub</a></li>
+        <li class="nav-item"><a class="btn btn-outline-primary py-2 px-3 rounded-pill fs-6 me-2" href="https://app.vitto-tech.com" target="_blank" rel="noopener" data-en="LOG IN" data-fr="CONNEXION" data-es="INICIAR SESI&Oacute;N">LOG IN</a></li>
+        <li class="nav-item"><a class="btn btn-outline-success py-2 px-3 rounded-pill fs-6" href="#" data-bs-toggle="modal" data-bs-target="#contactModal" data-en="Request a demo" data-fr="Demander une d&eacute;mo" data-es="Solicitar una demo">Request a demo</a></li>
+        <li class="nav-item">
+          <div class="language-switcher" data-selected="en">
+            <select class="form-select" id="language-select" onchange="setLanguage(this.value)">
+              <option value="fr">Fran&ccedil;ais</option>
+              <option value="es">Espa&ntilde;ol</option>
+              <option value="en">English</option>
+            </select>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-        <!-- Google Tag Manager -->
-        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','GTM-K4W5PC67');
-        </script>
-            <!-- End Google Tag Manager -->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-        <script>
-        // Dynamically adjust body top padding to match actual navbar height (handles mobile collapse)
-        (function () {
-            function adjustOffsets() {
-                var nav = document.getElementById('mainNav');
-                if (!nav) return;
-                var h = nav.offsetHeight || 72;
-                document.body.style.paddingTop = h + 'px';
-            }
-            window.addEventListener('load', adjustOffsets, { passive: true });
-            window.addEventListener('resize', adjustOffsets, { passive: true });
-            document.addEventListener('DOMContentLoaded', function () {
-                var toggler = document.getElementById('navbar-toggler');
-                if (toggler) {
-                    toggler.addEventListener('click', function () {
-                        setTimeout(adjustOffsets, 350);
-                    }, { passive: true });
-                }
-            });
-        })();
-        </script>
-        <!-- Structured Data -->
-        <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "Vitto AgTech",
-            "description": "Agricultural innovation platform empowering farmers with AI-powered solutions",
-            "url": "https://www.vitto-tech.com",
-            "logo": "https://www.vitto-tech.com/assets/img/LogoVittoSB.png",
-            "sameAs": [],
-            "offers": {
-                "@type": "Offer",
-                "name": "Agricultural Innovation Solutions",
-                "description": "AI-powered recommendations, ROI analysis, and community access for farmers"
-            }
-        }
-        </script>
-    </head>
-    <body id="page-top">
-        <!-- Google Tag Manager (noscript) -->
-        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K4W5PC67"
-        height="0" width="0" style="display:none;visibility:hidden"></iframe>
-        </noscript>
-    <!-- End Google Tag Manager (noscript) -->
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
-            <div class="container-fluid">
-                <a class="navbar-brand fw-bold" href="#page-top">
-                    <img src="assets/img/LogoVittoSB.png" alt="Vitto AgTech Logo" style="height: 40px; margin-right: 10px;">
-                    Vitto AgTech
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" id="navbar-toggler">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
-                        <li class="nav-item"><a class="nav-link me-lg-3" href="#farmers" data-en="For Farmers" data-fr="Pour les Agriculteurs" data-es="Para Agricultores">For Farmers</a></li>
-                        <li class="nav-item"><a class="nav-link me-lg-3" href="#organizations" data-en="For Organizations" data-fr="Pour les Organisations" data-es="Para Organizaciones">For Organizations</a></li>
-                        <li class="nav-item"><a class="nav-link me-lg-3" href="#innovators" data-en="For Innovators" data-fr="Pour les Innovateurs" data-es="Para Innovadores">For Innovators</a></li>
-                        <li class="nav-item"><a class="nav-link me-lg-3" href="#about" data-en="About Us" data-fr="À Propos de Nous" data-es="Sobre Nosotros">About Us</a></li>
-                        <li class="nav-item"><a class="nav-link me-lg-3" href="articles.html" data-en="Our ContentHub" data-fr="Notre ContentHub" data-es="Nuestro ContentHub">Our ContentHub</a></li>
+<header class="masthead">
+  <div class="container-fluid px-5">
+    <div class="row gx-5 align-items-center">
+      <div class="col-lg-6">
+        <h1 class="display-3 lh-1 mb-3" data-en="Turn agricultural innovation into real-world adoption at scale." data-fr="Transformez l'innovation agricole en adoption r&eacute;elle &agrave; grande &eacute;chelle." data-es="Convierta la innovaci&oacute;n agr&iacute;cola en adopci&oacute;n real a gran escala.">Turn agricultural innovation into real-world adoption at scale.</h1>
+        <p class="lead fw-normal text-muted mb-4" data-en="Vitto helps cooperatives and agribusinesses identify what works and scale it across their farmer networks, faster and with less risk." data-fr="Vitto aide les coop&eacute;ratives et les entreprises agricoles &agrave; identifier ce qui fonctionne et &agrave; le d&eacute;ployer dans leurs r&eacute;seaux d'agriculteurs, plus vite et avec moins de risques." data-es="Vitto ayuda a cooperativas y agronegocios a identificar lo que funciona y escalarlo en sus redes de agricultores, m&aacute;s r&aacute;pido y con menos riesgo.">Vitto helps cooperatives and agribusinesses identify what works and scale it across their farmer networks, faster and with less risk.</p>
+        <a class="btn btn-outline-success py-2 px-3 rounded-pill fs-6" href="#" data-bs-toggle="modal" data-bs-target="#contactModal" data-en="Request a demo" data-fr="Demander une d&eacute;mo" data-es="Solicitar una demo">Request a demo</a>
+      </div>
+      <div class="col-lg-6 text-center"><img class="img-fluid" src="assets/img/Collage3.png" alt="Agricultural innovation" /></div>
+    </div>
+  </div>
+</header>
 
-                        <li class="nav-item">
-                            <a class="btn btn-outline-primary py-2 px-3 rounded-pill fs-6 me-2" href="https://app.vitto-tech.com" target="_blank" rel="noopener"
-                               data-en="LOG IN" data-fr="CONNEXION" data-es="INICIAR SESIÓN">
-                               LOG IN
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                       <a class="btn btn-outline-success py-2 px-3 rounded-pill fs-6"
-   href="#"
-   data-bs-toggle="modal"
-   data-bs-target="#contactModal"
-   data-en="Contact Us" data-fr="Contactez-nous" data-es="Contáctenos">
-   Contact Us
-</a>
+<aside class="text-center bg-green py-5">
+  <div class="container-fluid"><div class="h2 fs-1 text-white mb-0" data-en="Innovation isn’t the problem. Adoption is." data-fr="L'innovation n'est pas le probl&egrave;me. L'adoption l'est." data-es="La innovaci&oacute;n no es el problema. La adopci&oacute;n s&iacute;.">Innovation isn’t the problem. Adoption is.</div></div>
+</aside>
 
-                            </li>
-                        
-                        <li class="nav-item">
-                            <div class="language-switcher" data-selected="fr">
-                                <select id="language-select" class="form-select" onchange="setLanguage(this.value)">
-                                    <option value="fr">Français</option>
-                                    <option value="es">Español</option>
-                                    <option value="en">English</option>
-                                </select>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+<section class="py-5">
+  <div class="container-fluid">
+    <div class="row g-4">
+      <div class="col-12 text-center">
+        <h2 class="section-title" data-en="Explore by Audience" data-fr="Explorez par profil" data-es="Explore por perfil">Explore by Audience</h2>
+      </div>
+      <div class="col-md-4"><div class="feature-card h-100 p-4 bg-light rounded shadow-sm text-center"><h4 data-en="For Organizations" data-fr="Pour les organisations" data-es="Para organizaciones">For Organizations</h4><p class="text-muted" data-en="Problem, solution, value, use cases, process and business model." data-fr="Probl&egrave;me, solution, valeur, cas d'usage, processus et mod&egrave;le &eacute;conomique." data-es="Problema, soluci&oacute;n, valor, casos de uso, proceso y modelo de negocio.">Problem, solution, value, use cases, process and business model.</p><a class="btn btn-outline-primary" href="organizations.html" data-en="Open page" data-fr="Ouvrir la page" data-es="Abrir p&aacute;gina">Open page</a></div></div>
+      <div class="col-md-4"><div class="feature-card h-100 p-4 bg-light rounded shadow-sm text-center"><h4 data-en="For Innovators" data-fr="Pour les porteurs d'innovation" data-es="Para innovadores">For Innovators</h4><p class="text-muted" data-en="Move from pilots to large-scale implementation." data-fr="Passez des pilotes au d&eacute;ploiement &agrave; grande &eacute;chelle." data-es="Pase de los pilotos al despliegue a gran escala.">Move from pilots to large-scale implementation.</p><a class="btn btn-outline-primary" href="innovators.html" data-en="Open page" data-fr="Ouvrir la page" data-es="Abrir p&aacute;gina">Open page</a></div></div>
+      <div class="col-md-4"><div class="feature-card h-100 p-4 bg-light rounded shadow-sm text-center"><h4 data-en="For Farmers" data-fr="Pour les agriculteurs" data-es="Para agricultores">For Farmers</h4><p class="text-muted" data-en="Practical and validated solutions for field realities." data-fr="Des solutions pratiques et valid&eacute;es pour la r&eacute;alit&eacute; terrain." data-es="Soluciones pr&aacute;cticas y validadas para la realidad de campo.">Practical and validated solutions for field realities.</p><a class="btn btn-outline-primary" href="farmers.html" data-en="Open page" data-fr="Ouvrir la page" data-es="Abrir p&aacute;gina">Open page</a></div></div>
+    </div>
+  </div>
+</section>
 
-
-        <script>
-                // Define the link as a variable
-                const createAccountLink = "https://app.vitto-tech.com/";
-
-                // Apply the link to all elements with a specific class or ID
-                document.addEventListener('DOMContentLoaded', function () {
-                    // Update the "Create Account" button in the modal
-                    const createAccountButtons = document.querySelectorAll('.create-account-link');
-                    createAccountButtons.forEach(button => {
-                        button.href = createAccountLink;
-                    });
-                });
-            </script>
-        
-        
-        <!-- Mashead header-->
-        <header class="masthead">
-            <div class="container-fluid px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6">
-                        <div class="mb-5 mb-lg-0 text-center text-lg-start">
-                            <h1 class="display-3 lh-1 mb-3" 
-                                data-en="Unlock the Full Potential of Agriculture by Turning Innovation into Real-World Impact" 
-                                data-fr="Libérez le Plein Potentiel de l'Agriculture en Transformant l'Innovation en Impact Concret" 
-                                data-es="Desbloquea el Potencial Completo de la Agricultura Convirtiendo la Innovación en Impacto Real">
-                                Unlock the Full Potential of Agriculture by Turning Innovation into Real-World Impact
-                            </h1>
-                            <p class="lead fw-normal text-muted mb-5" 
-                               data-en="Vitto AgTech: Empowering farms and agricultural organizations with sustainable, AI-driven solutions to enhance efficiency and profitability" 
-                               data-fr="Vitto AgTech: Accompagner les exploitations et organisations agricoles avec des solutions durables basées sur l'IA pour améliorer l'efficacité et la rentabilité" 
-                               data-es="Vitto AgTech: Empoderando a granjas y organizaciones agrícolas con soluciones sostenibles impulsadas por IA para mejorar la eficiencia y rentabilidad">
-                                Vitto AgTech: Empowering farms and agricultural organizations with sustainable, AI-driven solutions to enhance efficiency and profitability
-                            </p>
-                            <div class="d-flex flex-column flex-lg-row align-items-center">
-                            <a class="btn btn-outline-success py-2 px-3 rounded-pill fs-6"
-                            href="#"
-                            data-bs-toggle="modal"
-                            data-bs-target="#contactModal"
-                            data-en="Contact Us" data-fr="Contactez-nous" data-es="Contáctenos">
-                            Contact Us
-                            </a>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 text-center">
-                        <img src="assets/img/Collage3.png" alt="Agricultural Innovation Technology Showcase" class="img-fluid">
-                    </div>
-                </div>
-            </div>
-        </header>
-        
-        <!-- Quote/testimonial aside-->
-        <aside class="text-center bg-green py-5">
-            <div class="container-fluid">
-                <div class="row justify-content-center">
-                    <div class="col-lg-10">
-                        <div class="h2 fs-1 text-white mb-0" 
-                             data-en="The platform that simplifies, connects, and accelerates the adoption of agritech" 
-                             data-fr="La plateforme qui simplifie, connecte et accélère l'adoption de l'agritech" 
-                             data-es="La plataforma que simplifica, conecta y acelera la adopción de agritech">
-                             The platform that simplifies, connects, and accelerates the adoption of agritech
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </aside>
-        
-        <!-- Problem Statement Section -->
-        <section id="problem-statement" class="py-5">
-            <div class="container-fluid">
-                <div class="row justify-content-center">
-                    <div class="col-12 text-center">
-                        <h2 class="section-title mb-4" data-en="Our Mission" data-fr="Notre Mission" data-es="Nuestra Misión">Our Mission</h2>
-                        <div class="row justify-content-center">
-                            <div class="col-lg-10">
-                                <p class="text-muted mb-0" data-en="We accelerate the adoption of innovation and technology in agriculture, fostering smarter, more competitive, and sustainable farms."
-                                data-fr="Nous accélérons l'adoption de l'innovation et de la technologie dans l'agriculture, favorisant des exploitations plus intelligentes, plus compétitives et durables."
-                                data-es="Aceleramos la adopción de innovación y tecnología en la agricultura, fomentando granjas más inteligentes, competitivas y sostenibles.">
-                                We accelerate the adoption of innovation and technology in agriculture, fostering smarter, more competitive, and sustainable farms.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- App features section-->
-        <section id="features" class="py-5">
-            <div class="container-fluid">
-                
-                <!-- Agricultural Organizations Section -->
-                <div id="organizations" class="row mb-5">
-                    <div class="col-12 text-center mb-5">
-                        <h3 class="mb-4 section-title" 
-                            data-en="For Agricultural Organizations" 
-                            data-fr="Pour les Organisations Agricoles" 
-                            data-es="Para Organizaciones Agrícolas">
-                            For Agricultural Organizations
-                        </h3>
-                        <p class="text-muted mb-5 px-lg-5" 
-                           data-en="We help agricultural organizations and their members accelerate innovation adoption, reduce risks, and increase profitability. By integrating AI-based recommendations, global innovation watch, and community validation, we enable agricultural organizations to become the go-to source for next-generation farming solutions." 
-                           data-fr="Nous aidons les organisations agricoles et leurs membres à accélérer l'adoption de l'innovation, réduire les risques et augmenter la rentabilité. En intégrant des recommandations basées sur l'IA, une veille sur l'innovation mondiale et la validation par la communauté, nous permettons aux organisations agricoles de devenir la source de référence pour les solutions agricoles de nouvelle génération." 
-                           data-es="Ayudamos a las organizaciones agrícolas y sus miembros a acelerar la adopción de innovaciones, reducir riesgos y aumentar la rentabilidad. Al integrar recommandations basadas en IA, vigilancia de innovación global y validación comunitaria, permitimos que las organizaciones agrícolas se conviertan en la fuente de referencia para soluciones agrícolas de próxima generación.">
-                            We help agricultural organizations and their members accelerate innovation adoption, reduce risks, and increase profitability. By integrating AI-based recommendations, global innovation watch, and community validation, we enable agricultural organizations to become the go-to source for next-generation farming solutions.
-                        </p>
-                        <a class="btn btn-outline-primary mb-5" href="assets/brochures/coop_fr.pdf" id="org-brochure-btn"
-                           data-en-href="assets/brochures/coop_en.pdf"
-                           data-fr-href="assets/brochures/coop_fr.pdf"
-                           data-es-href="assets/brochures/coop_en.pdf"
-                           data-en="Download Organization Guide"
-                           data-fr="Télécharger le Guide des Organisations"
-                           data-es="Descargar Guía de Organizaciones">
-                            Télécharger le Guide des Organisations
-                        </a>
-                    </div>
-                    <div class="col-12">
-                        <div class="row g-4">
-                            <div class="col-md-4">
-                                <div class="feature-card h-100 p-4 bg-light rounded shadow-sm">
-                                    <div class="text-center mb-4">
-                                        <div class="feature-number mb-3">1</div>
-                                    </div>
-                                    <h4 class="font-alt text-center" data-en="Innovation Monitoring" data-fr="Veille sur l'Innovation" data-es="Vigilancia de Innovación">Innovation Monitoring</h4>
-                                    <p class="text-muted mb-0" data-en="Access a comprehensive platform featuring innovative methods, including new technologies, diversification techniques, biocontrol options, and new crop varieties."
-                                       data-fr="Accédez à une plateforme complète présentant des méthodes innovantes, y compris de nouvelles technologies, des techniques de diversification, des options de biocontrôle et de nouvelles variétés de cultures."
-                                       data-es="Acceda a una plataforma integral que presenta métodos innovadores, incluidas nuevas tecnologías, técnicas de diversificación, opciones de biocontrol y nuevas variedades de cultivos.">
-                                        Access a comprehensive platform featuring innovative methods, including new technologies, diversification techniques, biocontrol options, and new crop varieties.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="feature-card h-100 p-4 bg-light rounded shadow-sm">
-                                    <div class="text-center mb-4">
-                                        <div class="feature-number mb-3">2</div>
-                                    </div>
-                                    <h4 class="font-alt text-center" data-en="Central Management Hub" data-fr="Point Central de Gestion" data-es="Gestión Central">Central Management Hub</h4>
-                                    <p class="text-muted mb-0" data-en="Gain real-time visibility into the innovations best suited for your members. Use this intelligence to unlock new business opportunities: Identify high-demand innovations, facilitate group purchases, and unlock new revenue streams as a key player in innovation deployment."
-                                       data-fr="Obtenez une visibilité en temps réel sur les innovations les mieux adaptées à vos membres. Utilisez cette intelligence pour débloquer de nouvelles opportunités commerciales : identifiez les innovations très demandées, facilitez les achats groupés et débloquez de nouveaux flux de revenus en tant qu'acteur clé du déploiement de l'innovation."
-                                       data-es="Obtenga visibilidad en tiempo real sobre las innovaciones más adecuadas para sus miembros. Utilice esta inteligencia para desbloquear nuevas oportunidades comerciales: identifique innovaciones de alta demanda, facilite compras grupales y desbloquee nuevos flujos de ingresos como actor clave en el despliegue de innovación.">
-                                        Gain real-time visibility into the innovations best suited for your members. Use this intelligence to unlock new business opportunities: Identify high-demand innovations, facilitate group purchases, and unlock new revenue streams as a key player in innovation deployment.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="feature-card h-100 p-4 bg-light rounded shadow-sm">
-                                    <div class="text-center mb-4">
-                                        <div class="feature-number mb-3">3</div>
-                                    </div>
-                                    <h4 class="font-alt text-center" data-en="Community Access" data-fr="Accès à la Communauté" data-es="Acceso a la Comunidad">Community Access</h4>
-                                    <p class="text-muted mb-0" data-en="Join our community of innovators and users to exchange experiences and knowledge. Read reviews, directly contact peers, and participate in webinars."
-                                       data-fr="Rejoignez notre communauté d'innovateurs et d'utilisateurs pour échanger des expériences et des connaissances. Lisez les avis, contactez directement vos pairs et participez à des webinaires."
-                                       data-es="Únase a nuestra comunidad de innovadores y usuarios para intercambiar experiencias y conocimientos. Lea reseñas, contacte directamente con sus pares y participe en webinars.">
-                                        Join our community of innovators and users to exchange experiences and knowledge. Read reviews, directly contact peers, and participate in webinars.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Farmers Section -->
-                <div id="farmers" class="row mb-5">
-                    <div class="col-12 text-center mb-5">
-                        <h3 class="mb-4 section-title" data-en="For Farmers" data-fr="Pour les Agriculteurs" data-es="Para Agricultores">For Farmers</h3>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="text-center">
-                            <img src="assets/img/agricultor.png" alt="Modern Farmer with Technology" class="img-fluid mb-4 rounded shadow" style="max-width: 400px; width: 100%;">
-                        </div>
-                        <div class="text-center">
-                            <a class="btn btn-primary" href="https://app.vitto-tech.com/download" target="_blank" rel="noopener"
-                               data-en="Download our app FREE" data-fr="Téléchargez notre application GRATUITEMENT" data-es="Descargue nuestra app GRATUITAMENTE">Download our app</a>
-                        </div>
-                    </div>
-                    <div class="col-md-8">
-                        <p class="text-muted mb-5"
-                           data-en="We empower farmers to make informed decisions about new agricultural technologies through AI and community knowledge. Our platform helps you evaluate innovations, understand their impact on your operations, and connect with peers who have tested these solutions."
-                           data-fr="Nous donnons aux agriculteurs les moyens de prendre des décisions éclairées sur les nouvelles technologies agricoles grâce à l'IA et aux connaissances de la communauté. Notre plateforme vous aide à évaluer les innovations, à comprendre leur impact sur vos opérations et à vous connecter avec des pairs qui ont testé ces solutions."
-                           data-es="Capacitamos a los agricultores para tomar decisiones informadas sobre nuevas tecnologías agrícolas a través de IA y conocimiento comunitario. Nuestra plataforma le ayuda a evaluar innovaciones, comprender su impacto en sus operaciones y conectarse con pares que han probado estas soluciones.">
-                            We empower farmers to make informed decisions about new agricultural technologies through AI and community knowledge. Our platform helps you evaluate innovations, understand their impact on your operations, and connect with peers who have tested these solutions.
-                        </p>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="feature-card text-center mb-4">
-                                    <i class="bi bi-robot icon-feature text-gradient d-block mb-3" style="color: #4CAF50;"></i>
-                                    <h4 class="font-alt" 
-                                        data-en="AI Recommendations" 
-                                        data-fr="Recommandations IA" 
-                                        data-es="Recomendaciones IA">
-                                        AI Recommendations
-                                    </h4>
-                                    <p class="text-muted" 
-                                       data-en="Receive tailored AI-powered advice for your specific crop and livestock needs. Our system analyzes your farm data, local conditions, and market trends to suggest the most suitable innovations for your operation." 
-                                       data-fr="Recevez des conseils personnalisés basés sur l'IA pour vos besoins spécifiques en cultures et en élevage. Notre système analyse les données de votre exploitation, les conditions locales et les tendances du marché pour suggérer les innovations les plus adaptées à votre activité." 
-                                       data-es="Reciba asesoramiento personalizado impulsado por IA para sus necesidades específicas de cultivos y ganadería. Nuestro sistema analiza los datos de su granja, las condiciones locales y las tendencias del mercado para sugerir las innovaciones más adecuadas para su operación.">
-                                        Receive tailored AI-powered advice for your specific crop and livestock needs. Our system analyzes your farm data, local conditions, and market trends to suggest the most suitable innovations for your operation.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="feature-card text-center mb-4">
-                                    <i class="bi bi-cash-stack icon-feature text-gradient d-block mb-3" style="color: #4CAF50;"></i>
-                                    <h4 class="font-alt" 
-                                        data-en="ROI Analysis" 
-                                        data-fr="Analyse ROI" 
-                                        data-es="Análisis ROI">
-                                        ROI Analysis
-                                    </h4>
-                                    <p class="text-muted" 
-                                       data-en="Obtain custom analyses, including carbon footprint assessments, information on grants and loans, and investment return projections." 
-                                       data-fr="Obtenez des analyses personnalisées, incluant des évaluations d'empreinte carbone, des informations sur les subventions et les prêts, et des projections de retour sur investissement." 
-                                       data-es="Obtenga análisis personalizados, incluyendo evaluaciones de huella de carbono, información sobre subvenciones y préstamos, y proyecciones de retorno de inversión.">
-                                        Obtain custom analyses, including carbon footprint assessments, information on grants and loans, and investment return projections.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="feature-card text-center mb-4">
-                                    <i class="bi bi-people icon-feature text-gradient d-block mb-3" style="color: #4CAF50;"></i>
-                                    <h4 class="font-alt" 
-                                        data-en="Community Access" 
-                                        data-fr="Accès Communauté" 
-                                        data-es="Acceso Comunidad">
-                                        Community Access
-                                    </h4>
-                                    <p class="text-muted" 
-                                       data-en="Join a trusted network of farmers and innovators. Access real user experiences, ask questions, and connect directly with peers to gain the insights you need to make informed, low-risk decisions." 
-                                       data-fr="Rejoignez un réseau de confiance d'agriculteurs et d'innovateurs. Accédez à des expériences réelles d'utilisateurs, posez des questions et connectez-vous directement avec vos pairs pour obtenir les informations nécessaires pour prendre des décisions éclairées à faible risque." 
-                                       data-es="Únase a una red confiable de agricultores e innovadores. Acceda a experiencias reales de usuarios, haga preguntas y conéctese directamente con sus pares para obtener la información que necesita para tomar decisiones informadas y de bajo riesgo.">
-                                        Join a trusted network of farmers and innovators. Access real user experiences, ask questions, and connect directly with peers to gain the insights you need to make informed, low-risk decisions.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="feature-card text-center mb-4">
-                                    <i class="bi bi-newspaper icon-feature text-gradient d-block mb-3" style="color: #4CAF50;"></i>
-                                    <h4 class="font-alt" 
-                                        data-en="Custom News" 
-                                        data-fr="Actualités Personnalisées" 
-                                        data-es="Noticias Personalizadas">
-                                        Custom News
-                                    </h4>
-                                    <p class="text-muted" 
-                                       data-en="Stay informed with weekly updates tailored to your agricultural activities. Receive curated content about emerging technologies, success stories, regulatory changes, and funding opportunities relevant to your specific farming context and goals." 
-                                       data-fr="Restez informé avec des mises à jour hebdomadaires adaptées à vos activités agricoles. Recevez du contenu sélectionné sur les technologies émergentes, les réussites, les changements réglementaires et les opportunités de financement pertinents pour votre contexte agricole spécifique et vos objectifs." 
-                                       data-es="Manténgase informado con actualizaciones semanales adaptadas a sus actividades agrícolas. Reciba contenido seleccionado sobre tecnologías emergentes, historias de éxito, cambios regulatorios y oportunidades de financiamiento relevantes para su contexto agrícola específico y sus objetivos.">
-                                        Stay informed with weekly updates tailored to your agricultural activities. Receive curated content about emerging technologies, success stories, regulatory changes, and funding opportunities relevant to your specific farming context and goals.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="feature-card text-center mb-4">
-                                    <i class="bi bi-list-check icon-feature text-gradient d-block mb-3" style="color: #4CAF50;"></i>
-                                    <h4 class="font-alt"
-                                        data-en="Product Listings"
-                                        data-fr="Catalogue de produits"
-                                        data-es="Listado de productos">
-                                        Product Listings
-                                    </h4>
-                                    <p class="text-muted"
-                                       data-en="Explore a growing marketplace of agtech solutions, with new products added every week. Filter by crop, livestock, goal, and budget to find the right fit for your farm."
-                                       data-fr="Découvrez une place de marché croissante de solutions agritech, avec de nouveaux produits ajoutés chaque semaine. Filtrez par culture, élevage, objectif et budget pour trouver ce qui convient à votre exploitation."
-                                       data-es="Explore un mercado en crecimiento de soluciones agtech, con nuevos productos cada semana. Filtre por cultivo, ganadería, objetivo y presupuesto para encontrar lo que se ajusta a su explotación.">
-                                        Explore a growing marketplace of agtech solutions, with new products added every week. Filter by crop, livestock, goal, and budget to find the right fit for your farm.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="feature-card text-center mb-4">
-                                    <i class="bi bi-patch-check icon-feature text-gradient d-block mb-3" style="color: #4CAF50;"></i>
-                                    <h4 class="font-alt"
-                                        data-en="Real‑World Validation"
-                                        data-fr="Validation en conditions réelles"
-                                        data-es="Validación en condiciones reales">
-                                        Real‑World Validation
-                                    </h4>
-                                    <p class="text-muted"
-                                       data-en="Make decisions with confidence through testimonials, podcasts, and independent or scientific reports shared by growers, organizations, and experts."
-                                       data-fr="Prenez des décisions en confiance grâce à des témoignages, des podcasts et des rapports indépendants ou scientifiques partagés par des agriculteurs, des organisations et des experts."
-                                       data-es="Tome decisiones con confianza gracias a testimonios, podcasts e informes independientes o científicos compartidos por agricultores, organizaciones y expertos.">
-                                        Make decisions with confidence through testimonials, podcasts, and independent or scientific reports shared by growers, organizations, and experts.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Innovators Section -->
-                <div id="innovators" class="row mb-5">
-                    <div class="col-12 text-center mb-5">
-                        <h3 class="mb-4 section-title" data-en="For Innovators" data-fr="Pour les Innovateurs" data-es="Para Innovadores">For Innovators</h3>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="text-center">
-                            <img src="assets/img/innovator.png" alt="Agricultural Innovation" class="img-fluid mb-4 rounded shadow" style="max-width: 400px; width: 100%;">
-                        </div>
-                        <div class="text-center">
-                            <a class="btn btn-outline-primary" href="assets/brochures/brochure_fr.pdf" id="innovator-brochure-btn"
-                               data-en-href="assets/brochures/brochure_en.pdf"
-                               data-fr-href="assets/brochures/brochure_fr.pdf"
-                               data-es-href="assets/brochures/brochure_en.pdf"
-                               data-en="Download Innovator Guide"
-                               data-fr="Télécharger le Guide des Innovateurs"
-                               data-es="Descargar Guía de Innovadores">
-                                Télécharger le Guide des Innovateurs
-                            </a>
-                        <a href="#" class="btn btn-primary create-account-link" data-en="Sign up for free!" data-fr="Inscription gratuite" data-es="Regístrese gratis">Create Account</a>                        </div>
-                    </div>
-                    <div class="col-md-8">
-                        <p class="text-muted mb-5"
-                           data-en="At Vitto AgTech, we help innovators showcase their technology and connect with the mainstream agricultural market. Our platform builds trust between innovators and farmers, facilitating adoption and providing valuable feedback for continuous improvement." 
-                           data-fr="Chez Vitto AgTech, nous aidons les innovateurs à présenter leur technologie et à se connecter au marché agricole traditionnel. Notre plateforme établit la confiance entre les innovateurs et les agriculteurs, facilitant l'adoption et fournissant des retours précieux pour une amélioration continue." 
-                           data-es="En Vitto AgTech, ayudamos a los innovadores a mostrar su tecnología y conectarse con el mercado agrícola tradicional. Nuestra plataforma construye confianza entre innovadores y agricultores, facilitando la adopción y proporcionando retroalimentación valiosa para la mejora continua.">
-                           At Vitto AgTech, we help innovators showcase their technology and connect with the mainstream agricultural market. Our platform builds trust between innovators and farmers, facilitating adoption and providing valuable feedback for continuous improvement.
-                        </p>
-                        <!-- Feature cards for innovators -->
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="feature-card text-center mb-4">
-                                    <i class="bi bi-laptop icon-feature text-gradient d-block mb-3" style="color: #4CAF50;"></i>
-                                    <h4 class="font-alt" 
-                                        data-en="Create Your Product Page" 
-                                        data-fr="Créez Votre Page Produit" 
-                                        data-es="Cree Su Página de Producto">
-                                        Create Your Product Page
-                                    </h4>
-                                    <p class="text-muted" 
-                                       data-en="Showcase your technology with clear benefits, ROI projections, and success stories. We assist in formatting data to resonate with both early adopters and traditional farmers." 
-                                       data-fr="Présentez votre technologie avec des avantages clairs, des projections de ROI et des témoignages de réussite. Nous vous aidons à formater les données pour qu'elles résonnent auprès des premiers utilisateurs et des agriculteurs traditionnels." 
-                                       data-es="Muestre su tecnología con beneficios claros, proyecciones de ROI e historias de éxito. Le ayudamos a formatear datos para que resuenen tanto con los adoptadores tempranos como con los agricultores tradicionales.">
-                                        Showcase your technology with clear benefits, ROI projections, and success stories. We assist in formatting data to resonate with both early adopters and traditional farmers.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="feature-card text-center mb-4">
-                                    <i class="bi bi-bullseye icon-feature text-gradient d-block mb-3" style="color: #4CAF50;"></i>
-                                    <h4 class="font-alt" 
-                                        data-en="Target the Mainstream Market" 
-                                        data-fr="Ciblez le Marché Principal" 
-                                        data-es="Apunte al Mercado Principal">
-                                        Target the Mainstream Market
-                                    </h4>
-                                    <p class="text-muted" 
-                                       data-en="By mitigating risks and building trust, facilitate large-scale adoption of your technology among farmers. Strengthen your presence, reduce marketing costs, and enhance brand credibility by joining our community." 
-                                       data-fr="En atténuant les risques et en instaurant la confiance, facilitez l'adoption à grande échelle de votre technologie par les agriculteurs. Renforcez votre présence, réduisez les coûts marketing et améliorez la crédibilité de votre marque en rejoignant notre communauté."
-                                       data-es="Al mitigar riesgos y generar confianza, facilite la adopción a gran escala de su tecnología entre los agricultores. Fortalezca su presencia, reduzca costos de marketing y mejore la credibilidad de su marca uniéndose a nuestra comunidad.">
-                                        By mitigating risks and building trust, facilitate large-scale adoption of your technology among farmers. Strengthen your presence, reduce marketing costs, and enhance brand credibility by joining our community.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="feature-card text-center mb-4">
-                                    <i class="bi bi-bar-chart-line icon-feature text-gradient d-block mb-3" style="color: #4CAF50;"></i>
-                                    <h4 class="font-alt" 
-                                        data-en="Collaborate for Quality Data" 
-                                        data-fr="Collaborez pour des Données de Qualité" 
-                                        data-es="Colabore para Datos de Calidad">
-                                        Collaborate for Quality Data
-                                    </h4>
-                                    <p class="text-muted" 
-                                       data-en="Work with Vitto AgTech to gather user feedback and conduct pilot trials, building compelling evidence of your solution's value in real-world conditions." 
-                                       data-fr="Travaillez avec Vitto AgTech pour recueillir les commentaires des utilisateurs et mener des essais pilotes, construisant des preuves convaincantes de la valeur de votre solution dans des conditions réelles." 
-                                       data-es="Trabaje con Vitto AgTech para recopilar comentarios de usuarios y realizar pruebas piloto, construyendo evidencia convincente del valor de su solución en condiciones reales.">
-                                        Work with Vitto AgTech to gather user feedback and conduct pilot trials, building compelling evidence of your solution's value in real-world conditions.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="feature-card text-center mb-4">
-                                    <i class="bi bi-check-circle icon-feature text-gradient d-block mb-3" style="color: #4CAF50;"></i>
-                                    <h4 class="font-alt" 
-                                        data-en="Validate and Demonstrate" 
-                                        data-fr="Validez et Démontrez" 
-                                        data-es="Valide y Demuestre">
-                                        Validate and Demonstrate
-                                    </h4>
-                                    <p class="text-muted" 
-                                       data-en="Share verified results—such as yield and performance metrics—to bolster trust among organizations and farmers. Our AI-based recommendation engine ensures your solution appears where it's most relevant." 
-                                       data-fr="Partagez des résultats vérifiés—comme des métriques de rendement et de performance—pour renforcer la confiance parmi les organisations et les agriculteurs. Notre moteur de recommandation basé sur l'IA garantit que votre solution apparaît là où elle est la plus pertinente." 
-                                       data-es="Comparta resultados verificados—como métricas de rendimiento y desempeño—para reforzar la confianza entre organizaciones y agricultores. Nuestro motor de recomendación basado en IA asegura que su solución aparezca donde es más relevante.">
-                                        Share verified results—such as yield and performance metrics—to bolster trust among organizations and farmers. Our AI-based recommendation engine ensures your solution appears where it's most relevant.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-       
-        
-        <!-- Call to action section-->
+   <!-- Call to action section-->
    <section class="cta py-3">
     <div class="cta-content">
         <div class="container-fluid">
@@ -1022,7 +484,8 @@ data-fr="MBA Université des Sciences Appliquées de Berlin (Renewables), MEng
             </div> 
         </section>
 
-        <!-- Footer-->
+
+  <!-- Footer-->
         <footer class="bg-green text-white py-5">
             <div class="container px-5">
                 <div class="row align-items-center mb-4">
@@ -1187,9 +650,8 @@ data-fr="MBA Université des Sciences Appliquées de Berlin (Renewables), MEng
 </div>
 
 
-
-
-
-
-    </body>
+</body>
 </html>
+
+
+
